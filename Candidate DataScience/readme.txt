@@ -1,6 +1,6 @@
 Dear Data Scientist Candidate,
 
-
+------------------------------------------------------------------------------------------------------------------------------
 Tasks
 Scrape Chiang Mai Weather Data.
 Calculate the electricity bill.
@@ -9,6 +9,7 @@ Train machine learning model to forecast the number of people according to each 
 Create a GitHub repository or other professional tools to store your code.
 Summarize everything into an easy report or visualization dashboard for stakeholders.
 
+------------------------------------------------------------------------------------------------------------------------------
 Skills that you will demonstrate.
 Coding
 Python
@@ -33,7 +34,7 @@ Production Phase
 Model Maintenance, Diagnosis, and Retraining
 Electricity consumption vs Outdoor Weather Relationship
 Electricity consumption vs the number of people Relationship
-
+------------------------------------------------------------------------------------------------------------------------------
 Datasets (in zip file)
 1. people.csv
 2. meter1_phase1.csv
