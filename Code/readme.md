@@ -4,7 +4,11 @@ This file contains a code in c language in order to control agriculture robot. T
 
 How it work : https://youtu.be/3YcU8_HczfE
 
-What it architecture : https://youtu.be/OcbTFVKSksk
+Detail : https://youtu.be/OcbTFVKSksk
+
+
+
 
 Sincerely
+
 Siraphat B.
