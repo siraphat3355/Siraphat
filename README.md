@@ -5,7 +5,7 @@
   
   
   
-  &emsp;&emsp;&emsp;However, during my life, there are several projects which I have done. Therefore, I put some codes which I had learnt and implemented it into my Github. 
+  &emsp;&emsp;&emsp;However, during my life, there are several projects which I have done. Therefore, I put some codes which I had learnt and implemented it into my GitHub. 
   And I think It would be better for those who can get something from my coding instead I just keep it in my Google Drive lonely.<br />
  
  
