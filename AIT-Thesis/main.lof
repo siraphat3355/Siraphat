@@ -1,0 +1,40 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Fall detection trends}}{6}{figure.caption.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The single degree of freedom systems}}{10}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The different of Euclidean and DTW matching.}}{12}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Convolving on univariate input time series}}{13}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Fully Convolutional Neural Network architecture.}}{13}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces How does an autocoder work?}}{14}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The autoencoder architecture.}}{15}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces The dimensionality reduction by using autoencoder.}}{15}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces An autoencoder tries to correct the output.}}{16}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces An autoencoder knows that an anomaly event occurs}}{17}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces The architecture of variational autoencoder.}}{18}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces The Recurrent Neural Network architecture.}}{19}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces The concept of optimization in a feed-forward neural network.}}{20}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces The repeating module in a standard RNN contains a single layer.}}{20}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces The procedure inside the LSTM.}}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces The repeating module in a LSTM contains four interacting layer.}}{23}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces The Transformer architecture.}}{24}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Comparison RNNs and Attention.}}{25}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Create the query, key and value vector.}}{26}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Get score of how they match.}}{26}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Sum up the value vectors.}}{27}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces The outcome after finishing the Attention process.}}{27}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces The difference of Self-Attention and Masked Self-Attention.}}{28}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces The dimension of each positional encoding and embeddings.}}{28}{figure.caption.26}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The overview system architecture.}}{29}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The required hardware to receive raw data.}}{30}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A geophone SM-24 and its inside elements.}}{30}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces An analog circuit which was designed to be suitable with human activity}}{31}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces This is different between 16-bit and 10-bit ADC.}}{32}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Microcontroller - Raspberry Pi 4}}{32}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The living room where is used for experiment}}{33}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The autoencoder with LSTM architecture.}}{34}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The Transformer architecture.}}{35}{figure.caption.37}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The schedule working plan of this study}}{37}{figure.caption.38}%
+\contentsline {figure}{\numberline {B2}{\ignorespaces CCTV monitoring room in Appendix B.}}{43}{figure.caption.41}%

@@ -1,0 +1,77 @@
+% set 0 inch indentation
+\setlength{\parindent}{0in} 
+% set paragraph space = 1 space
+\setlength{\parskip}{1em}
+% set line space 1.5
+\setlength{\baselineskip}{1.6em}
+\setlength{\parindent}{0em}              
+
+\chapter{INTRODUCTION} 
+
+\section{Background of the Study}
+\paragraph{}
+Globally, injuries after a fall is a significant public health problem. Each year, approximately 37 million falls requires medical attention, and approximately 684,000 individuals die from falls. Falls are the second leading cause of unexpected injury death, after road traffic injuries. According to the World Health Organization \cite{world_health_organization_2018}, the highest death rate from falls in all regions around the world was faced among adults who are over the age of 60 years. The frequency of falling down increases with age and weakness level. In the future, injuries caused by falls will affect more civilians as the population ages, and fall deaths are expected to double by 2030. According to \citeauthor{fuller_2013} \citeyear{fuller_2013}, The elderly, who represent 12 percent of the population, account for 75 percent of those who die from falls. 
+ 
+ \paragraph{}
+In addition, the Ministry of Public Health in Thailand \cite{thaincd.com_2019} says that one-third or greater than 3 millions of Thailand’s people fall in their homes every year. Approximately 66\% of the cases involve slippery floors, stumbling and missing a step on the same ground level. They report an average 140 calls local ambulances per day, and on average, 2 people die each day. More than 55\% of falls occur inside the home environment \cite{pynoos_steinman_nguyen_2010}, most frequently in the bathroom, kitchen and dining room. Therefore, when victims fall and nobody knows about the accident, and nobody takes care of the victim immediately, it can result in more serious injury, long term impairments, and even death.
+
+\paragraph{}
+From the statistics mentioned above, developing any technology able to help decrease or mitigate false will be useful. I am specifically interested in artificial intelligence approaches to detection of fall events that can also immediately alert caretakers or assistants.
+
+\section{Statement of the Problem}
+\paragraph{}
+There has been great deal of research on fall detection. Researchers try to find the best methods to detect and mitigate falls. Each approach has pros and cons, depending on the situation and the environment as following:
+\begin{enumerate}
+\item User-activated fall alert with a pendant: Although manually-activated fall alarms are simple and low cost, they are only successful when a user who has fallen activates the alarm button by himself or herself manually. This system is ineffective if the person is not wearing the pendant because he or she refuses to press the emergency button, forgets it, or cannot press it. Elders may hesitate to push an emergent button for several reasons such as concern about bothering others and privacy.
+\item Automatic Wearable Devices \cite{degen_jaeckel_rufer_wyss_2003, yang_hsu_2010, rihana_mondalak_2016}: This solution is popular because it is uncomplicated and provides high accuracy. Devices in this group are based on inertial measurement units (IMU)s, which contain an accelerometer and gyrometer. A significant disadvantage of this solution is that the user has to wear the device all the time, which can lead to discomfort, and if the device cannot be wore in the shower, the device will miss the period in which individuals have the highest probability of falling. Moreover, a wearable may even cause injury when people fall down.
+\item Cameras \cite{tsai_hsu_2019, ramirez_velastin_meza_fabregas_makris_farias_2021,taufeeque_koita_spicher_deserno_2021}: Many researchers have developed camera-based systems to detect falls, since cameras can track residents, and falls can be detected based on image processing algorithms trained to identify abnormal activity. However, the drawbacks of cameras are that residents may feel uncomfortable and concerned about privacy, even if the images are not leaked. Moreover, when a victim falls in a place out of view of the camera, e.g. an aed occluded by furniture, the method cannot alert caretakers. Also, cameras cannot be installed in the toilet or bathroom, again missing some of the highest risk periods of time.
+\item Vibration analysis
+\cite{alwan_rajendran_kell_mack_dalal_wolfe_felder_2006,liu_jiang_su_benzoni_maxwell_2019,clemente_li_valero_song_2020}: This approach has not been  explored as much as the others. Vibration has several limitations in terms of data collection:
+\begin{itemize}
+\item Vibration sensors: The general sensors popular in the commercial market have low sensitivity. When the floor is concrete, it is quite difficult to detect vibrations with a general sensor.  \citeauthor{madarshahian_caicedo_arocha_zambrana_2016}, \citeyear{madarshahian_caicedo_arocha_zambrana_2016} use a high-sensitivity piezoelectric sensors, but this sensor requires embedding in the ground, making it difficult to install.  In addition, when the area is large, more sensors are required, which increases cost and complexity of the system.
+\item Sample fall data: White falls can be simulated to get data for IMU or camera sensors, vibration data from a fall have specific characteristics depending on the type of floor, the weight of the subject, and the distance of the sensor to the locus of the event. Realistically, real falls on concrete and other hard surfaces are too dangerous to simulated.
+\end{itemize}
+\end{enumerate}
+
+\paragraph{}
+Despite these limitations, the benefits of the vibration signals for fall detection does overcome the drawbacks associated with all previous methods. As vibration signals have been analyzed further to include human activity and peoples’ heart rates \cite{jia_howard_zhang_zhang_2017}, using vibrational signals to detect falls may significantly advance the technology available in this area and it help mitigate the elderly fall problem.
+
+\paragraph{}
+Research on vibration data has thus far used supervised classification models including k-nearest-neighbors \cite{shao_wang_song_ilyas_guo_chang_2020}, support vector machines \cite{wang_chen_zhou_sun_dong_2015, kasturi_jo_2017,liu_jiang_su_benzoni_maxwell_2019}, and neural networks \cite{sultana_deb_dhar_koshiba_2021}. Others have used unsupervised learning methods such as k-means \cite{shao_wang_song_ilyas_guo_chang_2020}, and simple amplitude thresholds to classify fall events \cite{alwan_rajendran_kell_mack_dalal_wolfe_felder_2006,charlon_bourennane_bettahar_campo_2013,britto_filho_lubaszewski_2020}. Classification with supervised data requires collecting real fall data, which, as mentioned above, is dangerous, because faking a fall can lead to serious injury if we make a mistake while doing an experiment. \citeauthor{liu_jiang_su_benzoni_maxwell_2019}, \citeyear{liu_jiang_su_benzoni_maxwell_2019} solve this problem using dummy humans, but realistic dummies are expensive.
+
+\paragraph{}
+As falls occur infrequently and diversely, and there also are several types of falls such as forward falls, backward falls and lateral falls \cite{el-bendary_tan_c_pivot_lam_2013}, any attempt to exhaustively train a supervised classifier can lead to a lack of sufficient data for training. Although, falling events occurring during different activities such as walking, standing, sleeping, or sitting share some characteristics in common, they also have significant differences \cite{wang_ellul_azzopardi_2020}. It is difficult to anticipate all possible patterns in advance. Furthermore, as fall events rarely occur in daily life, if we train a model with an imbalanced dataset, it can result in bias.
+
+\paragraph{}
+Anomaly detector methods may be the key to addressing all of these issues. I will apply  anomaly detection methods to detect adverse event such as falls indirectly. The main advantage of anomaly detection beside addressing the diversity of fall is that anomaly detection will not only detect falls but also detect other abnormal activities such as fighting and any other activities the model is not trained on.
+
+
+\section{Research Questions}
+\paragraph{}
+The purpose of this paper is to develop an robust automated anomaly detection system capable of detecting falls and other anomalies by combining knowledge from signal processing, embedded systems, machine learning, and edge devices. The study aims to answer the following questions:
+\begin{enumerate}
+\item Can a seismic sensor and an embedded system detect human activity on the surface of a typical concrete floor in the home?
+\item What are the best methods for detecting anomaly events such as fall using seismic sensors?
+\item Can a system be designed and implemented that identifies falls in daily human activities in real time?
+\item Can the system thus designed be deployed in real home environments?
+\end{enumerate}
+
+\section{Objectives of the Study}
+\paragraph{}
+The main objective of this study is to alert caretakers immediately when an anomalous event such as a fall occurs in the home. To fulfill this main objective, I will take the following specific steps:
+\begin{enumerate}
+\item Design and build a filter, amplifier, and embedded system to digitize and analyze signals from seismic sensors characterizing human activities.
+\item Collect data on daily human activities by many subjects.
+\item Build an anomaly detection and alerting system for detecting anomaly patterns.
+\item Deploy the model in the dining room in my home.
+\item Evaluate the deployed model in terms of its accuracy in identifying unusual events.
+\end{enumerate}
+
+\section{Scope and Limitations}
+\paragraph{}
+The scope and limitations of this study are as follows :
+\begin{enumerate}
+\item The study will focus on concrete floor because most household floors in Thailand are concrete material covered with tile.
+\item I assume the home has only a single elderly person.
+\item Accuracy may suffer if multiple people are present and active at the same time.
+\end{enumerate} 

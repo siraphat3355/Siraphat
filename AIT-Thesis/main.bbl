@@ -1,0 +1,1826 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Abbate%
+\ \protect \BOthers {.}}{%
+Abbate%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+abbate_avvenuti_bonatesta_cola_corsini_vecchio_2012}
+\APACinsertmetastar {%
+abbate_avvenuti_bonatesta_cola_corsini_vecchio_2012}%
+\begin{APACrefauthors}%
+Abbate, S.%
+, Avvenuti, M.%
+, Bonatesta, F.%
+, Cola, G.%
+, Corsini, P.%
+\BCBL {}\ \BBA {} Vecchio, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{Dec}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A smartphone-based Fall Detection System} {A
+  smartphone-based fall detection system}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Pervasive and Mobile Computing}{8}{6}{883–899}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.pmcj.2012.08.003} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Agmon%
+}{%
+Agmon%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+agmon_2021}
+\APACinsertmetastar {%
+agmon_2021}%
+\begin{APACrefauthors}%
+Agmon, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{Jul}{}.
+\newblock
+\APACrefbtitle {Hands-on Anomaly Detection with Variational Autoencoders.}
+  {Hands-on anomaly detection with variational autoencoders.}
+\newblock
+\begin{APACrefURL}
+  \url{https://towardsdatascience.com/hands-on-anomaly-detection-with-variational-autoencoders-d4044672acd5}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alammar%
+}{%
+Alammar%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+alammar_2018}
+\APACinsertmetastar {%
+alammar_2018}%
+\begin{APACrefauthors}%
+Alammar, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{Jun}{}.
+\newblock
+\APACrefbtitle {The Illustrated Transformer.} {The illustrated transformer.}
+\newblock
+\begin{APACrefURL} \url{https://jalammar.github.io/illustrated-transformer/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alammar%
+}{%
+Alammar%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+alammar_2019}
+\APACinsertmetastar {%
+alammar_2019}%
+\begin{APACrefauthors}%
+Alammar, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{Aug}{}.
+\newblock
+\APACrefbtitle {The Illustrated GPT-2 (Visualizing Transformer Language
+  Models).} {The illustrated gpt-2 (visualizing transformer language models).}
+\newblock
+\begin{APACrefURL}
+  \url{https://jalammar.github.io/illustrated-gpt2/#part-2-illustrated-self-attention}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alwan%
+, Dalal%
+, Kell%
+\BCBL {}\ \BBA {} Felder%
+}{%
+Alwan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+Alwan_2003}
+\APACinsertmetastar {%
+Alwan_2003}%
+\begin{APACrefauthors}%
+Alwan, M.%
+, Dalal, S.%
+, Kell, S.%
+\BCBL {}\ \BBA {} Felder, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {DERIVATION OF BASIC HUMAN GAIT CHARACTERISTICS FROM
+  FLOOR VIBRATIONS} {Derivation of basic human gait characteristics from floor
+  vibrations}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alwan%
+\ \protect \BOthers {.}}{%
+Alwan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+alwan_rajendran_kell_mack_dalal_wolfe_felder_2006}
+\APACinsertmetastar {%
+alwan_rajendran_kell_mack_dalal_wolfe_felder_2006}%
+\begin{APACrefauthors}%
+Alwan, M.%
+, Rajendran, P.%
+, Kell, S.%
+, Mack, D.%
+, Dalal, S.%
+, Wolfe, M.%
+\BCBL {}\ \BBA {} Felder, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{Apr}{}.
+\newblock
+\APACrefbtitle {A Smart and Passive Floor-Vibration Based Fall Detector for
+  Elderly} {A smart and passive floor-vibration based fall detector for
+  elderly}\ (\BVOL~1).
+\newblock
+\begin{APACrefURL} \url{https://ieeexplore.ieee.org/document/1684511}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ICTTA.2006.1684511} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Arnx%
+}{%
+Arnx%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+arnx_2019}
+\APACinsertmetastar {%
+arnx_2019}%
+\begin{APACrefauthors}%
+Arnx, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{Jan}{}.
+\newblock
+\APACrefbtitle {First Neural Network for Beginners Explained (with code).}
+  {First neural network for beginners explained (with code).}
+\newblock
+\APACaddressPublisher{}{Towards Data Science}.
+\newblock
+\begin{APACrefURL}
+  \url{https://towardsdatascience.com/first-neural-network-for-beginners-explained-with-code-4cfd37e06eaf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Badr%
+}{%
+Badr%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+badr_2019}
+\APACinsertmetastar {%
+badr_2019}%
+\begin{APACrefauthors}%
+Badr, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{Jul}{}.
+\newblock
+\APACrefbtitle {Auto-Encoder: What Is It? and What Is It Used For? (Part 1).}
+  {Auto-encoder: What is it? and what is it used for? (part 1).}
+\newblock
+\begin{APACrefURL}
+  \url{https://towardsdatascience.com/auto-encoder-what-is-it-and-what-is-it-used-for-part-1-3e5c6f017726}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Battula%
+}{%
+Battula%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+battula_2019}
+\APACinsertmetastar {%
+battula_2019}%
+\begin{APACrefauthors}%
+Battula, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{Mar}{}.
+\newblock
+\APACrefbtitle {Time Series Forecasting with Deep Stacked Unidirectional and
+  Bidirectional LSTMs.} {Time series forecasting with deep stacked
+  unidirectional and bidirectional lstms.}
+\newblock
+\begin{APACrefURL}
+  \url{https://towardsdatascience.com/time-series-forecasting-with-deep-stacked-unidirectional-and-bidirectional-lstms-de7c099bd918}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Britto~Filho%
+\ \BBA {} Lubaszewski%
+}{%
+Britto~Filho%
+\ \BBA {} Lubaszewski%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+britto_filho_lubaszewski_2020}
+\APACinsertmetastar {%
+britto_filho_lubaszewski_2020}%
+\begin{APACrefauthors}%
+Britto~Filho, J\BPBI C.%
+\BCBT {}\ \BBA {} Lubaszewski, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{Mar}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Highly Reliable Wearable Device for Fall Detection} {A
+  highly reliable wearable device for fall detection}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{2020 IEEE Latin-American Test Symposium (LATS)}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/lats49555.2020.9093673} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Charlon%
+, Bourennane%
+, Bettahar%
+\BCBL {}\ \BBA {} Campo%
+}{%
+Charlon%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+charlon_bourennane_bettahar_campo_2013}
+\APACinsertmetastar {%
+charlon_bourennane_bettahar_campo_2013}%
+\begin{APACrefauthors}%
+Charlon, Y.%
+, Bourennane, W.%
+, Bettahar, F.%
+\BCBL {}\ \BBA {} Campo, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{Feb}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Activity Monitoring System for Elderly in a Context of
+  Smart Home} {Activity monitoring system for elderly in a context of smart
+  home}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IRBM}{34}{1}{60–63}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/abs/pii/S1959031812001509}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.irbm.2012.12.014} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chen%
+\ \BBA {} Xue%
+}{%
+Chen%
+\ \BBA {} Xue%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+chen_xue_2015}
+\APACinsertmetastar {%
+chen_xue_2015}%
+\begin{APACrefauthors}%
+Chen, Y.%
+\BCBT {}\ \BBA {} Xue, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{Oct}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Deep Learning Approach to Human Activity Recognition
+  Based on Single Accelerometer} {A deep learning approach to human activity
+  recognition based on single accelerometer}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{2015 IEEE International Conference on Systems, Man, and
+  Cybernetics}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://ieeexplore.ieee.org/document/7379395/}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1109/smc.2015.263} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chollet%
+}{%
+Chollet%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+chollet_2016}
+\APACinsertmetastar {%
+chollet_2016}%
+\begin{APACrefauthors}%
+Chollet, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{May}{}.
+\newblock
+\APACrefbtitle {Building Autoencoders in Keras.} {Building autoencoders in
+  keras.}
+\newblock
+\begin{APACrefURL}
+  \url{https://blog.keras.io/building-autoencoders-in-keras.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Clemente%
+, Li%
+, Valero%
+\BCBL {}\ \BBA {} Song%
+}{%
+Clemente%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+clemente_li_valero_song_2020}
+\APACinsertmetastar {%
+clemente_li_valero_song_2020}%
+\begin{APACrefauthors}%
+Clemente, J.%
+, Li, F.%
+, Valero, M.%
+\BCBL {}\ \BBA {} Song, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{Feb}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Smart Seismic Sensing for Indoor Fall Detection,
+  Location, and Notification} {Smart seismic sensing for indoor fall detection,
+  location, and notification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Journal of Biomedical and Health
+  Informatics}{24}{2}{524–532}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/jbhi.2019.2907498} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dash%
+}{%
+Dash%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+dash_2020}
+\APACinsertmetastar {%
+dash_2020}%
+\begin{APACrefauthors}%
+Dash, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{Mar}{}.
+\newblock
+\APACrefbtitle {An Overview of Time Series Forecasting Models Part 1: Classical
+  Time Series Forecasting Models.} {An overview of time series forecasting
+  models part 1: Classical time series forecasting models.}
+\newblock
+\begin{APACrefURL}
+  \url{https://shaileydash.medium.com/an-overview-of-time-series-forecasting-models-part-1-classical-time-series-forecasting-models-2d877de76e0f}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Davis%
+, Caicedo%
+, Langevin%
+\BCBL {}\ \BBA {} Hirth%
+}{%
+Davis%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+davis_caicedo_langevin_hirth_2011}
+\APACinsertmetastar {%
+davis_caicedo_langevin_hirth_2011}%
+\begin{APACrefauthors}%
+Davis, B\BPBI T.%
+, Caicedo, J\BPBI M.%
+, Langevin, S.%
+\BCBL {}\ \BBA {} Hirth, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Use of Wireless Smart Sensors for Detecting Human Falls
+  through Structural Vibrations} {Use of wireless smart sensors for detecting
+  human falls through structural vibrations}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Civil Engineering Topics, Volume 4}{}{}{383–389}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-1-4419-9316-8_37} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Degen%
+, Jaeckel%
+, Rufer%
+\BCBL {}\ \BBA {} Wyss%
+}{%
+Degen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+degen_jaeckel_rufer_wyss_2003}
+\APACinsertmetastar {%
+degen_jaeckel_rufer_wyss_2003}%
+\begin{APACrefauthors}%
+Degen, T.%
+, Jaeckel, H.%
+, Rufer, M.%
+\BCBL {}\ \BBA {} Wyss, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SPEEDY:a fall detector in a wrist watch} {Speedy:a fall
+  detector in a wrist watch}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Seventh IEEE International Symposium on Wearable
+  Computers, 2003. Proceedings.}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/iswc.2003.1241410} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Donges%
+}{%
+Donges%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+donges_2019}
+\APACinsertmetastar {%
+donges_2019}%
+\begin{APACrefauthors}%
+Donges, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {Recurrent Neural Networks 101: Understanding the Basics of RNNs
+  and LSTM.} {Recurrent neural networks 101: Understanding the basics of rnns
+  and lstm.}
+\newblock
+\begin{APACrefURL}
+  \url{https://builtin.com/data-science/recurrent-neural-networks-and-lstm}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+El-Bendary%
+, Tan%
+, C.~Pivot%
+\BCBL {}\ \BBA {} Lam%
+}{%
+El-Bendary%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+el-bendary_tan_c_pivot_lam_2013}
+\APACinsertmetastar {%
+el-bendary_tan_c_pivot_lam_2013}%
+\begin{APACrefauthors}%
+El-Bendary, N.%
+, Tan, Q.%
+, C.~Pivot, F.%
+\BCBL {}\ \BBA {} Lam, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {FALL DETECTION AND PREVENTION FOR THE ELDERLY: a REVIEW
+  OF TRENDS AND CHALLENGES} {Fall detection and prevention for the elderly: a
+  review of trends and challenges}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal on Smart Sensing and Intelligent
+  Systems}{6}{3}{1230–1266}.
+\newblock
+\begin{APACrefDOI} \doi{10.21307/ijssis-2017-588} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fuller%
+}{%
+Fuller%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+fuller_2013}
+\APACinsertmetastar {%
+fuller_2013}%
+\begin{APACrefauthors}%
+Fuller, G\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Falls in the Elderly} {Falls in the elderly}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American Family Physician}{61}{7}{2159}.
+\newblock
+\begin{APACrefURL} \url{https://www.aafp.org/afp/2000/0401/p2159.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ismail~Fawaz%
+, Forestier%
+, Weber%
+, Idoumghar%
+\BCBL {}\ \BBA {} Muller%
+}{%
+Ismail~Fawaz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+ismail_fawaz_forestier_weber_idoumghar_muller_2019}
+\APACinsertmetastar {%
+ismail_fawaz_forestier_weber_idoumghar_muller_2019}%
+\begin{APACrefauthors}%
+Ismail~Fawaz, H.%
+, Forestier, G.%
+, Weber, J.%
+, Idoumghar, L.%
+\BCBL {}\ \BBA {} Muller, P\BHBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{Mar}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep learning for time series classification: a review}
+  {Deep learning for time series classification: a review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Data Mining and Knowledge Discovery}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s10618-019-00619-1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jia%
+, Howard%
+, Zhang%
+\BCBL {}\ \BBA {} Zhang%
+}{%
+Jia%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+jia_howard_zhang_zhang_2017}
+\APACinsertmetastar {%
+jia_howard_zhang_zhang_2017}%
+\begin{APACrefauthors}%
+Jia, Z.%
+, Howard, R\BPBI E.%
+, Zhang, Y.%
+\BCBL {}\ \BBA {} Zhang, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{Apr}{}.
+\newblock
+{\BBOQ}\APACrefatitle {HB-phone: a bed-mounted geophone-based Heartbeat
+  Monitoring System} {Hb-phone: a bed-mounted geophone-based heartbeat
+  monitoring system}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the 16th ACM/IEEE International
+  Conference on Information Processing in Sensor Networks}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1145/3055031.3055042} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kasturi%
+\ \BBA {} Jo%
+}{%
+Kasturi%
+\ \BBA {} Jo%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+kasturi_jo_2017}
+\APACinsertmetastar {%
+kasturi_jo_2017}%
+\begin{APACrefauthors}%
+Kasturi, S.%
+\BCBT {}\ \BBA {} Jo, K\BHBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{Jul}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Classification of Human Fall in Top Viewed Kinect Depth
+  Images Using Binary Support Vector Machine} {Classification of human fall in
+  top viewed kinect depth images using binary support vector machine}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{2017 10th International Conference on Human System
+  Interactions (HSI)}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/hsi.2017.8005016} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Klingenbrunn%
+}{%
+Klingenbrunn%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+klingenbrunn_2021}
+\APACinsertmetastar {%
+klingenbrunn_2021}%
+\begin{APACrefauthors}%
+Klingenbrunn, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{Jul}{}.
+\newblock
+\APACrefbtitle {Transformer Implementation for Time-series Forecasting.}
+  {Transformer implementation for time-series forecasting.}
+\newblock
+\begin{APACrefURL}
+  \url{https://medium.com/mlearning-ai/transformer-implementation-for-time-series-forecasting-a9db2db5c820}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Litvak%
+, Zigel%
+\BCBL {}\ \BBA {} Gannot%
+}{%
+Litvak%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+litvak_zigel_gannot_2008}
+\APACinsertmetastar {%
+litvak_zigel_gannot_2008}%
+\begin{APACrefauthors}%
+Litvak, D.%
+, Zigel, Y.%
+\BCBL {}\ \BBA {} Gannot, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{Aug}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Fall Detection of Elderly through Floor Vibrations and
+  Sound} {Fall detection of elderly through floor vibrations and sound}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{2008 30th Annual International Conference of the IEEE
+  Engineering in Medicine and Biology Society}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/iembs.2008.4650245} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liu%
+, Jiang%
+, Su%
+, Benzoni%
+\BCBL {}\ \BBA {} Maxwell%
+}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+liu_jiang_su_benzoni_maxwell_2019}
+\APACinsertmetastar {%
+liu_jiang_su_benzoni_maxwell_2019}%
+\begin{APACrefauthors}%
+Liu, C.%
+, Jiang, Z.%
+, Su, X.%
+, Benzoni, S.%
+\BCBL {}\ \BBA {} Maxwell, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{Aug}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Detection of Human Fall Using Floor Vibration and
+  Multi-Features Semi-Supervised SVM} {Detection of human fall using floor
+  vibration and multi-features semi-supervised svm}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Sensors}{19}{17}{3720}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/s19173720} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ljunggren%
+}{%
+Ljunggren%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+ljunggren2006floor}
+\APACinsertmetastar {%
+ljunggren2006floor}%
+\begin{APACrefauthors}%
+Ljunggren, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\unskip\
+\newblock
+\APACrefbtitle {Floor vibration: dynamic properties and subjective perception}
+  {Floor vibration: dynamic properties and subjective perception}\
+  \APACtypeAddressSchool {\BUPhD}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Lule{\aa} tekniska universitet}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Madarshahian%
+, Caicedo%
+\BCBL {}\ \BBA {} Arocha~Zambrana%
+}{%
+Madarshahian%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+madarshahian_caicedo_arocha_zambrana_2016}
+\APACinsertmetastar {%
+madarshahian_caicedo_arocha_zambrana_2016}%
+\begin{APACrefauthors}%
+Madarshahian, R.%
+, Caicedo, J\BPBI M.%
+\BCBL {}\ \BBA {} Arocha~Zambrana, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{Nov}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Benchmark Problem for Human Activity Identification
+  Using Floor Vibrations} {Benchmark problem for human activity identification
+  using floor vibrations}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Expert Systems with Applications}{62}{}{263–272}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.eswa.2016.06.027} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mukherjee%
+\ \BBA {} Zhang%
+}{%
+Mukherjee%
+\ \BBA {} Zhang%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+mukherjee2020multisense}
+\APACinsertmetastar {%
+mukherjee2020multisense}%
+\begin{APACrefauthors}%
+Mukherjee, A.%
+\BCBT {}\ \BBA {} Zhang, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {MultiSense: A Highly Reliable Wearable-free Human Fall
+  Detection Systems.} {Multisense: A highly reliable wearable-free human fall
+  detection systems.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {SENSORNETS} {Sensornets}\ (\BPGS\ 29--40).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+NHS%
+}{%
+NHS%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+nhs_2019}
+\APACinsertmetastar {%
+nhs_2019}%
+\begin{APACrefauthors}%
+NHS.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {Overview - Falls.} {Overview - falls.}
+\newblock
+\begin{APACrefURL} \url{https://www.nhs.uk/conditions/Falls/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Olah%
+}{%
+Olah%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+olah_2015}
+\APACinsertmetastar {%
+olah_2015}%
+\begin{APACrefauthors}%
+Olah, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Understanding LSTM Networks -- colah’s Blog.} {Understanding
+  lstm networks -- colah’s blog.}
+\newblock
+\begin{APACrefURL}
+  \url{https://colah.github.io/posts/2015-08-Understanding-LSTMs/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Oukrich%
+}{%
+Oukrich%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+oukrich_2019}
+\APACinsertmetastar {%
+oukrich_2019}%
+\begin{APACrefauthors}%
+Oukrich, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2019}.
+\unskip\
+\newblock
+\APACrefbtitle {Daily Human Activity Recognition in Smart Home based on Feature
+  Selection, Neural Network and Load Signature of Appliances} {Daily human
+  activity recognition in smart home based on feature selection, neural network
+  and load signature of appliances}\ \APACtypeAddressSchool {\BUPhD}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+P%
+\ \BBA {} Spring%
+}{%
+P%
+\ \BBA {} Spring%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+p_spring_2015}
+\APACinsertmetastar {%
+p_spring_2015}%
+\begin{APACrefauthors}%
+P, H.%
+\BCBT {}\ \BBA {} Spring, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {Vibrations of Single Degree of Freedom Systems} {Vibrations of
+  single degree of freedom systems}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+pavithrasv%
+}{%
+pavithrasv%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+pavithrasv_2020}
+\APACinsertmetastar {%
+pavithrasv_2020}%
+\begin{APACrefauthors}%
+pavithrasv.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{May}{}.
+\newblock
+\APACrefbtitle {Timeseries anomaly detection using an Autoencoder.} {Timeseries
+  anomaly detection using an autoencoder.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pedamkar%
+}{%
+Pedamkar%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+pedamkar_2019}
+\APACinsertmetastar {%
+pedamkar_2019}%
+\begin{APACrefauthors}%
+Pedamkar, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{Oct}{}.
+\newblock
+\APACrefbtitle {Autoencoders | Main Components and Architecture of
+  Autoencoder.} {Autoencoders | main components and architecture of
+  autoencoder.}
+\newblock
+\begin{APACrefURL} \url{https://www.educba.com/autoencoders/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pynoos%
+, Steinman%
+\BCBL {}\ \BBA {} Nguyen%
+}{%
+Pynoos%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+pynoos_steinman_nguyen_2010}
+\APACinsertmetastar {%
+pynoos_steinman_nguyen_2010}%
+\begin{APACrefauthors}%
+Pynoos, J.%
+, Steinman, B\BPBI A.%
+\BCBL {}\ \BBA {} Nguyen, A\BPBI Q.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{Nov}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Environmental Assessment and Modification as
+  Fall-Prevention Strategies for Older Adults} {Environmental assessment and
+  modification as fall-prevention strategies for older adults}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Clinics in Geriatric Medicine}{26}{4}{633–644}.
+\newblock
+\begin{APACrefURL} \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6036911/}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.cger.2010.07.001} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rajan%
+}{%
+Rajan%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+rajan_2021}
+\APACinsertmetastar {%
+rajan_2021}%
+\begin{APACrefauthors}%
+Rajan, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{Jun}{}.
+\newblock
+\APACrefbtitle {Dimensionality Reduction Using AutoEncoders in Python.}
+  {Dimensionality reduction using autoencoders in python.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.analyticsvidhya.com/blog/2021/06/dimensionality-reduction-using-autoencoders-in-python/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ramirez%
+\ \protect \BOthers {.}}{%
+Ramirez%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+ramirez_velastin_meza_fabregas_makris_farias_2021}
+\APACinsertmetastar {%
+ramirez_velastin_meza_fabregas_makris_farias_2021}%
+\begin{APACrefauthors}%
+Ramirez, H.%
+, Velastin, S\BPBI A.%
+, Meza, I.%
+, Fabregas, E.%
+, Makris, D.%
+\BCBL {}\ \BBA {} Farias, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Fall Detection and Activity Recognition Using Human
+  Skeleton Features} {Fall detection and activity recognition using human
+  skeleton features}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Access}{9}{}{33532–33542}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/access.2021.3061626} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Reiss%
+\ \BBA {} Stricker%
+}{%
+Reiss%
+\ \BBA {} Stricker%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+reiss_stricker_2012}
+\APACinsertmetastar {%
+reiss_stricker_2012}%
+\begin{APACrefauthors}%
+Reiss, A.%
+\BCBT {}\ \BBA {} Stricker, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{Jun}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Introducing a New Benchmarked Dataset for Activity
+  Monitoring} {Introducing a new benchmarked dataset for activity
+  monitoring}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{2012 16th International Symposium on Wearable
+  Computers}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/iswc.2012.13} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rihana%
+\ \BBA {} Mondalak%
+}{%
+Rihana%
+\ \BBA {} Mondalak%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+rihana_mondalak_2016}
+\APACinsertmetastar {%
+rihana_mondalak_2016}%
+\begin{APACrefauthors}%
+Rihana, S.%
+\BCBT {}\ \BBA {} Mondalak, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{Oct}{}.
+\newblock
+\APACrefbtitle {Wearable fall detection system.} {Wearable fall detection
+  system.}
+\newblock
+\begin{APACrefURL} \url{https://ieeexplore.ieee.org/abstract/document/7745414/}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1109/MECBME.2016.7745414} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rocca%
+}{%
+Rocca%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+rocca_2020}
+\APACinsertmetastar {%
+rocca_2020}%
+\begin{APACrefauthors}%
+Rocca, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{Mar}{}.
+\newblock
+\APACrefbtitle {Understanding Variational Autoencoders (VAEs).} {Understanding
+  variational autoencoders (vaes).}
+\newblock
+\begin{APACrefURL}
+  \url{https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Roger%
+}{%
+Roger%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+roger_2021}
+\APACinsertmetastar {%
+roger_2021}%
+\begin{APACrefauthors}%
+Roger.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{Jul}{}.
+\newblock
+\APACrefbtitle {Variational Autoencoder(VAE).} {Variational autoencoder(vae).}
+\newblock
+\begin{APACrefURL}
+  \url{https://medium.com/geekculture/variational-autoencoder-vae-9b8ce5475f68}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Roggen%
+\ \protect \BOthers {.}}{%
+Roggen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+roggen_2010}
+\APACinsertmetastar {%
+roggen_2010}%
+\begin{APACrefauthors}%
+Roggen, D.%
+, Calatroni, A.%
+, Rossi, M.%
+, Holleczek, T.%
+, Forster, K.%
+, Troster, G.%
+\BDBL {}Millan, J\BPBI d\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{07}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Collecting complex activity datasets in highly rich
+  networked sensor environments} {Collecting complex activity datasets in
+  highly rich networked sensor environments}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~233 - 240).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/INSS.2010.5573462} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Roll%
+}{%
+Roll%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+the_swiss_roll_2015}
+\APACinsertmetastar {%
+the_swiss_roll_2015}%
+\begin{APACrefauthors}%
+Roll, T\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{Jan}{}.
+\newblock
+\APACrefbtitle {The Swiss Roll Matching Example.} {The swiss roll matching
+  example.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.cis.jhu.edu/~cshen/html/PublishSwissRoll.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rosebrock%
+}{%
+Rosebrock%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+rosebrock_2020}
+\APACinsertmetastar {%
+rosebrock_2020}%
+\begin{APACrefauthors}%
+Rosebrock, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{Feb}{}.
+\newblock
+\APACrefbtitle {Denoising Autoencoders with Keras, TensorFlow, and Deep
+  Learning.} {Denoising autoencoders with keras, tensorflow, and deep
+  learning.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.pyimagesearch.com/2020/02/24/denoising-autoencoders-with-keras-tensorflow-and-deep-learning/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schrader%
+\ \protect \BOthers {.}}{%
+Schrader%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+schrader_2020}
+\APACinsertmetastar {%
+schrader_2020}%
+\begin{APACrefauthors}%
+Schrader, L.%
+, Vargas~Toro, A.%
+, Konietzny, S.%
+, Rüping, S.%
+, Schäpers, B.%
+, Steinböck, M.%
+\BDBL {}Bock, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{Feb}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Advanced Sensing and Human Activity Recognition in Early
+  Intervention and Rehabilitation of Elderly People} {Advanced sensing and
+  human activity recognition in early intervention and rehabilitation of
+  elderly people}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Population Ageing}{13}{2}{139–165}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s12062-020-09260-z} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Shao%
+\ \protect \BOthers {.}}{%
+Shao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+shao_wang_song_ilyas_guo_chang_2020}
+\APACinsertmetastar {%
+shao_wang_song_ilyas_guo_chang_2020}%
+\begin{APACrefauthors}%
+Shao, Y.%
+, Wang, X.%
+, Song, W.%
+, Ilyas, S.%
+, Guo, H.%
+\BCBL {}\ \BBA {} Chang, W\BHBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{Dec}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Feasibility of Using Floor Vibration to Detect Human
+  Falls} {Feasibility of using floor vibration to detect human falls}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Environmental Research and
+  Public Health}{18}{1}{200}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/ijerph18010200} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+SteelConstruction%
+}{%
+SteelConstruction%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+steelconstruction_2016}
+\APACinsertmetastar {%
+steelconstruction_2016}%
+\begin{APACrefauthors}%
+SteelConstruction.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {Floor Vibrations.} {Floor vibrations.}
+\newblock
+\begin{APACrefURL} \url{https://www.steelconstruction.info/Floor_vibrations}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sultana%
+, Deb%
+, Dhar%
+\BCBL {}\ \BBA {} Koshiba%
+}{%
+Sultana%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+sultana_deb_dhar_koshiba_2021}
+\APACinsertmetastar {%
+sultana_deb_dhar_koshiba_2021}%
+\begin{APACrefauthors}%
+Sultana, A.%
+, Deb, K.%
+, Dhar, P\BPBI K.%
+\BCBL {}\ \BBA {} Koshiba, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{Mar}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Classification of Indoor Human Fall Events Using Deep
+  Learning} {Classification of indoor human fall events using deep
+  learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Entropy}{23}{3}{328}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/e23030328} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tangruamsub%
+}{%
+Tangruamsub%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+sirinart_tangruamsub_2017}
+\APACinsertmetastar {%
+sirinart_tangruamsub_2017}%
+\begin{APACrefauthors}%
+Tangruamsub, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{Jul}{}.
+\newblock
+\APACrefbtitle {Long Short-Term Memory (LSTM).} {Long short-term memory
+  (lstm).}
+\newblock
+\APACaddressPublisher{}{Medium}.
+\newblock
+\begin{APACrefURL}
+  \url{https://medium.com/@sinart.t/long-short-term-memory-lstm-e6cb23b494c6}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Taufeeque%
+, Koita%
+, Spicher%
+\BCBL {}\ \BBA {} Deserno%
+}{%
+Taufeeque%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+taufeeque_koita_spicher_deserno_2021}
+\APACinsertmetastar {%
+taufeeque_koita_spicher_deserno_2021}%
+\begin{APACrefauthors}%
+Taufeeque, M.%
+, Koita, S.%
+, Spicher, N.%
+\BCBL {}\ \BBA {} Deserno, T\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{Feb}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multi-camera, multi-person, and real-time fall detection
+  using long short term memory} {Multi-camera, multi-person, and real-time fall
+  detection using long short term memory}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Medical Imaging 2021: Imaging Informatics for
+  Healthcare, Research, and Applications}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1117/12.2580700} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+ThaiNCD.com%
+}{%
+ThaiNCD.com%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+thaincd.com_2019}
+\APACinsertmetastar {%
+thaincd.com_2019}%
+\begin{APACrefauthors}%
+ThaiNCD.com.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {Old Thai people do not fall, no secret tips! For the prevention
+  of falls in tall people.} {Old thai people do not fall, no secret tips! for
+  the prevention of falls in tall people.}
+\newblock
+\begin{APACrefURL}
+  \url{https://thaincd.com/2016/media-detail.php?id=13551&gid=1-015-009}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tsai%
+\ \BBA {} Hsu%
+}{%
+Tsai%
+\ \BBA {} Hsu%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+tsai_hsu_2019}
+\APACinsertmetastar {%
+tsai_hsu_2019}%
+\begin{APACrefauthors}%
+Tsai, T\BHBI H.%
+\BCBT {}\ \BBA {} Hsu, C\BHBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{Oct}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Implementation of Fall Detection System Based on 3D
+  Skeleton for Deep Learning Technique} {Implementation of fall detection
+  system based on 3d skeleton for deep learning technique}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{2019 IEEE 8th Global Conference on Consumer Electronics
+  (GCCE)}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/gcce46687.2019.9015609} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ugolotti%
+, Sassi%
+, Mordonini%
+\BCBL {}\ \BBA {} Cagnoni%
+}{%
+Ugolotti%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+ugolotti_sassi_mordonini_cagnoni_2011}
+\APACinsertmetastar {%
+ugolotti_sassi_mordonini_cagnoni_2011}%
+\begin{APACrefauthors}%
+Ugolotti, R.%
+, Sassi, F.%
+, Mordonini, M.%
+\BCBL {}\ \BBA {} Cagnoni, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{Aug}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multi-sensor system for detection and classification of
+  human activities} {Multi-sensor system for detection and classification of
+  human activities}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Ambient Intelligence and Humanized
+  Computing}{4}{1}{27–41}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s12652-011-0065-z} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vaswani%
+\ \protect \BOthers {.}}{%
+Vaswani%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+vaswani_shazeer_parmar_uszkoreit_jones_n_gomez_kaiser_polosukhin_2017}
+\APACinsertmetastar {%
+vaswani_shazeer_parmar_uszkoreit_jones_n_gomez_kaiser_polosukhin_2017}%
+\begin{APACrefauthors}%
+Vaswani, A.%
+, Shazeer, N.%
+, Parmar, N.%
+, Uszkoreit, J.%
+, Jones, L.%
+, N.~Gomez, A.%
+\BDBL {}Polosukhin, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2017}.
+\newblock
+\APACrefbtitle {Attention Is All You Need} {Attention is all you need}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/1706.03762v5} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vincent%
+, Larochelle%
+, Bengio%
+\BCBL {}\ \BBA {} Manzagol%
+}{%
+Vincent%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+vincent_larochelle_bengio_manzagol_2008}
+\APACinsertmetastar {%
+vincent_larochelle_bengio_manzagol_2008}%
+\begin{APACrefauthors}%
+Vincent, P.%
+, Larochelle, H.%
+, Bengio, Y.%
+\BCBL {}\ \BBA {} Manzagol, P\BHBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Extracting and Composing Robust Features with Denoising
+  Autoencoders} {Extracting and composing robust features with denoising
+  autoencoders}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the 25th International Conference on
+  Machine Learning - ICML ’08}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1145/1390156.1390294} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vincent%
+, Larochelle%
+, Lajoie%
+, Bengio%
+\BCBL {}\ \BBA {} Manzagol%
+}{%
+Vincent%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+vincent10a}
+\APACinsertmetastar {%
+vincent10a}%
+\begin{APACrefauthors}%
+Vincent, P.%
+, Larochelle, H.%
+, Lajoie, I.%
+, Bengio, Y.%
+\BCBL {}\ \BBA {} Manzagol, P\BHBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Stacked Denoising Autoencoders: Learning Useful
+  Representations in a Deep Network with a Local Denoising Criterion} {Stacked
+  denoising autoencoders: Learning useful representations in a deep network
+  with a local denoising criterion}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Machine Learning
+  Research}{11}{110}{3371-3408}.
+\newblock
+\begin{APACrefURL} \url{http://jmlr.org/papers/v11/vincent10a.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+S.~Wang%
+, Chen%
+, Zhou%
+, Sun%
+\BCBL {}\ \BBA {} Dong%
+}{%
+S.~Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+wang_chen_zhou_sun_dong_2015}
+\APACinsertmetastar {%
+wang_chen_zhou_sun_dong_2015}%
+\begin{APACrefauthors}%
+Wang, S.%
+, Chen, L.%
+, Zhou, Z.%
+, Sun, X.%
+\BCBL {}\ \BBA {} Dong, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{Jun}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Human Fall Detection in Surveillance Video Based on
+  PCANet} {Human fall detection in surveillance video based on pcanet}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Multimedia Tools and
+  Applications}{75}{19}{11603–11613}.
+\newblock
+\begin{APACrefURL}
+  \url{https://link.springer.com/article/10.1007%2Fs11042-015-2698-y}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11042-015-2698-y} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+X.~Wang%
+, Ellul%
+\BCBL {}\ \BBA {} Azzopardi%
+}{%
+X.~Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+wang_ellul_azzopardi_2020}
+\APACinsertmetastar {%
+wang_ellul_azzopardi_2020}%
+\begin{APACrefauthors}%
+Wang, X.%
+, Ellul, J.%
+\BCBL {}\ \BBA {} Azzopardi, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{Jun}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Elderly Fall Detection Systems: a Literature Survey}
+  {Elderly fall detection systems: a literature survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Frontiers in Robotics and AI}{7}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.3389/frobt.2020.00071} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Warping%
+}{%
+Warping%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+dynamic_time_warping_2007}
+\APACinsertmetastar {%
+dynamic_time_warping_2007}%
+\begin{APACrefauthors}%
+Warping, D\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dynamic Time Warping} {Dynamic time warping}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information Retrieval for Music and
+  Motion}{}{}{69–84}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-540-74048-3_4} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Weng%
+}{%
+Weng%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+weng_2018}
+\APACinsertmetastar {%
+weng_2018}%
+\begin{APACrefauthors}%
+Weng, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{Aug}{}.
+\newblock
+\APACrefbtitle {From Autoencoder to Beta-VAE.} {From autoencoder to beta-vae.}
+\newblock
+\begin{APACrefURL}
+  \url{https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+WHO%
+}{%
+WHO%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+world_health_organization_2018}
+\APACinsertmetastar {%
+world_health_organization_2018}%
+\begin{APACrefauthors}%
+WHO.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{Jan}{}.
+\newblock
+\APACrefbtitle {Falls.} {Falls.}
+\newblock
+\APACaddressPublisher{}{World Health Organization: WHO}.
+\newblock
+\begin{APACrefURL} \url{https://www.who.int/news-room/fact-sheets/detail/falls}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yang%
+\ \BBA {} Hsu%
+}{%
+Yang%
+\ \BBA {} Hsu%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+yang_hsu_2010}
+\APACinsertmetastar {%
+yang_hsu_2010}%
+\begin{APACrefauthors}%
+Yang, C\BHBI C.%
+\BCBT {}\ \BBA {} Hsu, Y\BHBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{Aug}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Review of Accelerometry-Based Wearable Motion
+  Detectors for Physical Activity Monitoring} {A review of accelerometry-based
+  wearable motion detectors for physical activity monitoring}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Sensors}{10}{8}{7772–7788}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/s100807772} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yazar%
+, Erden%
+\BCBL {}\ \BBA {} Cetin%
+}{%
+Yazar%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+inproceedings}
+\APACinsertmetastar {%
+inproceedings}%
+\begin{APACrefauthors}%
+Yazar, A.%
+, Erden, F.%
+\BCBL {}\ \BBA {} Cetin, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{05}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multi-sensor ambient assisted living system for fall
+  detection} {Multi-sensor ambient assisted living system for fall
+  detection}.{\BBCQ}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
