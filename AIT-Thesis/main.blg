@@ -2,7 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: 1-title.aux
-A level-1 auxiliary file: 2-acknowledgment.aux
 A level-1 auxiliary file: 3-abstract.aux
 A level-1 auxiliary file: 4-tableOfContent.aux
 A level-1 auxiliary file: 5-listOfTable.aux
@@ -13,8 +12,6 @@ A level-1 auxiliary file: 9-methodology.aux
 A level-1 auxiliary file: 10-results.aux
 A level-1 auxiliary file: 11-conclusion.aux
 The style file: apacite.bst
-A level-1 auxiliary file: appendix-a.aux
-A level-1 auxiliary file: appendix-b.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -28,45 +25,45 @@ Database file #1: references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in Alwan_2003
 Warning--No school in oukrich_2019
-You've used 64 entries,
+You've used 65 entries,
             6951 wiz_defined-function locations,
-            1652 strings with 24430 characters,
-and the built_in function-call counts, 123066 in all, are:
-= -- 14790
-> -- 1065
-< -- 6103
-+ -- 5954
-- -- 140
-* -- 7903
-:= -- 22760
-add.period$ -- 261
-call.type$ -- 64
-change.case$ -- 1185
+            1644 strings with 24468 characters,
+and the built_in function-call counts, 120541 in all, are:
+= -- 14638
+> -- 1075
+< -- 5756
++ -- 5684
+- -- 144
+* -- 7635
+:= -- 21714
+add.period$ -- 265
+call.type$ -- 65
+change.case$ -- 1112
 chr.to.int$ -- 0
-cite$ -- 130
-duplicate$ -- 3270
-empty$ -- 4963
-format.name$ -- 1821
-if$ -- 23205
+cite$ -- 132
+duplicate$ -- 3300
+empty$ -- 4946
+format.name$ -- 1835
+if$ -- 23074
 int.to.chr$ -- 0
-int.to.str$ -- 192
+int.to.str$ -- 195
 missing$ -- 0
-newline$ -- 1670
-num.names$ -- 512
-pop$ -- 2973
+newline$ -- 1694
+num.names$ -- 520
+pop$ -- 3038
 preamble$ -- 1
-purify$ -- 352
+purify$ -- 266
 quote$ -- 0
-skip$ -- 7115
+skip$ -- 7131
 stack$ -- 0
-substring$ -- 6409
-swap$ -- 1756
-text.length$ -- 246
+substring$ -- 6142
+swap$ -- 1773
+text.length$ -- 159
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 5440
+type$ -- 5520
 warning$ -- 2
-while$ -- 715
+while$ -- 630
 width$ -- 0
-write$ -- 2068
+write$ -- 2094
 (There were 2 warnings)

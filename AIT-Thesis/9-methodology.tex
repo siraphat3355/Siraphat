@@ -31,7 +31,7 @@ To collect raw data, we need to build our own embedded system because in order t
 
 \subsection{Hardware}
 \paragraph{}
-	There are 4 significant components as shown in Figure \ref{fig:hardware}. Each component has their own proposed \cite{dash_2020}.
+	There are 4 significant components as shown in Figure \ref{fig:hardware}. Each component has their own proposed.
     
  \begin{figure}[h]
   \centering
@@ -58,7 +58,7 @@ Secondly, The analog circuit of filter \& amplifier , which is shown in Figure \
 \end{figure}
 
 \paragraph{}
-Thirdly, analog to digital converter (ADC), the higher bit means that it can contain more information. In Figure \ref{fig:adc}, you can get more intuitive what is the difference between 10-bit and 16-bit ADC.  The red line show the signal by using original adc pin on the Arduino mega which has only 10 bit and the blue line represent the signal by using 16-bit ADC. After the raw analog signal is filtered and amplified, it needs to be sampled at a rate of 500 samples/second and quantized at a resolution of 16 bits/sample in order to prepare it for digital transmission. A 24-bit ADC is capable of distinguishing $65536$ ($2^{16}$) different voltage levels within a narrow voltage range from $0 - 5$ Volts. It means that each level represents approximately $76.3 uV$ which is enough to capture signals of seismic sensor.
+Thirdly, analog to digital converter (ADC), the higher bit means that it can contain more information. In Figure \ref{fig:adc}, you can get more intuitive what is the difference between 10-bit and 16-bit ADC.  The red line show the signal by using original adc pin on the Arduino mega which has only 10 bit and the blue line represent the signal by using 16-bit ADC. After the raw analog signal is filtered and amplified, it needs to be sampled at a rate of 500 samples/second and quantized at a resolution of 16 bits/sample in order to prepare it for digital transmission. A 16-bit ADC is capable of distinguishing $65536$ ($2^{16}$) different voltage levels within a narrow voltage range from $0 - 5$ Volts. It means that each level represents approximately $76.3 uV$ which is enough to capture signals of seismic sensor.
 
 \begin{figure}[H]
   \centering
@@ -67,13 +67,14 @@ Thirdly, analog to digital converter (ADC), the higher bit means that it can con
 \end{figure}
 
 \paragraph{}
-Fourthly, ESP8266 in Figure \ref{fig:pi4}, the used microcontroller is an ESP8266, which is a small size, low price, low-cost Wi-Fi microchip and has several interfaces for communication. The digital signal is fed from ADC to ESP8266 via SPI which is a synchronous serial communication interface specification used for short-distance communication. And then this signal is directly fed to the laptop via serial port (USB).
+Fourthly, in Figure \ref{fig:pi4}, the used micro-computer is an Raspberry Pi 4 model B, which is a small size, low price, and several useful functions, and can do machine learning. The digital signal is fed from ADC to ESP8266 via I2C which is a synchronous serial communication interface specification used for short-distance communication. And then these raw signals  are directly collected into mircro sd card.
 
 \begin{figure}[H]
   \centering
-  \caption[Microcontroller - Raspberry Pi 4]{\emph{Microcontroller - Raspberry Pi 4 }}\label{fig:pi4}
+  \caption[Microcomputer - Raspberry Pi 4.]{\emph{Microcomputer - Raspberry Pi 4.}}\label{fig:pi4}
   \includegraphics[scale = 0.3]{figures/pi4.jpg}  
 \end{figure}
+
 \subsection{Experimental Setup}
 \paragraph{}
 To collect the raw data, experiments are performed in the living room of my house in Bangkok, Thailand which was built from reinforced concrete structure and on top with tile as show in Figure \ref{fig:home}. Actually, my system has detectable range around 3 meters and this room also has dimension 3.5 $x$ 3.5 $meter^2$. The hardware should be  installed near the corner in order to be as suitable for the application as possible.
@@ -90,7 +91,7 @@ There are several events which should occur during the daily event. However, the
 
 \begin{table}[H]
 \begin{center}
-\caption[The detail of each activity and its number of action.]{The detail of each activity and its number of action. \\ \hspace{\textwidth}}\label{tab:number_action}
+\caption[The detail of each activity and its number of action.]{\emph{The detail of each activity and its number of action.} \\ \hspace{\textwidth}}\label{tab:number_action}
 \begin{tabular}{ l r }
   \textbf{Human Activity} & \textbf{Number of action}\\
 \hline
@@ -109,7 +110,7 @@ Lying & 400 \\
 \begin{table}[H]
 \begin{center}
 \caption[The detail of each participant and their details.
-]{The detail of each participant and their details. 
+]{\emph{The detail of each participant and their details.} 
 \\ \hspace{\textwidth}}\label{tab:participants}
 \begin{tabular}{c c c c}
   \textbf{Subject} & \textbf{Sex} &  \textbf{Age} & \textbf{Weight $(kg)$}  \\
@@ -137,18 +138,35 @@ I choose two candidate models as autoencoder with LSTM architecture in Figure \r
 
 \begin{figure}[H]
   \centering
-  \caption[The autoencoder with LSTM architecture.]{\emph{The autoencoder with LSTM architecture. Reprinted from work of \citeauthor{battula_2019} \citeyear{battula_2019}}}\label{fig:LSTM_metho}
-  \includegraphics[scale = 0.3]{figures/LSTM_metho.jpg}  
+  \caption[The autoencoder with LSTM architecture.]{\emph{The autoencoder with LSTM architecture}}\label{fig:LSTM_metho}
+  \includegraphics[scale = 0.2]{figures/LSTM_metho.jpg}  
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \caption[The Transformer architecture.]{\emph{The Transformer architecture. \\ Reprinted from work of \citeauthor{vaswani_shazeer_parmar_uszkoreit_jones_n_gomez_kaiser_polosukhin_2017} \citeyear{vaswani_shazeer_parmar_uszkoreit_jones_n_gomez_kaiser_polosukhin_2017}}}\label{fig:transformer_metho}
-  \includegraphics[scale = 0.3]{figures/transformer_metho.jpg}  
+  \includegraphics[scale = 0.3]{figures/transformer_metho2.jpg}  
 \end{figure}
 
  
 \subsection{Evaluation Plan}
+\paragraph{}
+To assess the performance of the model, The model will be tested with untrained activities such as jumping and dropping the ball in different locus around the installed system. The prefered accuracy should be greater than 75 percents of true positive and 100 percents of true negative. (Not sure may be the number need to be changed)
+
 \section{Deployment}
+\paragraph{}
+The desirable system should be plug \& play. Therefore, every component such as seismic sensor, embedded system and Raspberry Pi must be integrated into the small box, which require only power adapter as shown in Figure \ref{fig:application}. When anomaly activities are occuring, an alert messages is going to be sent via Line application to me. The dining room in my house will be the tested location of this study shown in \ref{fig:dining}.
+
+\begin{figure}[H]
+  \centering
+  \caption[The complete application.]{\emph{The complete system.}} \label{fig:application}
+  \includegraphics[scale = 0.5]{figures/application.png}  
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \caption[The dining room in my home.]{\emph{The dining room in my home.}} \label{fig:dining}
+  \includegraphics[scale = 0.1]{figures/dining.jpg}  
+\end{figure}
 
 \FloatBarrier

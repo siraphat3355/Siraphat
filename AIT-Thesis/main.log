@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.15)  18 SEP 2021 01:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.15)  27 SEP 2021 21:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -159,6 +159,23 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \extratabsurround=\skip57
 \backup@length=\skip58
 \ar@cellbox=\box52
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count276
+\LTcapwidth=\dimen151
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@cols=\count277
+\LT@rows=\count278
+\c@LT@tables=\count279
+\c@LT@chunks=\count280
+\LT@p@ftn=\toks29
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
  (/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
@@ -175,7 +192,7 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks29
+\KV@toks@=\toks30
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -191,9 +208,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen151
-\Hy@linkcounter=\count276
-\Hy@pagecounter=\count277
+\@linkdim=\dimen152
+\Hy@linkcounter=\count281
+\Hy@pagecounter=\count282
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -205,7 +222,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count278
+\Hy@SavedSpaceFactor=\count283
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -218,17 +235,17 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count279
+\c@Hy@tempcnt=\count284
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen152
+\XeTeXLinkMargin=\dimen153
  (/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count280
-\Field@Width=\dimen153
-\Fld@charsize=\dimen154
+\Fld@menulength=\count285
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
 Package hyperref Info: Hyper figures OFF on input line 6075.
 Package hyperref Info: Link nesting OFF on input line 6080.
 Package hyperref Info: Hyper index ON on input line 6083.
@@ -242,9 +259,9 @@ LaTeX Info: Redefining \pageref on input line 6149.
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
 with kernel methods
 )
-\Hy@abspage=\count281
-\c@Item=\count282
-\c@Hfootnote=\count283
+\Hy@abspage=\count286
+\c@Item=\count287
+\c@Hfootnote=\count288
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -253,8 +270,8 @@ File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
 with kernel methods
 )
-\Fld@listcount=\count284
-\c@bookmark@seq@number=\count285
+\Fld@listcount=\count289
+\c@bookmark@seq@number=\count290
  (/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -262,7 +279,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip59
+\Hy@SectionHShift=\skip63
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
@@ -276,8 +293,8 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen155
-\Gin@req@width=\dimen156
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
@@ -314,133 +331,136 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count286
-\Gm@cntv=\count287
-\c@Gm@tempcnt=\count288
-\Gm@bindingoffset=\dimen157
-\Gm@wd@mp=\dimen158
-\Gm@odd@mp=\dimen159
-\Gm@even@mp=\dimen160
-\Gm@layoutwidth=\dimen161
-\Gm@layoutheight=\dimen162
-\Gm@layouthoffset=\dimen163
-\Gm@layoutvoffset=\dimen164
-\Gm@dimlist=\toks30
+\Gm@cnth=\count291
+\Gm@cntv=\count292
+\c@Gm@tempcnt=\count293
+\Gm@bindingoffset=\dimen158
+\Gm@wd@mp=\dimen159
+\Gm@odd@mp=\dimen160
+\Gm@even@mp=\dimen161
+\Gm@layoutwidth=\dimen162
+\Gm@layoutheight=\dimen163
+\Gm@layouthoffset=\dimen164
+\Gm@layoutvoffset=\dimen165
+\Gm@dimlist=\toks31
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip60
-\cftbeforetoctitleskip=\skip61
-\cftaftertoctitleskip=\skip62
-\cftbeforepartskip=\skip63
-\cftpartnumwidth=\skip64
-\cftpartindent=\skip65
-\cftbeforechapskip=\skip66
-\cftchapindent=\skip67
-\cftchapnumwidth=\skip68
-\cftbeforesecskip=\skip69
-\cftsecindent=\skip70
-\cftsecnumwidth=\skip71
-\cftbeforesubsecskip=\skip72
-\cftsubsecindent=\skip73
-\cftsubsecnumwidth=\skip74
-\cftbeforesubsubsecskip=\skip75
-\cftsubsubsecindent=\skip76
-\cftsubsubsecnumwidth=\skip77
-\cftbeforeparaskip=\skip78
-\cftparaindent=\skip79
-\cftparanumwidth=\skip80
-\cftbeforesubparaskip=\skip81
-\cftsubparaindent=\skip82
-\cftsubparanumwidth=\skip83
-\cftbeforeloftitleskip=\skip84
-\cftafterloftitleskip=\skip85
-\cftbeforefigskip=\skip86
-\cftfigindent=\skip87
-\cftfignumwidth=\skip88
-\c@lofdepth=\count289
-\c@lotdepth=\count290
-\cftbeforelottitleskip=\skip89
-\cftafterlottitleskip=\skip90
-\cftbeforetabskip=\skip91
-\cfttabindent=\skip92
-\cfttabnumwidth=\skip93
+\cftparskip=\skip64
+\cftbeforetoctitleskip=\skip65
+\cftaftertoctitleskip=\skip66
+\cftbeforepartskip=\skip67
+\cftpartnumwidth=\skip68
+\cftpartindent=\skip69
+\cftbeforechapskip=\skip70
+\cftchapindent=\skip71
+\cftchapnumwidth=\skip72
+\cftbeforesecskip=\skip73
+\cftsecindent=\skip74
+\cftsecnumwidth=\skip75
+\cftbeforesubsecskip=\skip76
+\cftsubsecindent=\skip77
+\cftsubsecnumwidth=\skip78
+\cftbeforesubsubsecskip=\skip79
+\cftsubsubsecindent=\skip80
+\cftsubsubsecnumwidth=\skip81
+\cftbeforeparaskip=\skip82
+\cftparaindent=\skip83
+\cftparanumwidth=\skip84
+\cftbeforesubparaskip=\skip85
+\cftsubparaindent=\skip86
+\cftsubparanumwidth=\skip87
+\cftbeforeloftitleskip=\skip88
+\cftafterloftitleskip=\skip89
+\cftbeforefigskip=\skip90
+\cftfigindent=\skip91
+\cftfignumwidth=\skip92
+\c@lofdepth=\count294
+\c@lotdepth=\count295
+\cftbeforelottitleskip=\skip93
+\cftafterlottitleskip=\skip94
+\cftbeforetabskip=\skip95
+\cfttabindent=\skip96
+\cfttabnumwidth=\skip97
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box53
-\beforetitleunit=\skip94
-\aftertitleunit=\skip95
-\ttl@plus=\dimen165
-\ttl@minus=\dimen166
-\ttl@toksa=\toks31
-\titlewidth=\dimen167
-\titlewidthlast=\dimen168
-\titlewidthfirst=\dimen169
+\ttl@box=\box57
+\beforetitleunit=\skip98
+\aftertitleunit=\skip99
+\ttl@plus=\dimen166
+\ttl@minus=\dimen167
+\ttl@toksa=\toks32
+\titlewidth=\dimen168
+\titlewidthlast=\dimen169
+\titlewidthfirst=\dimen170
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip96
-\enit@outerparindent=\dimen170
-\enit@toks=\toks32
-\enit@inbox=\box54
-\enit@count@id=\count291
-\enitdp@description=\count292
+\labelindent=\skip100
+\enit@outerparindent=\dimen171
+\enit@toks=\toks33
+\enit@inbox=\box58
+\enit@count@id=\count296
+\enitdp@description=\count297
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen171
-\captionmargin@=\dimen172
-\captionwidth=\dimen173
-\caption@tempdima=\dimen174
-\caption@indent=\dimen175
-\caption@parindent=\dimen176
-\caption@hangindent=\dimen177
+\captionmargin=\dimen172
+\captionmargin@=\dimen173
+\captionwidth=\dimen174
+\caption@tempdima=\dimen175
+\caption@indent=\dimen176
+\caption@parindent=\dimen177
+\caption@hangindent=\dimen178
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count293
-\c@continuedfloat=\count294
+\c@caption@flags=\count298
+\c@continuedfloat=\count299
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/apacite/apacite.sty
+Package caption Info: longtable package is loaded.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/apacite/apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count295
-\bibleftmargin=\skip97
-\bibindent=\skip98
-\bibparsep=\skip99
-\bibitemsep=\skip100
-\biblabelsep=\skip101
+\c@BibCnt=\count300
+\bibleftmargin=\skip101
+\bibindent=\skip102
+\bibparsep=\skip103
+\bibitemsep=\skip104
+\biblabelsep=\skip105
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 113.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 114.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count296
-\l__pdf_internal_box=\box55
-) (/Users/siraphatb/Documents/AIT-Thesis/main.aux (/Users/siraphatb/Documents/AIT-Thesis/1-title.aux) (/Users/siraphatb/Documents/AIT-Thesis/2-acknowledgment.aux) (/Users/siraphatb/Documents/AIT-Thesis/3-abstract.aux) (/Users/siraphatb/Documents/AIT-Thesis/4-tableOfContent.aux) (/Users/siraphatb/Documents/AIT-Thesis/5-listOfTable.aux) (/Users/siraphatb/Documents/AIT-Thesis/6-listOfFigure.aux) (/Users/siraphatb/Documents/AIT-Thesis/7-introduction.aux) (/Users/siraphatb/Documents/AIT-Thesis/8-literatureReview.aux) (/Users/siraphatb/Documents/AIT-Thesis/9-methodology.aux) (/Users/siraphatb/Documents/AIT-Thesis/10-results.aux) (/Users/siraphatb/Documents/AIT-Thesis/11-conclusion.aux) (/Users/siraphatb/Documents/AIT-Thesis/appendix-a.aux) (/Users/siraphatb/Documents/AIT-Thesis/appendix-b.aux))
+\l__color_backend_stack_int=\count301
+\l__pdf_internal_box=\box59
+) (/Users/siraphatb/Documents/AIT-Thesis/main.aux (/Users/siraphatb/Documents/AIT-Thesis/1-title.aux) (/Users/siraphatb/Documents/AIT-Thesis/3-abstract.aux) (/Users/siraphatb/Documents/AIT-Thesis/4-tableOfContent.aux) (/Users/siraphatb/Documents/AIT-Thesis/5-listOfTable.aux) (/Users/siraphatb/Documents/AIT-Thesis/6-listOfFigure.aux) (/Users/siraphatb/Documents/AIT-Thesis/7-introduction.aux) (/Users/siraphatb/Documents/AIT-Thesis/8-literatureReview.aux) (/Users/siraphatb/Documents/AIT-Thesis/9-methodology.aux) (/Users/siraphatb/Documents/AIT-Thesis/10-results.aux) (/Users/siraphatb/Documents/AIT-Thesis/11-conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-Package hyperref Info: Link coloring OFF on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+Package hyperref Info: Link coloring OFF on input line 114.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -448,28 +468,28 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count297
+\c@section@level=\count302
 )
-LaTeX Info: Redefining \ref on input line 113.
-LaTeX Info: Redefining \pageref on input line 113.
-LaTeX Info: Redefining \nameref on input line 113.
+LaTeX Info: Redefining \ref on input line 114.
+LaTeX Info: Redefining \pageref on input line 114.
+LaTeX Info: Redefining \nameref on input line 114.
  (/Users/siraphatb/Documents/AIT-Thesis/main.out) (/Users/siraphatb/Documents/AIT-Thesis/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count298
-\scratchdimen=\dimen178
-\scratchbox=\box56
-\nofMPsegments=\count299
-\nofMParguments=\count300
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count301
-\MPscratchDim=\dimen179
-\MPnumerator=\count302
-\makeMPintoPDFobject=\count303
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count303
+\scratchdimen=\dimen179
+\scratchbox=\box60
+\nofMPsegments=\count304
+\nofMParguments=\count305
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count306
+\MPscratchDim=\dimen180
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
+\everyMPtoPDFconversion=\toks35
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -511,7 +531,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: Option `justification=RaggedRight' requires the `ragged2e' package on input line 113.
+Package caption Info: Option `justification=RaggedRight' requires the `ragged2e' package on input line 114.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2021/02/05 v3.0 ragged2e Package
  (/usr/local/texlive/2021/texmf-dist/tex/latex/everysel/everysel.sty
@@ -519,23 +539,23 @@ Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/everysel/everysel-2011-10-28.sty ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 123.
 ))
-\CenteringLeftskip=\skip102
-\RaggedLeftLeftskip=\skip103
-\RaggedRightLeftskip=\skip104
-\CenteringRightskip=\skip105
-\RaggedLeftRightskip=\skip106
-\RaggedRightRightskip=\skip107
-\CenteringParfillskip=\skip108
-\RaggedLeftParfillskip=\skip109
-\RaggedRightParfillskip=\skip110
-\JustifyingParfillskip=\skip111
-\CenteringParindent=\skip112
-\RaggedLeftParindent=\skip113
-\RaggedRightParindent=\skip114
-\JustifyingParindent=\skip115
+\CenteringLeftskip=\skip106
+\RaggedLeftLeftskip=\skip107
+\RaggedRightLeftskip=\skip108
+\CenteringRightskip=\skip109
+\RaggedLeftRightskip=\skip110
+\RaggedRightRightskip=\skip111
+\CenteringParfillskip=\skip112
+\RaggedLeftParfillskip=\skip113
+\RaggedRightParfillskip=\skip114
+\JustifyingParfillskip=\skip115
+\CenteringParindent=\skip116
+\RaggedLeftParindent=\skip117
+\RaggedRightParindent=\skip118
+\JustifyingParindent=\skip119
 )
 Package caption Info: End \AtBeginDocument code.
-\c@maskedRefs=\count304
+\c@maskedRefs=\count309
  (/usr/local/texlive/2021/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
@@ -570,16 +590,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-\openout2 = `2-acknowledgment.aux'.
-
- (/Users/siraphatb/Documents/AIT-Thesis/2-acknowledgment.tex) [2
-
-
-
-]
 \openout2 = `3-abstract.aux'.
 
- (/Users/siraphatb/Documents/AIT-Thesis/3-abstract.tex) [3
+ (/Users/siraphatb/Documents/AIT-Thesis/3-abstract.tex) [2
 
 
 
@@ -593,7 +606,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [4
+ [3
 
 
 
@@ -601,14 +614,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-) [5]
+) [4]
 \openout2 = `5-listOfTable.aux'.
 
  (/Users/siraphatb/Documents/AIT-Thesis/5-listOfTable.tex (/Users/siraphatb/Documents/AIT-Thesis/main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
-) [6
+) [5
 
 
 
@@ -690,15 +703,25 @@ Overfull \hbox (0.61171pt too wide) detected at line 26
 \OT1/ptm/m/n/12 Figure 2.24 
  []
 
-[7
+
+Overfull \hbox (0.61171pt too wide) detected at line 37
+\OT1/ptm/m/n/12 Figure 3.10 
+ []
+
+[6
 
 
 
-])
+]
+Overfull \hbox (0.61171pt too wide) detected at line 38
+\OT1/ptm/m/n/12 Figure 3.11 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-) [8]
+) [7]
 \openout2 = `7-introduction.aux'.
 
  (/Users/siraphatb/Documents/AIT-Thesis/7-introduction.tex
@@ -726,10 +749,10 @@ Overfull \hbox (1.01875pt too wide) in paragraph at lines 67--68
 
  (/Users/siraphatb/Documents/AIT-Thesis/8-literatureReview.tex
 Chapter 2.
-<figures/fall_trend.png, id=438, 714.67pt x 360.34625pt>
+<figures/fall_trend.png, id=420, 714.67pt x 360.34625pt>
 File: figures/fall_trend.png Graphic file (type png)
 <use figures/fall_trend.png>
-Package pdftex.def Info: figures/fall_trend.png  used on input line 25.
+Package pdftex.def Info: figures/fall_trend.png  used on input line 32.
 (pdftex.def)             Requested size: 439.87962pt x 221.79582pt.
 [5
 
@@ -737,356 +760,194 @@ Package pdftex.def Info: figures/fall_trend.png  used on input line 25.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-[]|\OT1/ptm/m/n/12 Send mes-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-\OT1/ptm/m/n/12 sages to a
- []
-
-
-Underfull \hbox (badness 8019) in paragraph at lines 45--45
-\OT1/ptm/m/n/12 Sequential for-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 1960) in paragraph at lines 59--59
 []|\OT1/ptm/m/n/12 Pyroelectric in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\OT1/ptm/m/n/12 Support vec-tor
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]|\OT1/ptm/m/n/12 Accelerometer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
-[]|\OT1/ptm/m/n/12 Simulated by 3d-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
-[]|\OT1/ptm/m/n/12 Smartphone ac-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 []|\OT1/ptm/m/n/12 K-nearest-
  []
 
 
-Underfull \hbox (badness 6110) in paragraph at lines 59--59
+Underfull \hbox (badness 6110) in paragraph at lines 66--66
 []|[][]\OT1/ptm/m/n/12 Liu et al.[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-\OT1/ptm/m/n/12 semi-supervised
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-\OT1/ptm/m/n/12 sup-port vec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-\OT1/ptm/m/n/12 tor ma-chines
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|[][]\OT1/ptm/m/n/12 Mukherjee
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 65--65
+Underfull \hbox (badness 4072) in paragraph at lines 72--72
 \OT1/ptm/m/n/12 and Zhang[]
  []
 
 
-Overfull \hbox (11.60623pt too wide) in paragraph at lines 36--68
+Overfull \hbox (24.8021pt too wide) in paragraph at lines 43--76
  [] 
  []
 
-[6 </Users/siraphatb/Documents/AIT-Thesis/figures/fall_trend.png>] [7]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]
- []
-
-
-Overfull \hbox (6.41498pt too wide) in paragraph at lines 90--90
-\OT1/ptm/m/n/10 Microphone 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]
- []
-
-
-Overfull \hbox (20.28445pt too wide) in paragraph at lines 90--90
-\OT1/ptm/m/n/10 Accelerometers 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]
- []
-
-
-Overfull \hbox (0.85506pt too wide) in paragraph at lines 90--90
-\OT1/ptm/m/n/10 Gyroscope 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]
- []
-
-
-Overfull \hbox (15.85464pt too wide) in paragraph at lines 90--90
-\OT1/ptm/m/n/10 Magnetometer 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]\OT1/ptm/m/n/10 Inertial
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-[]
- []
-
-
-Overfull \hbox (16.39456pt too wide) in paragraph at lines 93--93
-\OT1/ptm/m/n/10 Accelerometer 
- []
-
-
-Underfull \hbox (badness 3189) in paragraph at lines 93--93
-[]\OT1/ptm/m/n/10 Vacuum clean-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
-[]|[][]\OT1/ptm/m/n/10 Reiss & Stricker[],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
-[]
- []
-
-
-Overfull \hbox (0.85506pt too wide) in paragraph at lines 96--96
-\OT1/ptm/m/n/10 Gyroscope 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
-[]
- []
-
-
-Overfull \hbox (15.85464pt too wide) in paragraph at lines 96--96
-\OT1/ptm/m/n/10 Magnetometer 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
-[]\OT1/ptm/m/n/10 Walking
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-[]
- []
-
-
-Overfull \hbox (16.39456pt too wide) in paragraph at lines 99--99
-\OT1/ptm/m/n/10 Accelerometer 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[]
- []
-
-
-Overfull \hbox (16.39456pt too wide) in paragraph at lines 102--102
-\OT1/ptm/m/n/10 Accelerometer
- []
-
-
-Underfull \hbox (badness 2547) in paragraph at lines 102--102
-\OT1/ptm/m/n/10 on smart-
- []
-
-
-Overfull \hbox (26.00465pt too wide) in paragraph at lines 86--106
+[6 </Users/siraphatb/Documents/AIT-Thesis/figures/fall_trend.png>]
+Overfull \hbox (26.00465pt too wide) in paragraph at lines 89--109
  [] 
  []
 
-[8]
-<figures/single_degree.png, id=519, 803.0pt x 597.23125pt>
-File: figures/single_degree.png Graphic file (type png)
-<use figures/single_degree.png>
-Package pdftex.def Info: figures/single_degree.png  used on input line 126.
-(pdftex.def)             Requested size: 321.1943pt x 238.88826pt.
- [9] [10 </Users/siraphatb/Documents/AIT-Thesis/figures/single_degree.png>]
-<figures/DTW.jpg, id=540, 824.07875pt x 293.095pt>
+[7] [8]
+<figures/single_degree.jpg, id=502, 2559.5625pt x 1905.1175pt>
+File: figures/single_degree.jpg Graphic file (type jpg)
+<use figures/single_degree.jpg>
+Package pdftex.def Info: figures/single_degree.jpg  used on input line 128.
+(pdftex.def)             Requested size: 332.7548pt x 247.67397pt.
+ [9] [10 </Users/siraphatb/Documents/AIT-Thesis/figures/single_degree.jpg>]
+<figures/DTW.jpg, id=525, 824.07875pt x 293.095pt>
 File: figures/DTW.jpg Graphic file (type jpg)
 <use figures/DTW.jpg>
-Package pdftex.def Info: figures/DTW.jpg  used on input line 162.
+Package pdftex.def Info: figures/DTW.jpg  used on input line 165.
 (pdftex.def)             Requested size: 412.03836pt x 146.54713pt.
  [11]
-<figures/CNN.jpg, id=556, 1397.22pt x 508.90125pt>
+<figures/CNN.jpg, id=541, 1397.22pt x 508.90125pt>
 File: figures/CNN.jpg Graphic file (type jpg)
 <use figures/CNN.jpg>
-Package pdftex.def Info: figures/CNN.jpg  used on input line 178.
+Package pdftex.def Info: figures/CNN.jpg  used on input line 182.
 (pdftex.def)             Requested size: 419.16924pt x 152.67155pt.
  [12 </Users/siraphatb/Documents/AIT-Thesis/figures/DTW.jpg>]
-<figures/CNN_ts.jpg, id=564, 1210.5225pt x 386.44376pt>
+<figures/CNN_ts.jpg, id=551, 1210.5225pt x 386.44376pt>
 File: figures/CNN_ts.jpg Graphic file (type jpg)
 <use figures/CNN_ts.jpg>
-Package pdftex.def Info: figures/CNN_ts.jpg  used on input line 188.
+Package pdftex.def Info: figures/CNN_ts.jpg  used on input line 192.
 (pdftex.def)             Requested size: 363.15955pt x 115.93402pt.
-<figures/ae.jpg, id=570, 905.3825pt x 285.065pt>
+ [13 </Users/siraphatb/Documents/AIT-Thesis/figures/CNN.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/CNN_ts.jpg>]
+<figures/ae.jpg, id=561, 905.3825pt x 285.065pt>
 File: figures/ae.jpg Graphic file (type jpg)
 <use figures/ae.jpg>
-Package pdftex.def Info: figures/ae.jpg  used on input line 201.
+Package pdftex.def Info: figures/ae.jpg  used on input line 208.
 (pdftex.def)             Requested size: 452.69014pt x 142.53215pt.
 
-Overfull \hbox (12.81052pt too wide) in paragraph at lines 201--202
+Overfull \hbox (12.81052pt too wide) in paragraph at lines 208--209
  [][] 
  []
 
-[13 </Users/siraphatb/Documents/AIT-Thesis/figures/CNN.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/CNN_ts.jpg>]
-<figures/ae_architecture.jpg, id=581, 696.6025pt x 451.6875pt>
+<figures/ae_architecture.jpg, id=567, 696.6025pt x 451.6875pt>
 File: figures/ae_architecture.jpg Graphic file (type jpg)
 <use figures/ae_architecture.jpg>
-Package pdftex.def Info: figures/ae_architecture.jpg  used on input line 216.
+Package pdftex.def Info: figures/ae_architecture.jpg  used on input line 223.
 (pdftex.def)             Requested size: 348.3004pt x 225.84319pt.
- [14 </Users/siraphatb/Documents/AIT-Thesis/figures/ae.jpg>]
-<figures/ae_f_reduction.jpg, id=595, 2042.63126pt x 777.90625pt>
+[14 </Users/siraphatb/Documents/AIT-Thesis/figures/ae.jpg>]
+<figures/ae_f_reduction.jpg, id=579, 2042.63126pt x 777.90625pt>
 File: figures/ae_f_reduction.jpg Graphic file (type jpg)
 <use figures/ae_f_reduction.jpg>
-Package pdftex.def Info: figures/ae_f_reduction.jpg  used on input line 227.
+Package pdftex.def Info: figures/ae_f_reduction.jpg  used on input line 234.
 (pdftex.def)             Requested size: 408.51901pt x 155.57849pt.
  [15 </Users/siraphatb/Documents/AIT-Thesis/figures/ae_architecture.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/ae_f_reduction.jpg>]
-<figures/ae_2.jpg, id=608, 774.895pt x 614.295pt>
+<figures/ae_2.jpg, id=595, 774.895pt x 614.295pt>
 File: figures/ae_2.jpg Graphic file (type jpg)
 <use figures/ae_2.jpg>
-Package pdftex.def Info: figures/ae_2.jpg  used on input line 239.
+Package pdftex.def Info: figures/ae_2.jpg  used on input line 245.
 (pdftex.def)             Requested size: 309.95251pt x 245.71364pt.
- [16 </Users/siraphatb/Documents/AIT-Thesis/figures/ae_2.jpg>]
-<figures/ae_detection.jpg, id=620, 1511.6475pt x 874.26625pt>
+<figures/ae_detection.jpg, id=600, 1511.6475pt x 874.26625pt>
 File: figures/ae_detection.jpg Graphic file (type jpg)
 <use figures/ae_detection.jpg>
-Package pdftex.def Info: figures/ae_detection.jpg  used on input line 252.
+Package pdftex.def Info: figures/ae_detection.jpg  used on input line 259.
 (pdftex.def)             Requested size: 302.32414pt x 174.85014pt.
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 260.
-<figures/VAE.jpg, id=628, 2379.89125pt x 1105.12875pt>
+ [16 </Users/siraphatb/Documents/AIT-Thesis/figures/ae_2.jpg>]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 267.
+ [17 </Users/siraphatb/Documents/AIT-Thesis/figures/ae_detection.jpg>]
+<figures/VAE.jpg, id=622, 2379.89125pt x 1105.12875pt>
 File: figures/VAE.jpg Graphic file (type jpg)
 <use figures/VAE.jpg>
-Package pdftex.def Info: figures/VAE.jpg  used on input line 283.
+Package pdftex.def Info: figures/VAE.jpg  used on input line 291.
 (pdftex.def)             Requested size: 356.96829pt x 165.76216pt.
- [17 </Users/siraphatb/Documents/AIT-Thesis/figures/ae_detection.jpg>]
-<figures/RNN.jpg, id=644, 2060.69875pt x 544.0325pt>
+<figures/RNN.jpg, id=629, 2060.69875pt x 544.0325pt>
 File: figures/RNN.jpg Graphic file (type jpg)
 <use figures/RNN.jpg>
-Package pdftex.def Info: figures/RNN.jpg  used on input line 299.
+Package pdftex.def Info: figures/RNN.jpg  used on input line 307.
 (pdftex.def)             Requested size: 412.13245pt x 108.80457pt.
  [18 </Users/siraphatb/Documents/AIT-Thesis/figures/VAE.jpg>]
-<figures/bpp.jpg, id=658, 705.63625pt x 515.9275pt>
+<figures/bpp.jpg, id=644, 705.63625pt x 515.9275pt>
 File: figures/bpp.jpg Graphic file (type jpg)
 <use figures/bpp.jpg>
-Package pdftex.def Info: figures/bpp.jpg  used on input line 310.
+Package pdftex.def Info: figures/bpp.jpg  used on input line 318.
 (pdftex.def)             Requested size: 282.2495pt x 206.36734pt.
  [19 </Users/siraphatb/Documents/AIT-Thesis/figures/RNN.jpg>]
-<figures/RNN_2.jpg, id=667, 2059.695pt x 771.88374pt>
+<figures/RNN_2.jpg, id=653, 2059.695pt x 771.88374pt>
 File: figures/RNN_2.jpg Graphic file (type jpg)
 <use figures/RNN_2.jpg>
-Package pdftex.def Info: figures/RNN_2.jpg  used on input line 319.
+Package pdftex.def Info: figures/RNN_2.jpg  used on input line 324.
 (pdftex.def)             Requested size: 411.9317pt x 154.37401pt.
-<figures/LSTM.jpg, id=675, 1141.26375pt x 938.50626pt>
+<figures/LSTM.jpg, id=661, 1141.26375pt x 938.50626pt>
 File: figures/LSTM.jpg Graphic file (type jpg)
 <use figures/LSTM.jpg>
-Package pdftex.def Info: figures/LSTM.jpg  used on input line 329.
+Package pdftex.def Info: figures/LSTM.jpg  used on input line 334.
 (pdftex.def)             Requested size: 342.38176pt x 281.55405pt.
  [20 </Users/siraphatb/Documents/AIT-Thesis/figures/bpp.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/RNN_2.jpg>] [21 </Users/siraphatb/Documents/AIT-Thesis/figures/LSTM.jpg>] [22]
-<figures/LSTM_2.jpg, id=693, 2059.695pt x 776.9025pt>
+<figures/LSTM_2.jpg, id=679, 2059.695pt x 776.9025pt>
 File: figures/LSTM_2.jpg Graphic file (type jpg)
 <use figures/LSTM_2.jpg>
-Package pdftex.def Info: figures/LSTM_2.jpg  used on input line 372.
+Package pdftex.def Info: figures/LSTM_2.jpg  used on input line 377.
 (pdftex.def)             Requested size: 411.9317pt x 155.37775pt.
 
-Overfull \hbox (0.38693pt too wide) in paragraph at lines 378--379
+Overfull \hbox (0.38693pt too wide) in paragraph at lines 383--384
 [] \OT1/ptm/m/n/12 The Trans-former was pro-posed in the pa-per At-ten-tion is All You Need by Google [][]Vaswani
  []
 
-<figures/attention.jpg, id=699, 588.1975pt x 794.97pt>
+<figures/attention.jpg, id=685, 588.1975pt x 794.97pt>
 File: figures/attention.jpg Graphic file (type jpg)
 <use figures/attention.jpg>
-Package pdftex.def Info: figures/attention.jpg  used on input line 384.
+Package pdftex.def Info: figures/attention.jpg  used on input line 389.
 (pdftex.def)             Requested size: 235.27483pt x 317.98236pt.
 [23 </Users/siraphatb/Documents/AIT-Thesis/figures/LSTM_2.jpg>]
-<figures/rnnvsattention.jpg, id=708, 1064.97874pt x 314.17375pt>
+<figures/rnnvsattention.jpg, id=693, 1064.97874pt x 314.17375pt>
 File: figures/rnnvsattention.jpg Graphic file (type jpg)
 <use figures/rnnvsattention.jpg>
-Package pdftex.def Info: figures/rnnvsattention.jpg  used on input line 394.
+Package pdftex.def Info: figures/rnnvsattention.jpg  used on input line 399.
 (pdftex.def)             Requested size: 425.98395pt x 125.66727pt.
  [24 </Users/siraphatb/Documents/AIT-Thesis/figures/attention.jpg>]
-<figures/attention_2.jpg, id=725, 1188.44pt x 666.49pt>
+<figures/attention_2.jpg, id=710, 1188.44pt x 666.49pt>
 File: figures/attention_2.jpg Graphic file (type jpg)
 <use figures/attention_2.jpg>
-Package pdftex.def Info: figures/attention_2.jpg  used on input line 411.
+Package pdftex.def Info: figures/attention_2.jpg  used on input line 416.
 (pdftex.def)             Requested size: 356.53476pt x 199.94853pt.
  [25 </Users/siraphatb/Documents/AIT-Thesis/figures/rnnvsattention.jpg>]
-<figures/attention_3.jpg, id=738, 1177.39874pt x 667.49374pt>
+<figures/attention_3.jpg, id=724, 1177.39874pt x 667.49374pt>
 File: figures/attention_3.jpg Graphic file (type jpg)
 <use figures/attention_3.jpg>
-Package pdftex.def Info: figures/attention_3.jpg  used on input line 418.
+Package pdftex.def Info: figures/attention_3.jpg  used on input line 423.
 (pdftex.def)             Requested size: 353.22235pt x 200.24966pt.
-<figures/attention_4.jpg, id=741, 1189.44376pt x 656.4525pt>
+<figures/attention_4.jpg, id=727, 1189.44376pt x 656.4525pt>
 File: figures/attention_4.jpg Graphic file (type jpg)
 <use figures/attention_4.jpg>
-Package pdftex.def Info: figures/attention_4.jpg  used on input line 425.
+Package pdftex.def Info: figures/attention_4.jpg  used on input line 430.
 (pdftex.def)             Requested size: 356.83588pt x 196.93727pt.
-<figures/attention_5.jpg, id=744, 1185.42876pt x 666.49pt>
+<figures/attention_5.jpg, id=730, 1185.42876pt x 666.49pt>
 File: figures/attention_5.jpg Graphic file (type jpg)
 <use figures/attention_5.jpg>
-Package pdftex.def Info: figures/attention_5.jpg  used on input line 430.
+Package pdftex.def Info: figures/attention_5.jpg  used on input line 435.
 (pdftex.def)             Requested size: 355.63136pt x 199.94853pt.
  [26 </Users/siraphatb/Documents/AIT-Thesis/figures/attention_2.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/attention_3.jpg>]
-<figures/attention_6.jpg, id=752, 1343.0175pt x 446.66875pt>
+<figures/attention_6.jpg, id=738, 1343.0175pt x 446.66875pt>
 File: figures/attention_6.jpg Graphic file (type jpg)
 <use figures/attention_6.jpg>
-Package pdftex.def Info: figures/attention_6.jpg  used on input line 439.
+Package pdftex.def Info: figures/attention_6.jpg  used on input line 444.
 (pdftex.def)             Requested size: 402.90836pt x 134.00165pt.
  [27 </Users/siraphatb/Documents/AIT-Thesis/figures/attention_4.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/attention_5.jpg>]
-<figures/attention_7.jpg, id=760, 964.60374pt x 260.975pt>
+<figures/attention_7.jpg, id=746, 964.60374pt x 260.975pt>
 File: figures/attention_7.jpg Graphic file (type jpg)
 <use figures/attention_7.jpg>
-Package pdftex.def Info: figures/attention_7.jpg  used on input line 448.
+Package pdftex.def Info: figures/attention_7.jpg  used on input line 453.
 (pdftex.def)             Requested size: 385.83466pt x 104.38815pt.
 ) [28 </Users/siraphatb/Documents/AIT-Thesis/figures/attention_6.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/attention_7.jpg>]
 \openout2 = `9-methodology.aux'.
 
  (/Users/siraphatb/Documents/AIT-Thesis/9-methodology.tex
 Chapter 3.
-<figures/system_overview.jpg, id=766, 823.075pt x 786.94pt>
+<figures/system_overview.jpg, id=752, 823.075pt x 786.94pt>
 File: figures/system_overview.jpg Graphic file (type jpg)
 <use figures/system_overview.jpg>
 Package pdftex.def Info: figures/system_overview.jpg  used on input line 22.
@@ -1097,18 +958,18 @@ Package pdftex.def Info: figures/system_overview.jpg  used on input line 22.
 
 
  </Users/siraphatb/Documents/AIT-Thesis/figures/system_overview.jpg>]
-<figures/hardware.jpg, id=779, 2096.83376pt x 591.20876pt>
+<figures/hardware.jpg, id=762, 2096.83376pt x 591.20876pt>
 File: figures/hardware.jpg Graphic file (type jpg)
 <use figures/hardware.jpg>
 Package pdftex.def Info: figures/hardware.jpg  used on input line 39.
 (pdftex.def)             Requested size: 419.35933pt x 118.23965pt.
-<figures/seismic.jpg, id=781, 911.405pt x 537.00626pt>
+<figures/seismic.jpg, id=764, 911.405pt x 537.00626pt>
 File: figures/seismic.jpg Graphic file (type jpg)
 <use figures/seismic.jpg>
 Package pdftex.def Info: figures/seismic.jpg  used on input line 48.
 (pdftex.def)             Requested size: 273.4236pt x 161.10312pt.
  [30 </Users/siraphatb/Documents/AIT-Thesis/figures/hardware.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/seismic.jpg>]
-<figures/analogcircuit.jpg, id=787, 1513.655pt x 1222.5675pt>
+<figures/analogcircuit.jpg, id=771, 1513.655pt x 1222.5675pt>
 File: figures/analogcircuit.jpg Graphic file (type jpg)
 <use figures/analogcircuit.jpg>
 Package pdftex.def Info: figures/analogcircuit.jpg  used on input line 57.
@@ -1119,44 +980,50 @@ Overfull \hbox (14.22038pt too wide) in paragraph at lines 57--58
  []
 
 [31 </Users/siraphatb/Documents/AIT-Thesis/figures/analogcircuit.jpg>]
-<figures/ADC.jpg, id=793, 1008.76875pt x 479.7925pt>
+<figures/ADC.jpg, id=777, 1008.76875pt x 479.7925pt>
 File: figures/ADC.jpg Graphic file (type jpg)
 <use figures/ADC.jpg>
 Package pdftex.def Info: figures/ADC.jpg  used on input line 66.
 (pdftex.def)             Requested size: 302.63297pt x 143.93884pt.
-<figures/pi4.jpg, id=795, 931.48pt x 630.355pt>
+<figures/pi4.jpg, id=779, 931.48pt x 630.355pt>
 File: figures/pi4.jpg Graphic file (type jpg)
 <use figures/pi4.jpg>
 Package pdftex.def Info: figures/pi4.jpg  used on input line 75.
 (pdftex.def)             Requested size: 279.44615pt x 189.10796pt.
  [32 </Users/siraphatb/Documents/AIT-Thesis/figures/ADC.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/pi4.jpg>]
-<figures/home.jpg, id=801, 1890.06125pt x 1543.7675pt>
+<figures/home.jpg, id=785, 1890.06125pt x 1543.7675pt>
 File: figures/home.jpg Graphic file (type jpg)
 <use figures/home.jpg>
-Package pdftex.def Info: figures/home.jpg  used on input line 84.
+Package pdftex.def Info: figures/home.jpg  used on input line 85.
 (pdftex.def)             Requested size: 378.00555pt x 308.74803pt.
  [33 </Users/siraphatb/Documents/AIT-Thesis/figures/home.jpg>]
-<figures/LSTM_metho.jpg, id=812, 1497.595pt x 510.90875pt>
+<figures/LSTM_metho.jpg, id=794, 1497.595pt x 510.90875pt>
 File: figures/LSTM_metho.jpg Graphic file (type jpg)
 <use figures/LSTM_metho.jpg>
-Package pdftex.def Info: figures/LSTM_metho.jpg  used on input line 141.
-(pdftex.def)             Requested size: 449.28197pt x 153.2738pt.
-
-Overfull \hbox (9.40234pt too wide) in paragraph at lines 141--142
- [][] 
- []
-
-<figures/transformer_metho.jpg, id=815, 932.48375pt x 1281.78876pt>
-File: figures/transformer_metho.jpg Graphic file (type jpg)
-<use figures/transformer_metho.jpg>
-Package pdftex.def Info: figures/transformer_metho.jpg  used on input line 147.
-(pdftex.def)             Requested size: 279.74728pt x 384.5396pt.
-[34 </Users/siraphatb/Documents/AIT-Thesis/figures/LSTM_metho.jpg>]) [35 </Users/siraphatb/Documents/AIT-Thesis/figures/transformer_metho.jpg>]
+Package pdftex.def Info: figures/LSTM_metho.jpg  used on input line 142.
+(pdftex.def)             Requested size: 299.5137pt x 102.17993pt.
+<figures/transformer_metho2.jpg, id=797, 1214.5375pt x 1369.115pt>
+File: figures/transformer_metho2.jpg Graphic file (type jpg)
+<use figures/transformer_metho2.jpg>
+Package pdftex.def Info: figures/transformer_metho2.jpg  used on input line 148.
+(pdftex.def)             Requested size: 364.36406pt x 410.73767pt.
+ [34 </Users/siraphatb/Documents/AIT-Thesis/figures/LSTM_metho.jpg>] [35 </Users/siraphatb/Documents/AIT-Thesis/figures/transformer_metho2.jpg>]
+<figures/application.png, id=808, 853.1875pt x 439.6425pt>
+File: figures/application.png Graphic file (type png)
+<use figures/application.png>
+Package pdftex.def Info: figures/application.png  used on input line 163.
+(pdftex.def)             Requested size: 426.59271pt x 219.82071pt.
+<figures/dining.jpg, id=809, 4047.12pt x 3035.34pt>
+File: figures/dining.jpg Graphic file (type jpg)
+<use figures/dining.jpg>
+Package pdftex.def Info: figures/dining.jpg  used on input line 169.
+(pdftex.def)             Requested size: 404.73572pt x 303.55179pt.
+) [36 </Users/siraphatb/Documents/AIT-Thesis/figures/application.png> </Users/siraphatb/Documents/AIT-Thesis/figures/dining.jpg>]
 \openout2 = `10-results.aux'.
 
  (/Users/siraphatb/Documents/AIT-Thesis/10-results.tex
 Chapter 4.
-) [36
+) [37
 
 
 
@@ -1166,12 +1033,12 @@ Chapter 4.
 
  (/Users/siraphatb/Documents/AIT-Thesis/11-conclusion.tex
 Chapter 5.
-<figures/timetable.jpg, id=832, 3289.28876pt x 1518.67375pt>
+<figures/timetable.jpg, id=822, 3289.28876pt x 1518.67375pt>
 File: figures/timetable.jpg Graphic file (type jpg)
 <use figures/timetable.jpg>
 Package pdftex.def Info: figures/timetable.jpg  used on input line 16.
 (pdftex.def)             Requested size: 427.62256pt x 197.43451pt.
-) [37
+) [38
 
 
 
@@ -1186,125 +1053,96 @@ Underfull \hbox (badness 2096) in paragraph at lines 44--57
  []
 
 
+Underfull \hbox (badness 3240) in paragraph at lines 92--105
+[]\OT1/ptm/m/n/12 Alammar, J.  (2019).  \OT1/ptm/m/it/12 The il-lus-trated gpt-2 (vi-su-al-iz-ing trans-former lan-guage
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 180--195
+\OT1/ptm/m/n/12 Data Sci-ence.  Re-trieved from []$\OT1/pcr/m/n/12 https :// towardsdatascience [] .com /
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 180--195
 \OT1/pcr/m/n/12 first [] -neural [] -network [] -for [] -beginners [] -explained [] -with [] -code []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--246
-\OT1/pcr/m/n/12 time [] -series [] -forecasting [] -with [] -deep [] -stacked [] -unidirectional []
+Underfull \hbox (badness 10000) in paragraph at lines 387--401
+\OT1/pcr/m/n/12 an [] -overview [] -of [] -time [] -series [] -forecasting [] -models [] -part [] -1 []
+ []
+
+[39
+
+
+
+]
+Underfull \hbox (badness 1960) in paragraph at lines 681--694
+[]\OT1/ptm/m/n/12 Klingenbrunn, N.  (2021).  \OT1/ptm/m/it/12 Trans-former im-ple-men-ta-tion for time-series fore-cast-
+ []
+
+[40]
+Underfull \hbox (badness 4859) in paragraph at lines 1027--1040
+[]\OT1/ptm/m/n/12 Rajan, S.  (2021).  \OT1/ptm/m/it/12 Di-men-sion-al-ity re-duc-tion us-ing au-toen-coders in python.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--427
-\OT1/pcr/m/n/12 .com / an [] -overview [] -of [] -time [] -series [] -forecasting [] -models [] -part [] -1 []
- []
-
-[38
-
-
-
-] [39]
-Underfull \hbox (badness 1412) in paragraph at lines 1028--1041
-[]\OT1/ptm/m/n/12 Rajan, S.  (2021, Jun).  \OT1/ptm/m/it/12 Di-men-sion-al-ity re-duc-tion us-ing au-toen-coders in python.
- []
-
-
-Underfull \hbox (badness 2846) in paragraph at lines 1028--1041
+Underfull \hbox (badness 2846) in paragraph at lines 1027--1040
 \OT1/ptm/m/n/12 Re-trieved from []$\OT1/pcr/m/n/12 https :// www [] .analyticsvidhya [] .com / blog / 2021 / 06 /
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 1116--1131
-[]\OT1/ptm/m/n/12 Rihana, S., & Mon-dalak, J.  (2016, Oct).  \OT1/ptm/m/it/12 Wear-able fall de-tec-tion sys-tem.
+Underfull \hbox (badness 10000) in paragraph at lines 1115--1130
+[]$\OT1/pcr/m/n/12 https :// ieeexplore [] .ieee [] .org / abstract / document / 7745414 /$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1143--1156
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1155
 []$\OT1/pcr/m/n/12 https :// towardsdatascience [] .com / understanding [] -variational []
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 1168--1180
-[]\OT1/ptm/m/n/12 Roger.  (2021, Jul).  \OT1/ptm/m/it/12 Vari-a-tional au-toen-coder(vae).  \OT1/ptm/m/n/12 Re-trieved from []$\OT1/pcr/m/n/12 https ://
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1168--1180
-\OT1/pcr/m/n/12 medium [] .com / geekculture / variational [] -autoencoder [] -vae []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1249--1263
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1237
 \OT1/pcr/m/n/12 24 / denoising [] -autoencoders [] -with [] -keras [] -tensorflow [] -and [] -deep []
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 1339--1350
+Underfull \hbox (badness 2503) in paragraph at lines 1313--1324
 []\OT1/ptm/m/n/12 SteelConstruction.  (2016).  \OT1/ptm/m/it/12 Floor vi-bra-tions.  \OT1/ptm/m/n/12 Re-trieved from []$\OT1/pcr/m/n/12 https :// www []
  []
 
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 1394--1409
+
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1383
 []$\OT1/pcr/m/n/12 https :// medium [] .com / @sinart [] .t / long [] -short [] -term [] -memory [] -lstm []
  []
 
-
-Underfull \hbox (badness 4205) in paragraph at lines 1733--1745
-[]\OT1/ptm/m/n/12 Weng, L.  (2018, Aug).  \OT1/ptm/m/it/12 From au-toen-coder to beta-vae.  \OT1/ptm/m/n/12 Re-trieved from
+[41]
+Underfull \hbox (badness 1286) in paragraph at lines 1735--1747
+[]\OT1/ptm/m/n/12 Weng, L.  (2018).  \OT1/ptm/m/it/12 From au-toen-coder to beta-vae.  \OT1/ptm/m/n/12 Re-trieved from []$\OT1/pcr/m/n/12 https ://
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1733--1745
-[]$\OT1/pcr/m/n/12 https :// lilianweng [] .github [] .io / lil [] -log / 2018 / 08 / 12 / from []
+Underfull \hbox (badness 10000) in paragraph at lines 1735--1747
+\OT1/pcr/m/n/12 lilianweng [] .github [] .io / lil [] -log / 2018 / 08 / 12 / from [] -autoencoder []
  []
 
-) [41]
-\openout2 = `appendix-a.aux'.
-
- (/Users/siraphatb/Documents/AIT-Thesis/appendix-a.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 2.
-
-) [42
-
-]
-\openout2 = `appendix-b.aux'.
-
- (/Users/siraphatb/Documents/AIT-Thesis/appendix-b.tex
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 2.
-
-LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <12> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 28.
-<figures/monitoring.pdf, id=926, 693.792pt x 289.08pt>
-File: figures/monitoring.pdf Graphic file (type pdf)
-<use figures/monitoring.pdf>
-Package pdftex.def Info: figures/monitoring.pdf  used on input line 29.
-(pdftex.def)             Requested size: 361.34999pt x 150.56065pt.
-) [43
-
-
-
- </Users/siraphatb/Documents/AIT-Thesis/figures/monitoring.pdf>] (/Users/siraphatb/Documents/AIT-Thesis/main.aux (/Users/siraphatb/Documents/AIT-Thesis/1-title.aux) (/Users/siraphatb/Documents/AIT-Thesis/2-acknowledgment.aux) (/Users/siraphatb/Documents/AIT-Thesis/3-abstract.aux) (/Users/siraphatb/Documents/AIT-Thesis/4-tableOfContent.aux) (/Users/siraphatb/Documents/AIT-Thesis/5-listOfTable.aux) (/Users/siraphatb/Documents/AIT-Thesis/6-listOfFigure.aux) (/Users/siraphatb/Documents/AIT-Thesis/7-introduction.aux) (/Users/siraphatb/Documents/AIT-Thesis/8-literatureReview.aux) (/Users/siraphatb/Documents/AIT-Thesis/9-methodology.aux) (/Users/siraphatb/Documents/AIT-Thesis/10-results.aux) (/Users/siraphatb/Documents/AIT-Thesis/11-conclusion.aux) (/Users/siraphatb/Documents/AIT-Thesis/appendix-a.aux) (/Users/siraphatb/Documents/AIT-Thesis/appendix-b.aux))
+) [42] (/Users/siraphatb/Documents/AIT-Thesis/main.aux (/Users/siraphatb/Documents/AIT-Thesis/1-title.aux) (/Users/siraphatb/Documents/AIT-Thesis/3-abstract.aux) (/Users/siraphatb/Documents/AIT-Thesis/4-tableOfContent.aux) (/Users/siraphatb/Documents/AIT-Thesis/5-listOfTable.aux) (/Users/siraphatb/Documents/AIT-Thesis/6-listOfFigure.aux) (/Users/siraphatb/Documents/AIT-Thesis/7-introduction.aux) (/Users/siraphatb/Documents/AIT-Thesis/8-literatureReview.aux) (/Users/siraphatb/Documents/AIT-Thesis/9-methodology.aux) (/Users/siraphatb/Documents/AIT-Thesis/10-results.aux) (/Users/siraphatb/Documents/AIT-Thesis/11-conclusion.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3AB53F082B06D721D474C8C3CC7E9426;6171.
+(rerunfilecheck)             Checksum: 93B731DC6B8E09DD2FD5B5864060430A;5687.
  ) 
 Here is how much of TeX's memory you used:
- 13531 strings out of 478994
- 211916 string characters out of 5858184
- 538388 words of memory out of 5000000
- 30408 multiletter control sequences out of 15000+600000
- 463706 words of font info for 170 fonts, out of 8000000 for 9000
+ 13586 strings out of 478994
+ 212049 string characters out of 5858184
+ 538338 words of memory out of 5000000
+ 30486 multiletter control sequences out of 15000+600000
+ 448883 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,10n,74p,1153b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/siraphatb/Documents/AIT-Thesis/main.pdf (51 pages, 6194448 bytes).
+ 71i,10n,74p,1249b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/siraphatb/Documents/AIT-Thesis/main.pdf (49 pages, 15750125 bytes).
 PDF statistics:
- 1023 PDF objects out of 1200 (max. 8388607)
- 911 compressed objects within 10 object streams
- 215 named destinations out of 1000 (max. 500000)
- 504 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 998 PDF objects out of 1000 (max. 8388607)
+ 889 compressed objects within 9 object streams
+ 213 named destinations out of 1000 (max. 500000)
+ 485 words of extra memory for PDF output out of 10000 (max. 10000000)
 

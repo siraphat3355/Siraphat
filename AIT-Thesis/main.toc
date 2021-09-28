@@ -1,7 +1,6 @@
-\contentsline {part}{ACKNOWLEDGMENTS}{ii}{Doc-Start}%
-\contentsline {part}{ABSTRACT}{iii}{Doc-Start}%
-\contentsline {part}{LIST OF TABLES}{vi}{Doc-Start}%
-\contentsline {part}{LIST OF FIGURES}{vii}{Doc-Start}%
+\contentsline {part}{ABSTRACT}{ii}{Doc-Start}%
+\contentsline {part}{LIST OF TABLES}{v}{Doc-Start}%
+\contentsline {part}{LIST OF FIGURES}{vi}{Doc-Start}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background of the Study}{1}{section.1.1}%
 \contentsline {paragraph}{}{1}{section.1.1}%
@@ -20,18 +19,19 @@
 \contentsline {section}{\numberline {1.5}Scope and Limitations}{4}{section.1.5}%
 \contentsline {paragraph}{}{4}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Literature Review}{5}{chapter.2}%
+\contentsline {paragraph}{}{5}{chapter.2}%
+\contentsline {paragraph}{}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Fall}{5}{section.2.1}%
 \contentsline {paragraph}{}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Fall Detection}{5}{subsection.2.1.1}%
 \contentsline {paragraph}{}{5}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Fall Detection by using Vibration sensor}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Fall detection by using vibration sensors}{6}{subsection.2.1.2}%
 \contentsline {paragraph}{}{6}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Human Activity}{7}{section.2.2}%
 \contentsline {paragraph}{}{7}{section.2.2}%
 \contentsline {paragraph}{}{7}{section.2.2}%
-\contentsline {paragraph}{}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Floor Vibrations}{9}{section.2.3}%
-\contentsline {paragraph}{}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Floor Vibrations}{8}{section.2.3}%
+\contentsline {paragraph}{}{8}{section.2.3}%
 \contentsline {paragraph}{}{9}{section.2.3}%
 \contentsline {paragraph}{}{9}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Time Series}{10}{section.2.4}%
@@ -39,18 +39,19 @@
 \contentsline {paragraph}{}{10}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Autoregressive (AR)}{11}{subsection.2.4.1}%
 \contentsline {paragraph}{}{11}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Dynamic Time Warping (DTW)}{11}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Time series classification}{11}{subsection.2.4.2}%
 \contentsline {paragraph}{}{11}{subsection.2.4.2}%
 \contentsline {paragraph}{}{12}{figure.caption.5}%
-\contentsline {subsection}{\numberline {2.4.3}Convolution Neural Network (CNN)}{12}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.3}Convolutional Neural Network (CNN)}{12}{subsection.2.4.3}%
 \contentsline {paragraph}{}{12}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Autoencoder}{13}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Autoencoders}{13}{section.2.5}%
 \contentsline {paragraph}{}{13}{section.2.5}%
+\contentsline {paragraph}{}{14}{section.2.5}%
 \contentsline {paragraph}{}{14}{figure.caption.8}%
 \contentsline {paragraph}{}{15}{figure.caption.9}%
 \contentsline {paragraph}{}{15}{figure.caption.10}%
 \contentsline {paragraph}{}{16}{figure.caption.11}%
-\contentsline {subsection}{\numberline {2.5.1}Autoencoder for Anomaly Detection}{16}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.1}Autoencoders for Anomaly Detection}{16}{subsection.2.5.1}%
 \contentsline {paragraph}{}{16}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Variational Autoencoder}{17}{subsection.2.5.2}%
 \contentsline {paragraph}{}{17}{subsection.2.5.2}%
@@ -58,7 +59,6 @@
 \contentsline {section}{\numberline {2.6}Recurrent Neural Network (RNN)}{18}{section.2.6}%
 \contentsline {paragraph}{}{18}{section.2.6}%
 \contentsline {paragraph}{}{19}{figure.caption.14}%
-\contentsline {paragraph}{}{20}{figure.caption.15}%
 \contentsline {section}{\numberline {2.7}Long Short-Term Memory (LSTM)}{20}{section.2.7}%
 \contentsline {paragraph}{}{20}{section.2.7}%
 \contentsline {paragraph}{}{21}{figure.caption.17}%
@@ -93,11 +93,10 @@
 \contentsline {section}{\numberline {3.2}Anomaly Detection Models}{34}{section.3.2}%
 \contentsline {paragraph}{}{34}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Evaluation Plan}{35}{subsection.3.2.1}%
+\contentsline {paragraph}{}{35}{subsection.3.2.1}%
 \contentsline {section}{\numberline {3.3}Deployment}{35}{section.3.3}%
-\contentsline {chapter}{\numberline {4}EXPECTED OUTCOMES}{36}{chapter.4}%
-\contentsline {paragraph}{}{36}{chapter.4}%
-\contentsline {chapter}{\numberline {5}WORK PLAN}{37}{chapter.5}%
-\contentsline {part}{REFERENCES}{38}{figure.caption.38}%
-\bf {APPENDICES}
-\contentsline {section}{\bf {APPENDIX A: SURVEY QUESTIONNAIRE}}{42}{chapter*.39}%
-\contentsline {section}{\bf {APPENDIX B: TITLE}}{43}{section*.40}%
+\contentsline {paragraph}{}{35}{section.3.3}%
+\contentsline {chapter}{\numberline {4}EXPECTED OUTCOMES}{37}{chapter.4}%
+\contentsline {paragraph}{}{37}{chapter.4}%
+\contentsline {chapter}{\numberline {5}WORK PLAN}{38}{chapter.5}%
+\contentsline {part}{REFERENCES}{39}{figure.caption.40}%
