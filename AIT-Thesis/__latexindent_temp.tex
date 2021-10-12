@@ -5,101 +5,104 @@
 % set line space 1.5
 \setlength{\baselineskip}{1.6em}
 
-\setlength{\footskip}{8mm}
 
 \chapter{Literature Review} 
 \label{ch:literature-review}
 
+\paragraph{}
+Nowadays, Falls are concernable problem around the world. Fall detection is an interested topic that researchers prefer to receive the best accuracy. Several methods have tried to overcome this problem, but they have suffered with a lot of constrains. Nonetheless, using vibration signal to detect fall actions may highly modernize in order to mitigate senile fall problem.
+
+\paragraph{}
+There are several knowledge related fields which start from vibration untill artificial intelligence model, and every section of this system as software and hardware are equally important. Thus, we have to explore and deeply understand in each branch in order to build the best system.
+
+
 \section{Fall}
 \label{Fall}
 \paragraph{}
-Falls happen to people of all ages, but older people have a high probability of being  harmed and are more likely to fall, especially if they have an abnormal health conditions or balance problems. Falls are a common, but often disregarded, cause of injury. As statistic, Around 1 in 3 adults over 65 and half of people over 80 will have at least one fall a year \cite{nhs_2019}. Most falls do not result in serious injury. But there is always a risk that a fall could lead to broken bones, and it can cause the person to have paralysis. In addition, the level of injury depends on time assistance. Unintentional falls can cause severe injuries and even death, especially if no immediate assistance is given.
+Falls happen to people of all ages, but older people have a high probability of being  harmed and are more likely to fall, especially if they have an abnormal health conditions or balance problems. Falls are a common but often disregarded cause of injury. According to \citeauthor{nhs_2019} \citeyear{nhs_2019} one in three adults over 65 and half of the people over 80 have at least one fall per year. Most falls do not result in serious injury, but there is always a risk that a fall could lead to broken bones, and it can cause the person to have paralysis. In addition, the level of injury depends on the timeliness of the assistance. Unintentional falls can cause severe injuries and even death, especially if no immediate assistance is given.
 
 \subsection{Fall Detection}
 \paragraph{}
-Let’s start with the trend of fall detection, as illustrated in Figure \ref{fig:fall_trend}, the data is downloaded from Google Trends with the search topic ‘Fall Detection’. It can be observed that the fall detection topic has gotten more attention and significantly increased in 2019. The several researchers selected to use different sensors and methods depending on their proposes and technological industry. Consequently, it can prove that this topic is what people interested in and  becomes more popular in nearly future.
+Global trends in fall detection are illustrated in Figure \ref{fig:fall_trend}. The data are downloaded from Google Trends with the search topic ``Fall Detection". Fall detection has gotten increasingly more attention over time and significantly increased in 2019. The values are indexed to be 100, where 100 is the maximum search interest for that period of time with specific location. Researchers have developed systems using a variety of different sensors and methods depending on their proposes and technological industry. Consequently, we can conclude that this topic is of interest and is becoming increasingly popular.
 
 
 \begin{figure}[H]
   \centering
-  \caption[Fall detection trend]{\emph{Interest of “Fall Detection” overtime from 2004 to present.}}\label{fig:fall_trend}
+  \caption[Interest in “Fall Detection” over time from 2004 to present according to Google Trends.]{\emph{Interest in “Fall Detection” over time from 2004 to present according to Google Trends.}}\label{fig:fall_trend}
   \includegraphics[width=\textwidth]{figures/fall_trend.png}  
 \end{figure}
 
-\subsection{Fall Detection by using Vibration sensor}
+\subsection{Fall detection by using vibration sensors}
 \paragraph{}
-In the Table \ref{tab:fall_review}, it shows the evolution of fall detection from floor vibration. It can be notice that most of them used classifier model to detect the fall event by using simulated fall data which they were not actual fall. Furthermore, they do not deploy their system in the real environment which cannot guarantee an actual performance of model. Thus to overcome these weaknesses, author would like to apply anomaly detection approach to compensate rarely falling down data or unseen pattern, and send alert to caretaker or assistance who always can take care lonely victim as soon as possible.
+Table \ref{tab:fall_review} shows the evolution of fall detection from floor vibration. Most researches use classifier models to detect fall events with training performed on simulated fall data that were not real falls. Furthermore, none of these researchers have deployed their system in real environments, so the real world performance of the models is not convincing. To overcome these weaknesses, I will apply anomaly detection to compensate for the rarity of events such as real falls and other or unseen patterns, and send alerts to the caretaker or an assistance who can take care of a victim who is alone as soon as possible.
 
 \begin{table}[H]
 \begin{center}
-\linespread{0.55}\selectfont\centering
-\caption[Summary of literature review for fall detection from floor vibration]{Summary of literature review for fall detection from floor vibration \\}\label{tab:fall_review}
-\begin{tabular}{m{0.13\textwidth} m{0.23\textwidth} m{0.20\textwidth} m{0.18\textwidth} m{0.1\textwidth}}
-  \textbf{Authors} & \textbf{Data Collection} & \textbf{Related Sensors} & \textbf{Algorithms} & \textbf{Alarm}\\
-\hline
-\shortciteA{Alwan_2003}& Simulated by people.& N/A&  \begin{itemize} \item Threshold \end{itemize}& N/A \\
-\hline
-   \shortciteA{alwan_rajendran_kell_mack_dalal_wolfe_felder_2006}& Simulated by people and dummies. & \begin{itemize} \item Piezoelectric \end{itemize} & \begin{itemize} \item Threshold \end{itemize} & Send messages to a pager \\
+% \linespread{0.55}\selectfont\centering
+\caption[Summary of literature review for fall detection from floor vibration.]{Summary of literature review for fall detection from floor vibration. \\}\label{tab:fall_review}
+\begin{tabular}{m{0.13\linewidth} m{0.23\linewidth} m{0.18\linewidth} m{0.18\linewidth} m{0.2\linewidth} }
+  \textbf{Authors} & \textbf{Data Collection} & \textbf{Sensors} & \textbf{Algorithms} & \textbf{Alarm} \\
 \hline
 
-\shortciteA{litvak_zigel_gannot_2008}& Simulated by people and dummies.& \begin{itemize} \item Microphone \item Accelerometer  \end{itemize} & \begin{itemize} \item Gaussian model \item Suquential forward floating selection (SFFS)  \end{itemize} & N/A \\
+\shortciteA{Alwan_2003} & Simulated by people. &  N/A & Threshold & N/A \\
+\hline
+   \shortciteA{alwan_rajendran_kell_mack_dalal_wolfe_felder_2006} & Simulated by people and dummies. & Piezoelectric & Threshold  & Send messages to a pager \\
 \hline
 
-
-\shortciteA{davis_caicedo_langevin_hirth_2011} & Simulated by people. & N/A & \begin{itemize} \item Threshold \end{itemize}& N/A \\
-\hline
-
-\shortciteA{inproceedings}& N/A & \begin{itemize} \item Pyroelectric infeared (PIR) \item Vibration sensor\end{itemize}& \begin{itemize} \item Support vector machine (SVM) \end{itemize} & N/A\\
+\shortciteA{litvak_zigel_gannot_2008} & Simulated by people and dummies. & Microphone \newline Accelerometer & Gaussian model \newline Sequential forward floating selection (SFFS) \raggedright & N/A \\
 \hline
 
 
-\shortciteA{shao_wang_song_ilyas_guo_chang_2020} & Simulated by 3d-printed skeleton & \begin{itemize} \item Accelerometer\end{itemize} & \begin{itemize} \item K-nearest neighbor (KNN) \end{itemize} & N/A\\
+\shortciteA{davis_caicedo_langevin_hirth_2011} & Simulated by people. & N/A & Threshold & N/A \\
 \hline
 
-\shortciteA{liu_jiang_su_benzoni_maxwell_2019}& Simulated by people and dummies.& \begin{itemize} \item Seicmic \end{itemize} & \begin{itemize} \item A multi-features semi-supervised support vector machines (MFSS - SVM) \end{itemize} & N/A \\
+\shortciteA{inproceedings} & N/A & Pyroelectric infeared (PIR) \newline Vibration sensor & Support vector machine (SVM) \raggedright & N/A \\
 \hline
 
-\shortciteA{clemente_li_valero_song_2020}& N/A & \begin{itemize} \item Seismic  \end{itemize} & \begin{itemize} \item One-class SVM  \end{itemize} & N/A \\
+
+\shortciteA{shao_wang_song_ilyas_guo_chang_2020} & Simulated by 3d-printed skeleton \raggedright & Accelerometer on smartphone & K-nearest-neighbor (KNN) & N/A \\
 \hline
 
-\shortciteA{mukherjee2020multisense}& N/A & \begin{itemize} \item Motion sensor \item Heat sensor \item Vibration sensor \end{itemize} & \begin{itemize} \item Threshold  \end{itemize} & N/A \\
+\shortciteA{liu_jiang_su_benzoni_maxwell_2019} & Simulated by people and dummies. & Seismic  &  A multi-features semi-supervised support vector machines (MFSS - SVM) \raggedright & N/A \\
 \hline
+
+\shortciteA{clemente_li_valero_song_2020} & N/A & Seismic & One-class SVM & N/A \\
+\hline
+
+\shortciteA{mukherjee2020multisense} & N/A &  Motion sensor \newline Heat sensor \newline Vibration sensor & Threshold & N/A \\
+\hline
+
    \end{tabular}
 \end{center}
  \end{table}
 
 \section{Human Activity}
 \paragraph{}
-The readers are going to have a doubt why I need to research human activity. I can easily say that If I apply the traditional machine learning method which often uses supervised learning technique, it means I have to collect fall data for classification purposes. And once fall events occur, the system should detect and alert the users. Nonetheless, I prefer to apply anomaly detection techniques to handle this problem. And then, normally activity should be fed to the model in order to let the model learn. Thus, it would be better that I research for fundamental human activity at home.
+To create training data for anomaly detection in the home, it is important to cover all of the typical activities that people are expected to engage in in the home.
 
 \paragraph{}
-\citeauthor{schrader_2020} \citeyear{schrader_2020}  say there is no common definition of description of human activities that can explain how a specific activity is characterized because the human activity is highly diverse. Nonetheless, the fundamental activity in home has to be walking since a resident needs to move several inside the house to do other events \cite{oukrich_2019}. There also are other general activities that every person especially does. To search for those activities, I summarized  literature reviews for human activity in home as shown in Table \ref{tab:human_activity}.
-
-\paragraph{}
-Accordingly, it can be observed that each paper had done experiment in different activities that they are interested in but there are some duplicate common activities which have often been shown in such as sitting, walking, standing and lying.
+\citeauthor{schrader_2020} \citeyear{schrader_2020}  say there is no common definition or description of human activities because human activity is highly diverse. Nonetheless, the most fundamental activity in home is clearly walking, since a resident needs to move several inside the home to perform any other activities \cite{oukrich_2019}. There also are other general activities that every person does. I summarized activity catagories proposed in the literature on human activity in home in Table \ref{tab:human_activity}. Each paper in the table includes experiments on different activities of interest, and there are some common activities across most of the studies such as sitting, walking, standing and lying.
 
 \begin{table}[H]
 \begin{center}
-\caption[Summary of literature review for human activity.]{\emph{Summary of literature review for human activity.}}\label{tab:human_activity}
-\linespread{0.1}\selectfont\centering
-\footnotesize
-\begin{tabular}{m{0.2\textwidth} m{0.3\textwidth} m{0.2\textwidth} m{0.25\textwidth}}
+\caption[Summary of literature review on human activity.]{\emph{Summary of literature review on human activity.}} \label{tab:human_activity}
+\begin{tabular}{m{0.2\textwidth} m{0.3\textwidth} m{0.2\textwidth} m{0.25\textwidth} }
   \textbf{Authors} & \textbf{Objective of study} & \textbf{Related Sensors} & \textbf{Identified Activities} \\
 \hline
 
-\shortciteA{roggen_2010} & Collect complex activity datasets in home & \begin{itemize} \item Microphone \item Accelerometers \item Gyroscope \item Magnetometer \item Inertial sensor \end{itemize}  & \begin{itemize} \item Sitting  \item Walking \item Standing \item Lying\end{itemize}\\
+\shortciteA{roggen_2010} \raggedright & Collect complex activity datasets in home \raggedright & Microphone \newline Accelerometers \newline Gyroscope \newline Magnetometer \newline Inertial sensor & Sitting  \newline Walking \newline Standing \newline Lying \\
 \hline
 
-\cite{chen_xue_2015} & Classify human activity by single accelerometer & \begin{itemize} \item Accelerometer \end{itemize}  & \begin{itemize} \item Walking  \item Walking \item Standing \item Lying \item Running \item Rope jump \item Vacuum cleaning \item Downstairs\item Upstairs \end{itemize}\\
+\cite{chen_xue_2015} \raggedright & Classify human activity by single accelerometer \raggedright  & Accelerometer &  Walking \newline Standing \newline Lying \newline Running \newline Rope jump \newline Vacuum cleaning \newline Downstairs \newline Upstairs \\
 \hline
 
-\cite{reiss_stricker_2012} &Create a new dataset for physical activity and made publicly available & \begin{itemize} \item Gyroscope \item Magnetometer\end{itemize}  & \begin{itemize} \item Sitting  \item Step walking \item Walking quickly \item Falling \item Jumping \item Running \item Downstairs\item Upstairs \end{itemize}\\
+\cite{reiss_stricker_2012} \raggedright & Published a new public dataset for physical activity \raggedright & Gyroscope \newline Magnetometer &  Sitting \newline Step walking \newline Walking quickly \newline Falling \newline Jumping \newline Running \newline Downstairs \newline Upstairs \\
 \hline
 
-\shortciteA{ugolotti_sassi_mordonini_cagnoni_2011} &Detect and classify human activities & \begin{itemize} \item Camera \item Accelerometer\end{itemize}  & \begin{itemize} \item Sitting  \item Walking \item Standing \item Lying \item Get up \item Fall \item Rise \end{itemize} \\
+\shortciteA{ugolotti_sassi_mordonini_cagnoni_2011} \raggedright & Detect and classify human activities \raggedright & Camera \newline Accelerometer & Sitting \newline Walking \newline Standing \newline Lying \newline Get up \newline Fall \newline Rise \\
 \hline
 
-\cite{abbate_avvenuti_bonatesta_cola_corsini_vecchio_2012} & Detect the fall event & \begin{itemize} \item Accelerometer on smartphone \end{itemize}  & \begin{itemize} \item Sitting  \item Walking \item Lying\item Running \item Jumping \item Hitting the sensor \end{itemize} \\
+\cite{abbate_avvenuti_bonatesta_cola_corsini_vecchio_2012} \raggedright & Detect fall events & Accelerometer on smartphone & Sitting \newline Walking \newline Lying \newline Running \newline Jumping \newline Hitting the sensor \\
 \hline
 
    \end{tabular}
@@ -109,146 +112,150 @@ Accordingly, it can be observed that each paper had done experiment in different
 
 \section{Floor Vibrations}
 \paragraph{}
-Basically, the vibrating movement of the building by residents during the normal activities causes the floor vibration.This vibration is normally vertical \cite{steelconstruction_2016}. Floor vibrations are generated by dynamic loads which come through directly by people (e.g. walking, dancing, jumping) or machinery or  indirectly by environment (e.g. traffic). Theoretically, vibrations are illustrated by cyclic motion with 2 significant parts as frequency and amplitude. In practice, floor vibrations are quite complex dynamic systems with unlimited vibrational mode. \citeauthor{ljunggren2006floor} \citeyear{ljunggren2006floor} summarised the parameter that influence dynamic system of a floor as following:
+Movement in a building by residents during their normal activities causes floor vibration. This vibration is normally vertical \cite{steelconstruction_2016}. Floor vibrations are generated by dynamic loads caused directly by people (e.g. walking, dancing, jumping) or machinery, or they may be generated indirectly by the external environment (e.g. traffic). Theoretically, vibrations are cyclic motions with two significant attributes, frequency and amplitude. In practice, floor vibrations are quite complex dynamic systems with unlimited vibrational modes. \citeauthor{ljunggren2006floor} \citeyear{ljunggren2006floor} summarises the parameter that influence the dynamic system of a floor:
 \begin{itemize}
-\item Stiffness (k): The stiffness control the springiness.  The higher stiffness can lowly affect amplitude when a force is applied.
-\item Damping: This factor depends on their own characteristic materials. It is extremely difficult to know the exactly damping value.
-\item Mass (M): This higher mass can lowly affect amplitude. Thus, the low mass is desirable  in order to generate vibration because it highly impact with forces. However,  If the mass is  too little, it may disturb residents.
-\item Fundamental frequency: it depends on the stiffness, and the mass. A higher frequency is normally less annoying.\paragraph{}
+\item Stiffness ($k$): Stiffness controls the springiness of the floor. Higher stiffness can decreases the vibrational amplitude occurring due to a force.
+\item Damping ($\zeta$): This factor depends on the material making up the surface. It is extremely difficult to obtain an exact damping value.
+\item Mass ($M$): Higher mass surfaces have reduced vibrational amplitudes. Lower mass is desirable if we want to observe vibrations. However, when the mass is too little, the resulting strong vibrations may disturb residents.
+\item Fundamental frequency: Floor vibrations are assumed to be occur mainly at a natural frequency, which depends on the stiffness and the mass. Higher frequencies are usually less annoying to residents than lower frequencies.\paragraph{}
 \end{itemize}
 \paragraph{}
-Nonetheless, we can handle this complex by model as a series of simple mass and spring models with a single degree of freedom \cite{p_spring_2015}. We can assume the characteristic of vibration  as illustrated in Figure \ref{fig:s_degree}.
+The complexities of the dynamic system can be modeled as a series of simple mass and spring models with a single degree of freedom \cite{p_gavin_2015}. The characteristics of a vibration model are illustrated in Figure \ref{fig:s_degree}.
 
 \begin{figure}[H]
   \centering
-  \caption[The single degree of freedom systems]{\emph{The single degree of freedom systems \\
-  Reprinted from work of \citeauthor{steelconstruction_2016} \citeyear{steelconstruction_2016}}  }\label{fig:s_degree}
-  \includegraphics[scale = 0.4]{figures/single_degree.png}  
+  \caption[Single degree of freedom system mass-spring model for floor vibration.]{\emph{Single degree of freedom system mass-spring model for floor vibration. \\ Reprinted from \citeauthor{steelconstruction_2016} \citeyear{steelconstruction_2016}.}  }\label{fig:s_degree}
+  \includegraphics[scale = 0.13]{figures/single_degree.jpg}  
 \end{figure}
 
 \section{Time Series}
 \paragraph{}
-A time series is a sequence of the data points on a particular variable. Generally, each data points should be taken at a constant intervals as seconds, minutes, hours, days, months, and years.  The different procedure of time series is that the lag values of the target variable are used to predict the value of the target variable as predictor variable. On the other hand, the traditional other types of model do not require target variable as predictors since the historical data has no dependence to current or future data. 
+A time series is a sequence of measurements of a particular random variable at specific sequence of discrete points in time. Generally, the data should be sampled at a constant interval expresssed in as seconds, minutes, hours, days, months, and/or years. In time series analysis, we would generally like to predict a traget variable at particular time lags given a window of previous measurements. This is unusual in that in ordinary supervised classification or regression, the target at time $t$ is not used as a feature at a later time, but in time series analysis, this is often the case. 
 
 \paragraph{}
-There are many diverse techniques in order to analyze sequential data. However, the original technique started from a special case of regression analysis \cite{dash_2020} which is different from normal regression. Time series consist of four different elements as following:
+There are many diverse techniques for analyzing sequential data. The simplest techniques are a special case of regression analysis in which we want to capture four different elements as following \cite{dash_2020}:
 \begin{itemize}
-\item Seasonal variations: the repeats of shape or appearance occur during a specific period such as daily, weekly, monthly, season, etc.
-\item Trend: it contains 3 different type as up trend, down trend, and sideway which can be linear or non-linear.
-\end{itemize}
-\begin{itemize}
-\item Cyclical variations: its movement depends on its cyclic such as business cycles. it has a similar behavior as seasonal variations but has a longer period.
-\item Random variations: this situation when the sequential data does not belong to 3 categorize above.
+\item Seasonal variations: Repeating shape or appearance occuring during a specific period such as daily, weekly, monthly, or seasonally.
+\item Trend: Possible trends are upwards, downwards, or constantard can be linear or nonlinear.
+\item Cyclical variations: Movement that follows a specific cyclic period such as business cycles. Cyclical variations are similar to seasonal variations but have different underlying cases specific to the particular problem.
+\item Random variations: The variation remaining after the first three types of predictable variation are accounted for.
 \end{itemize}
 
 \subsection{Autoregressive (AR)}
 \paragraph{}
-Actually, autoregressive models which use for predict or forecast proposes operate under the condition that the current value depends on the past values. The equation of autoregressive is shown below:
+Autoregressive models, the simplest time series models, which are used for predict or forecasting proposes, operate under the assumption that each new value depends on some or all of the the past values. The generative model for a linear of autoregressive process is shown below:
 
 \hfil $Y_t = \varphi_1Y_{t-1} + \cdots + \varphi_pY_{t-p} + \epsilon_t $ \par 
 
-Where  is white noise and  is a parameter coefficient. For example, AR(1) means the current value is based on the immediately value. AR(2) means the current values is based the previous two values.
+where $\epsilon \sim N(0, \sigma^2)$. p is the order of the model, which we write as AR(p). For example, AR(1) means the observation at time $t$ depends only on the observation at time $t-1$ plus noise, whereare. AR(2) means $y_t$ depends on the previous two values as well as a noise sample.
 
-\subsection{Dynamic Time Warping (DTW)}
+\subsection{Time series classification}
 \paragraph{}
-Since the last two decades, one of the most challenging problems in data mining is a classification in time series \cite{ismail_fawaz_forestier_weber_idoumghar_muller_2019}. There are several methods to solve this task. Specifically, the Dynamic Time Warping (DTW) can be outstanding as a strong baseline, which the current state-of-the-art is non deep classifier. The dynamic time warping which use for classification is a popular technique to provide the best distance and alignment trajectory between two sequential data which can stretch or shrink to accommodate variations in the time axis as well \cite{dynamic_time_warping_2007}. The equation of DTW is shown below, where D(i,j) refer to the dynamic time warping distance between the subsequences: Figure \ref{fig:DTW}
+Over the last two decades, one of the most challenging problems in data mining is a classification of time series \cite{ismail_fawaz_forestier_weber_idoumghar_muller_2019}. Several methods have emerged for time series classification. The naive algorithm is Euclidean maching, which is not normally effective without some modification. On the other hand, dynamic time warping (DTW) is an outstanding baseline, and the current state of the art would in the most cases be represented by deep learning classifiers. Dynamic time warping is based on an alignment cost computed between two data sequences that can be stretched or shrunk to accommodate variations along the time axis \cite{meinard_2007, toyoda_sakurai_2012}. Consider two sequences, $X = (x_1, x_2, ..., x_n)$ of length $n$ and $Y = (y_1, y_2, ..., y_m)$ of length $m$. The DTW distance $D(X,Y)$ is defined as: 
 
-\hfil $ D(i,j) = \| x_i - y_j \|$ + $min$ $\begin{cases} $D(i-1, j  )$ \\ $D(i-1, j-1)$ \\$D(i  , j-1)$ \end{cases}$  \par 
+\hfil $ D(X, Y) = D(m, n)$ \par 
+\hfil $ D(i,j) = (x_i - y_j)^2$ + $\min$ $\begin{cases} $D(i-1, j)$ \\ $D(i-1, j-1)$ \\$D(i, j-1)$ \end{cases}$  \par 
+where $D(0, 0) = 0$, $D(i, 0) = D(j, 0) = \infty$, $i = (1, 2, ..., n)$ and $j = (1,2, ...,m)$.
+
 
 \begin{figure}[H]
   \centering
-  \caption[The different of Euclidean and DTW matching.]{\emph{The different of Euclidean and DTW matching. \\
-  Reprinted from Dynamic time warping on Wikipedia}}\label{fig:DTW}
+  \caption[Euclidean maching versus DTW matching.]{\emph{Euclidean maching versus DTW matching. \\
+  Reprinted from Dynamic time warping \cite{dtw_2021}.}}\label{fig:DTW}
   \includegraphics[scale = 0.5]{figures/DTW.jpg}  
 \end{figure}
 
-\paragraph{}
-In addition, this technique can be used not only for pattern matching or classification, but also anomaly detection when the distance of two signal is higher than set threshold. However, the weaknesses of dynamic time warping are that it consume long processing time, and still lacking complete solutions and development. That why this method is not widely used commercially.
 
-\subsection{Convolution Neural Network (CNN)}
 \paragraph{}
-A Convolution Neural Network is a deep learning algorithm, which input can be image, spatial or 2 dimension data and also 1 dimension data. This allows CNN to be used in more general data type including texts and other time series data. CNN can be able to successfully capture the spatial and temporal dependencies in the data through the relevant filters as called convolution. A convolution is a sliding a filter though the time series as shown in Figure \ref{fig:CNN} and its general equation is shown in equation below:
+DTW can be used not only for pattern matching or classification, but also for anomaly detection. If the distance between a new signal and each signal in a gallery of historical signals is higher than a set threshold, we can conclude the new signal is an anomaly. The main weaknesses of dynamic time warping is its long processing time. Some more effective learning-based approaches are explained in the following sections.
 
-\hfil $C_t = f(W \cdot X_{t-l/2 \to t+l/2} + b) | \forall t \in [1, T] $ \par \
+\subsection{Convolutional Neural Network (CNN)}
+\paragraph{}
+A Convolutional neural network is a deep learning model whose input can be an image, video, spatial data, or any multidimensional tensor with locality. One-dimensional CNNs can be used on general data types including text tokens and other types of time series data. CNNs capture spatial and temporal dependencies in a dataset through convolutional filters. A convolution kernel is local linear filter that is slid over the imput tensor along one or more dimensions to obtain a feature map as shown in Figure \ref{fig:CNN}. The general method for temporal CNN layer with a nonlinear activation function is
+
+\hfil $C_t = f(W \cdot X_{t-l/2 \to t+l/2} + b) | \forall t \in [1, T], $ \par \
 
 \begin{figure}[H]
   \centering
-  \caption[Convolving on univariate input time series]{\emph{Convolving on univariate input time series \\
-  Reprinted from work of \citeauthor{ismail_fawaz_forestier_weber_idoumghar_muller_2019} \citeyear{ismail_fawaz_forestier_weber_idoumghar_muller_2019}}}\label{fig:CNN}
+  \caption[Convolving on univariate input time series.]{\emph{Convolving on univariate input time series. \\
+  Reprinted from \citeauthor{ismail_fawaz_forestier_weber_idoumghar_muller_2019} \citeyear{ismail_fawaz_forestier_weber_idoumghar_muller_2019}.}}\label{fig:CNN}
   \includegraphics[scale = 0.3]{figures/CNN.jpg}  
 \end{figure}
 
 
-Where $C_t$ is the result of a convolution at time $t$ on a univariate time series $X$ of length $T$ with a filter $W$ of length $l$ , a bias parameter $b$ and a final non-linear function $f$. It can be noticed that the same filter values $W$ and bias $b$ is a very significant useful property called weight sharing. When finishing convolution, those information must be fed though fully-connected layer as same as simple neural network architecture as shown in Figure \ref{fig:CNN_ts}.
+where $C_t$ is the result of the convolution operation at time $t$ on time series $X$ of length $T$ with a filter $W$ of length $l$, a bias parameter $b$, and a final non-linear function $f$. It can be noticed that the same filter values $W$ and bias $b$ are used at every timestep, a very significant and useful property called weight sharing. When a series of convolutions are completed, the resulting feature maps would typically be fed though fully-connected layer as in the simple neural network architecture shown in Figure \ref{fig:CNN_ts}.
 
 \begin{figure}[H]
   \centering
-  \caption[Fully Convolutional Neural Network architecture.]{\emph{Fully Convolutional Neural Network architecture.  \\
-  Reprinted from work of \citeauthor{ismail_fawaz_forestier_weber_idoumghar_muller_2019} \citeyear{ismail_fawaz_forestier_weber_idoumghar_muller_2019}}}\label{fig:CNN_ts}
+  \caption[Typical temporal convolutional neural network architecture.]{\emph{Typical temporal convolutional neural network architecture.  \\
+  Reprinted from \citeauthor{ismail_fawaz_forestier_weber_idoumghar_muller_2019} \citeyear{ismail_fawaz_forestier_weber_idoumghar_muller_2019}.}}\label{fig:CNN_ts}
   \includegraphics[scale = 0.3]{figures/CNN_ts.jpg}  
 \end{figure}
 
 
 
-\section{Autoencoder}
+\section{Autoencoders}
 \paragraph{}
-Basically, an autoencoder is an artificial neural network which can be able to compress data as similar as what it has been trained. The important thing is that to train a model, it does not require labeled data since an autoencoder is an unsupervised model, just feed the raw input into it. As shown in Figure \ref{fig:ae}, this illustrated the intuition of how an autoencoder works. In addition, it can use for denoising form the original data, this is training autoencoder to reproduce the original input from a noisy input. This allow the autoencoder to be flexible with white noise data and capture only useful pattern of the data \cite{vincent10a}.
+An autoencoder is a neural network able to compress data similar to what it was trained on. Autoencoders do not require labeled data for training since they utilize unsupervised learning. We just feed the raw input into the model. Figure \ref{fig:ae} illustrates the intuition of how an autoencoder works. 
+
+\paragraph{}
+Besides compression, an autoencoder can be used for denoising by training the autoencoder to reproduce an original noiseless input given a noisy input. This allows the autoencoder to be flexible in the presence of white noise capturing only useful patterns in the data \cite{vincent10a}.
 
 \begin{figure}[H]
   \centering
-  \caption[How does an autocoder work?]{\emph{How does an autocoder work? \\
-  Reprinted from work of \citeauthor{chollet_2016} \citeyear{chollet_2016}}}\label{fig:ae}
+  \caption[An autocoder workflow.]{\emph{An autocoder workflow. \\
+  Reprinted from \citeauthor{chollet_2016} \citeyear{chollet_2016}.}}\label{fig:ae}
   \includegraphics[scale = 0.5]{figures/ae.jpg}  
 \end{figure}
 
 \paragraph{}
-An autoencoder has 3 main components \cite{badr_2019} as encoder, code or bottleneck and decoder as shown in Figure \ref{fig:ae_architecture}.
+An autoencoder has three main components \cite{badr_2019}: the encoder, the code or bottleneck, and the decoder, as shown in Figure \ref{fig:ae_architecture}.
 \begin{itemize}
-\item Encoder: The model learns how to reduce the input dimensions and compress the input data into an encoded representation.
-\item Bottleneck: The layer that contains the compressed representation of the input data. This is the lowest possible dimensions of the input data, also called latent space.
-\item Decoder: The model learns how to reconstruct the data from the encoded representation to be as close to the original input as possible.
+\item Encoder: Learns how to reduce input dimensionality, compressing the input data into an encoded representation.
+\item Bottleneck: The layer that contains the compressed representation of the input data. This code space is also called the latent space.
+\item Decoder: Learns how to reconstruct as closely as possible the input pattern from the encoded representation.
 \end{itemize}
 
 \begin{figure}[H]
   \centering
   \caption[The autoencoder architecture.]{\emph{The autoencoder architecture. \\
-  Reprinted from work of \citeauthor{pedamkar_2019} \citeyear{pedamkar_2019}}}\label{fig:ae_architecture}
+  Reprinted from \citeauthor{pedamkar_2019} \citeyear{pedamkar_2019}.}}\label{fig:ae_architecture}
   \includegraphics[scale = 0.5]{figures/ae_architecture.jpg}  
 \end{figure}
 
 \paragraph{}
-The indirect benefits of this model is that it can use for dimensional reduction \cite{rajan_2021}. You can notice that in the bottleneck, the number of neural node is the smallest. Thus, it means the feature of input also be forced to reduces its features. An example of reduced feature by using autoencoder as illustrated in Figure \ref{fig:ae_f_reduction}. It is reduced from 3 to 2 dimensions.
+The indirect benefits of this model is that it can be used for dimensionality reduction \cite{rajan_2021}. The bottleneck has the fewest units of any layer. An example of the kinds of compression an autoencoder can achieve is shown in Figure \ref{fig:ae_f_reduction}. This model reduces the three dimensional input to two dimensions.
 
 
 \begin{figure}[H]
   \centering
-  \caption[The dimensionality reduction by using autoencoder.]{\emph{The dimensionality reduction by using autoencoder.  
-  Reprinted from work of \citeauthor{the_swiss_roll_2015} \citeyear{the_swiss_roll_2015}}}\label{fig:ae_f_reduction}
+  \caption[Visualization of dimensionality reduction using autoencoders.]{\emph{Visualization of dimensionality reduction using autoencoders. \\ 
+  Reprinted from Johns Hopkins University \citeyear{johns_hopkins_university_2015}.}}\label{fig:ae_f_reduction}
   \includegraphics[scale = 0.2]{figures/ae_f_reduction.jpg}  
 \end{figure}
 
-
 \paragraph{}
-The other magic of an autoencoder is that when the input is wrong or has some noises, the model is going to correct it as shown in Figure \ref{fig:ae_2}. This is because optimizer is trying to create the output that matches the trained value as much as possible. \citeauthor{vincent_larochelle_bengio_manzagol_2008} \citeyear{vincent_larochelle_bengio_manzagol_2008} found that the robustness of their internal layers (i.e., bottom neck representation) are developed by adding noise to the original input.
+Besides compression, an autoencoder can be used for denoising by training the autoencoder to reproduce an original noiseless input given a noisy input, as shown in Figure \ref{fig:ae_2}. This is because the optimizer encodes the inputs it was trained on as much as possible. \citeauthor{vincent_larochelle_bengio_manzagol_2008} \citeyear{vincent_larochelle_bengio_manzagol_2008} found that the robustness of the code at the bottleneck was improved by adding noise to the original input. This allows the autoencoder to be flexible in the presence of white noise capturing only useful patterns in the data \cite{vincent10a}.
 
 
 \begin{figure}[H]
   \centering
-  \caption[An autoencoder tries to correct the output.]{An autoencoder tries to correct the output. \\\hspace{\textwidth}
-  \emph{Reprinted from work of \citeauthor{rosebrock_2020} \citeyear{rosebrock_2020}}}\label{fig:ae_2}
+  \caption[An autoencoder trained on ``clean" images can correct noisy input.]{\emph{An autoencoder trained on ``clean'' images can correct noisy input. \\
+  Reprinted from \citeauthor{rosebrock_2020} \citeyear{rosebrock_2020}.}}\label{fig:ae_2}
   \includegraphics[scale = 0.4]{figures/ae_2.jpg}  
 \end{figure}
 
 \paragraph{}
-In addition, the network architecture of autoencoders which contain neural network can be adapted between a simple feedforward network, Long Short Term Memory network (LSTM) or Convolutional Neural Network (CNN) depending on the type of input. Based on my thesis, the input, vibration from human activities, is always in sequential time series. Therefore, an applicant autoencoder with LSTM network architecture may be suitable for my proposal.
+Beside the simple feedforward layers described previously, autoencoder can be combined with long short term memory networks (LSTMs) or convolutional neural networks (CNNs) depending on the type of input. In my thesis, the input, vibration from human activities, is a sequential time series. Therefore, an combination of autoencoder with LSTM networks may be suitable for my purpose.
 
-\subsection{Autoencoder for Anomaly Detection}
+\subsection{Autoencoders for Anomaly Detection}
+
 \paragraph{}
-The magic of autoencoders is simple and very natural. Let’s take a look at our daily life. We do the same things everyday. But one day, we find that an unusual event has happened. We just consider this event absolutely abnormal. The procedure of an autoencoder is exactly the same. An autoencoder does not need any anomaly data at all. It required only normal data to train the model. And when abnormal situations occur, the model can detect that situation as similar to our daily life and be shown in Figure \ref{fig:ae_detection}. It uses the reconstruction error to make decision which data is abnormal. Firstly, we always feed the normal data into the model to train the autoencoder. Secondly, after training is finished, the model can reconstruct very well on the normal data. And it is going to fail when faced abnormal data which model has never seen before. The simple algorithm is shown in Algorithm \ref{al:anomaly_detection_algorithm}.
+Autoencoders are extremely useful as methods of typicality. Consider a person who does the same things every day. Suppose that one day, an unusual event occurs. An autoencoder trained on the usual daily activities will map the new situation to something similar in the training, as shown in Figure \ref{fig:ae_detection}. The reconstruction error in abnormal causes should be high. A model trained on one type of data (the normal activities) will fail when facing abnormal data it has never seen before. The simple autoencoder-based anomaly detection algorithm is shown in Algorithm \ref{al:anomaly_detection_algorithm}.
 
 \begin{figure}[H]
   \centering
-  \caption[An autoencoder knows that an anomaly event occurs]{An autoencoder knows that an anomaly event occurs \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{pavithrasv_2020} \citeyear{pavithrasv_2020}}}\label{fig:ae_detection}
+  \caption[An autoencoder capable of detecting anomalous events in time series.]{\emph{An autoencoder capable of detecting anomalous events in time series. \\ Reprinted from \citeauthor{pavithrasv_2020} \citeyear{pavithrasv_2020}.}}\label{fig:ae_detection}
   \includegraphics[scale = 0.2]{figures/ae_detection.jpg}  
 \end{figure}
 
@@ -257,203 +264,222 @@ The magic of autoencoders is simple and very natural. Let’s take a look at our
 \renewcommand{\algorithmicforall}{\textbf{for each}}
 
 \begin{algorithm}[H]
-\caption{Autoencoder based anomaly detection }
+\caption{Autoencoder-based anomaly detection }
 \label{al:anomaly_detection_algorithm}
 \begin{algorithmic}
-  \REQUIRE $X$: Normal data
-  \ENSURE $\bar{x} $: Reconstruct data
-  \STATE $\| X - \bar{x} \|$ : Reconstruction error
-  \STATE $\alpha$ : Threshold
-  \STATE Step 1 : Train an autoencoder with the normal dataset 
-  \STATE Step 2 : Testing the model
-  \STATE \indent Step 2.1 : Set a value of $\alpha$
-  \STATE \indent Step 2.2 : \textbf{if} reconstruction error $<$ $\alpha$ \textbf{then} $X$ is a normal data
-  \STATE \indent \indent \indent \textbf{else} $X$ is an abnormal data
+  \REQUIRE Normal dataset: $X^{(i)} (i = 1,..., m)$, abnormal dataset: $x^{(j)}$ $(j = 1, ..., n)$, threshold: $\alpha$
+  \ENSURE Reconstruct data: $\hat{X}$
+  \STATE Reconstruction error: $\| X - \hat{X} \|$ 
+  \STATE Train an autoencoder using the normal dataset X $\rightarrow$ $L^* = \underset{L} {\operatorname{argmin}} \sum_{i=1}^m \| {X}^{(i)} - \hat X^{(i)} \| ^ 2$
+  \STATE Testing an autoencoder:
+  \STATE \textbf{for} j = 1 to $n$ \textbf{do}:
+  \STATE \indent \textbf{if} reconstruction error $<$ $\alpha$:
+  \STATE \indent \indent $x^{(j)}$ is a nomal.
+  \STATE \indent \textbf{else}:
+  \STATE \indent \indent $x^{(j)}$ is an anomaly.
 \end{algorithmic}
 \end{algorithm}
 
 \subsection{Variational Autoencoder}
 \paragraph{}
-Basically, Variational Autoencoder (VAE) is a generative model. It estimates the Probability Density Function (PDF) from the training dataset. For example, if model is trained with traffic images, it should provide a high probability value to vehicle images or some object that related with traffic. Otherwise, it should provide a low probability value. In addition, the variational autoencoder can also sample from the learned PDF and generate new examples that look similar to the original dataset \cite{roger_2021}. Or in the other words, a variational autoencoder can be defined as being encoder which is trained to be regularized in order to guarantee that latent space can provide well properties for generative process \cite{rocca_2020}. The architecture of variational autoencoder is illustrated in Figure \ref{fig:VAE}. Thus, the latent space of a variational autoencoder always be sampled from a distribution that encoders learns for each latent feature. 
+The variational autoencoder (VAE) is a generative model like the ordinary autoencoder, it encodes and decodes data in the training set, but it also attempts to model the probability density over the input space of the examples emitted by the data source, by transforming, e.g., Gaussian distributied latent vectors to elements of the input space. For example, if model is trained with traffic images, the decoder, when passed a sample from the code space, would have a high probability of emitting vehicle images object related to traffic. Other data would have a low probability of being emitted. By sampling in the latent space reconstructing, the variational autoencoder can also generate new examples that look similar to those from the original dataset \cite{roger_2021}. In the other words, a variational autoencoder is an encoder which is trained to be regularized at the bottomneck in order to guarantee that latent space is a good source for the generative process \cite{rocca_2020}. The architecture of a variational autoencoder is illustrated in Figure \ref{fig:VAE}. The latent space of a variational autoencoder is easy to sample from.
 
 \begin{figure}[H]
   \centering
-  \caption[The architecture of variational autoencoder.]{The architecture of variational autoencoder. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{weng_2018} \citeyear{weng_2018}}}\label{fig:VAE}
+  \caption[Architecture of a variational autoencoder.]{\emph{Architecture of a variational autoencoder. \\
+  Reprinted from \citeauthor{weng_2018} \citeyear{weng_2018}.}}\label{fig:VAE}
   \includegraphics[scale = 0.15]{figures/VAE.jpg}  
 \end{figure}
 
 \paragraph{}
-Nonetheless, the idea mentioned above does not mean that a variational autoencoder have better performance than general autoencoder in all anomaly detection task \cite{agmon_2021} since the variational autoencoder mostly stands out as a generating new data.
+The principles mentioned above do not mean that a variational autoencoder always has better performance than general autoencoders in anomaly detection tasks \cite{agmon_2021}, since the objective of the variational autoencoder is as a generative model for new data.
 
-
-\section{Recurrent Neural Network (RNN)}
+\section{Generative Adversarial Networks (GANs)}
 \paragraph{}
-The main idea of Recurrent Neural Network (RNN) is to apply sequential data such as video (sequence of images) or text (sequence of word). To get more intuition about RNN, for example, when people are reading a book, it is a sequence of words because we read a book from left to right. That we can know what the sentence we are reading is about. We take the story from what we have read in the past (let's call it the hidden state or previous state) and mix it with the words we just read (input data or the words we are reading at that time). RNN uses the same principle, which is to modify the format of the old neural network so that the previous state or knowledge can be added to the new input data to understand something in a sequential time series \cite{donges_2019}. A key attribute of recurrent neural networks is their ability to persist information, or cell state, for use later in the network. There are 2 significant components of RNN as hidden state and input data.
+The generative adversarial networks was first introduced in the paper ``Generative Adversarial Nets'' \cite{goodfellow_pouget_abadie_mirza_xu_warde_farley_ozair_courville_bengio_2014}
+
+
+
+\section{Recurrent Neural Networks (RNNs)}
+\paragraph{}
+The main idea of recurrent neural networks (RNNs) is to process sequential data such as videos (sequences of images) or text (sequences of words). For example, when we read a book, we observe a sequence of tokens (words) as we read from left to right. To understand what the sentence is about, we observe each token in the sequence, and mix it with the meaning of the words we previously read. A RNN uses the same principle, by modifying simple feedforward neural networks so that the previous state can be combined with new inputs in a sequential time series \cite{donges_2019}. A key attribute of RNNs is their ability to retain the results of processing at one time, or cell state, for use later in the process. The important elements of a RNN are its input, its hidden state, its output, as well as how all these are connected to each other.
 
 
 \begin{figure}[H]
   \centering
-   \caption[The Recurrent Neural Network architecture.]{The Recurrent Neural Network architecture. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{olah_2015} \citeyear{olah_2015}}}\label{fig:RNN}
+   \caption[Recurrent neural network architecture.]{\emph{Recurrent neural network architecture. \\ 
+   Reprinted from \citeauthor{olah_2015} \citeyear{olah_2015}.}}\label{fig:RNN}
   \includegraphics[scale = 0.2]{figures/RNN.jpg}  
 \end{figure}
 
-Where $A$ is Hidden layer, $X_t$ is input data at time $t$, and $h_t$ is an output from RNN at time $t$. As shown in Figure \ref{fig:RNN}, on the left shows that there is a loop that loops back into the hidden layer of the Neural Network. As mentioned above, one of the key aspects of the RNN is the previous hidden state and the input data at that time. The main benefit of this loop is to bring back the previous hidden state. (Or we may think of RNN as a Neural Network with more memory to store the previously calculated hidden state). On the right, it is flattened of work step by step.
+\paragraph{}
+where $X_t$ is input data at time $t$, $A$ is Hidden layer, and $h_t$ is an output from RNN at time $t$ shown in Figure \ref{fig:RNN}. The main benefit of this loop is to bring back the previous hidden state, or simply say that RNN is a Neural Network with more memory to store the previously calculated hidden state. 
 
 \paragraph{}
-The main problem of RNN is its gradient. For those who have experienced in neural networks would clearly know that to update weights we use a backpropagation algorithm \cite{arnx_2019}, which calculates the gradient of the loss function ($E$) to update the weights which is shown in Figure \ref{fig:bpp}, but RNN is a bit more complicated. Because getting the output $h_t$ is not only from the interval $t=t$, but from $t=t-1, t-2, ....$ all the way to $t=1$ (via Use the hidden state and input data of the previous one, the previous one, the previous one, and so on).
+The main problem in RNNs is called the ``vanishing gradient'' problem. To update the weights in a neural networks, we use backpropagation of loss using chain rules for the gradient \cite{arnx_2019}. We calculate the gradient of the loss function ($E$) with respect to the parameters, as shown in Figure \ref{fig:bpp}. RNNs are more complicated, because the output $h_t$ depends not only on timestep $t$, but also on timesteps $t-1, t-2, ..., 1$. Therefore, the backpropagation has to include all calculations from the first timestep to the last. When the gradient magnitude is less than one, a series continuous multiplications will cause the gradient magnitude to decrease as the sequence gets longer. Specifically, the simple RNNs still have difficulties with data with sequential dependencies over a long period of time.
 
 \begin{figure}[H]
   \centering
-  \caption[The concept of optimization in a feed-forward neural network.]{The concept of optimization in a feed-forward neural network. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{donges_2019} \citeyear{donges_2019}}}\label{fig:bpp}
+  \caption[The concept of optimization in a feed-forward neural network.]{\emph{The concept of optimization in a feed-forward neural network. \\Reprinted from \citeauthor{donges_2019}. \citeyear{donges_2019}}}\label{fig:bpp}
   \includegraphics[scale = 0.4]{figures/bpp.jpg}  
 \end{figure}
 
-\paragraph{}
-Therefore, backpropagation has to be included in all calculations from $t=1$ to $t=t$. Then If the gradient value is less than 1, long continuous multiplications like this will cause the gradient to decrease as the length of its sequence. In explicit, the RNN still has a problem with the data that the sequence is too long.
-
 \begin{figure}[H]
   \centering
-  \caption[The repeating module in a standard RNN contains a single layer.]{The repeating module in a standard RNN contains a single layer. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{olah_2015} \citeyear{olah_2015}}}\label{fig:RNN_2}
+  \caption[The repeating module in a standard RNN contains a single layer.]{\emph{The repeating module in a standard RNN contains a single layer. \\Reprinted from \citeauthor{olah_2015} \citeyear{olah_2015}.}}\label{fig:RNN_2}
   \includegraphics[scale = 0.2]{figures/RNN_2.jpg}  
 \end{figure}
 
 \section{Long Short-Term Memory (LSTM)}
 \paragraph{}
-Long short-term memory networks are an extension for recurrent neural networks, which basically extends the memory. Therefore it is well suited to learn from important experiences that have very long time lags in between \cite{donges_2019,olah_2015}. In addition, memory can also have a descriptor when should write, forget (delete) or read as shown in  Figure \ref{fig:LSTM}.
+Long short-term memory networks are an extension of simple RNNs that attempt to mitigate the problem of vanishing gradient under long term dependencies. LSTMs are well suited to learn from important events with long time lags in between \cite{donges_2019,olah_2015}. This is accomplished by giving the memory (hidden state) gates enabling forget (delete), write, and read, as shown in Figure \ref{fig:LSTM}.
 
 \begin{figure}[H]
   \centering
-  \caption[The procedure inside the LSTM.]{The procedure in the LSTM. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{sirinart_tangruamsub_2017} \citeyear{sirinart_tangruamsub_2017}}}\label{fig:LSTM}
+  \caption[LSTM structure.]{\emph{LSTM structure. \\ Reprinted from  \citeauthor{sirinart_tangruamsub_2017} \citeyear{sirinart_tangruamsub_2017}.}}\label{fig:LSTM}
   \includegraphics[scale = 0.3]{figures/LSTM.jpg}  
 \end{figure}
 
 \paragraph{}
-Before getting into the working of LSTM, there are some variables which should be known as following \cite{sirinart_tangruamsub_2017}:
+Before specifying the LSTM's details, some variables are needed \cite{sirinart_tangruamsub_2017}:
 \begin{itemize}
-\item Cell state: store the memory state of memory cell the LSTM
-\item Gate: control the flow of data, (i.e. analog values) that control when to, write, forget or read. When it should allow data to flow in, flow out or pass away (forget)
+\item Cell state: The LSTM's memory.
+\item Gate: A module controling the flow of data, e.g., allowing a write, a read, or a forget operation.
 \end{itemize}
 \paragraph{}
-To be more clear, I will explain each functional gate one by one as following :
+The three operations in a LSTM are as follows.
 
 \paragraph{}
-Forget : Forget is like clearing the old cell state (forget it), and preparing to clear memory for the new input. The person who decides whether to delete or not delete is a rule of forget gate. If the forget gate returns 0, then delete the previous cell state. If the forget gate returns 1, the model is going to store this cell state further. To create this forget gate, the model is going to look at the incoming input data with the previous hidden state (according to the RNN formula) for making decisions. The sigmoid function is used as shown in the equation below.
+\textbf{Forget}: Forgeting involves (partly or wholly) clearing an old cell state in preparation for new input. The forget gate has the responsibility of deciding whether to clear cell state. If the forget gate outputs zero, the previous cell state is cleared completely. If the forget gate outputs a one, the model retains the cell state completely. In between 0 and 1, the state is attenuated proportionally. The forget gate integrates the incoming input data and the previous hidden state (according to the RNN formula) for making decisions. A sigmoid activation is to limit the gate range to 0 - 1. The gate output $f_t$ is defined as
 
-\hfil $ f_t = \sigma(W_{x^f}x_t + W_{h^f}h_{t-1} + b_f) $ \par 
+\hfil $ f_t = \sigma(\mathbf{W_{x^f}}x_t + \mathbf{W_{h^f}}h_{t-1} + b_f) $, \par 
 
-  \paragraph{}
-Write : When the new input is fed to the model, it will raise up 2 possible questions as is it good to update cell state with new one and if the model has to update, it will be updated with what value. Firstly, should the model update its cell state? This action is controlled by an input gate which still uses the sigmoid function. This computation which is shown below uses the incoming input data value and the previous hidden state.
-
-\hfil $ i_t = \sigma(W_{x^i}x_t + W_{h^i}h_{t-1} + b_i) $ \par
-Secondly, If the model really updates, what value should it update? It is called “Input modulation date” to handle. The equation which is shown below is similar to the input gate, but uses a tanh function instead.
-
-\hfil $ g_t = \tanh(W_{x^c}x_t + W_{h^c}h_{t-1} + b_c) $ \par 
+where $\mathbf{W_{x^f}}$ is the linear weight vector applied to the model's input at time $t$, $\mathbf{W_{h^f}}$ is the linear weight vector for the hidden state propagated from time $t-1$, $x_t$ is the incomming input, $h_{t-1}$ is the previous hidden state, $b_f$ is the forget gate bias, and $\sigma$ is the sigmoid function.
 
 \paragraph{}
-Update cell state : Currently, we get information from the forget gate, input gate and input modulation gate which are enough to update cell state. The equation of update cell state will be shown below.
+\textbf{Write}: When new input is fed to the model, it first must decide whether to update its cell state. This action is controlled by an input gate also using a sigmoid activation. This computation is 
 
-\hfil $c_t = f_t \cdot c_{t-1} + i_t \cdot g_t $ \par 
-Let's start with the first part of the equation. You can notice that If the forget gate wants to delete the old cell state ($f_t$ is 0), the model will not let $c_{t -1}$ to update cell state anymore. But if $f_t$ is 1, the model can still keep $c_{t -1}$ to be considered. Let’s come to the latter part of the equation. This section will update the cell state from the new data. Now that model has the values to be updated and waited from the input modulation gate or $g_t$. If $i_t$ is 1, then use $g_t$ to update. Otherwise, $g_t$ is useless.
+\hfil $ i_t = \sigma(\mathbf{W_{x^i}}x_t + \mathbf{W_{h^i}}h_{t-1} + b_i) $, \par
+
+where $i_t$ is output of the input gate, $\mathbf{W_{x^i}}$ is the linear weight vector for the input, $\mathbf{W_{h^i}}$ is the weight vector for the hidden state, $x_t$ is the input, $h_{t-1}$ is the previous hidden state, $b_i$ is the input gate bias, and $\sigma$ is the sigmoid function. Secondly, if the model decides to do an update ($i_t$ is large), what value should it update with? This question is answered by the “Input modulation gate”. The input modulation gate uses a tanh function instead of a sigmoid. The gate value is 
+
+\hfil $ g_t = \tanh(\mathbf{W_{x^c}}x_t + \mathbf{W_{h^c}}h_{t-1} + b_c) $, \par 
+
+where $g_t$ is the input modulation gate's output, $\mathbf{W_{x^c}}$ is the linear weight vector for the input, $\mathbf{W_{h^c}}$ is the linear weight vector for the hidden state, $x_t$ is the input, $h_{t-1}$ is the previous hidden state, $b_c$ is the input modulation gate bias, and $\tanh$ is the hyperbolic tangent function.
 
 \paragraph{}
-Read : The name here might be confusing. What is it going to read next? Let's skip to explain the output first. From the original RNN, what the model needs to produce is the hidden state at time $t$ or $h_t$. At the time of $t+1$, this LSTM takes this $h_t$ to be calculated. Therefore, the word “read” means to allow outsiders to read the $h_t$ or not. Or it will not pass the $h_t$ value. Here we have an output gate to help the model decide as shown in the equation below. 
+\textbf{Update cell state}: Once the forget gate, input gate, and input modulation gate values are calculated, the cell state is updated as
 
-\hfil $ o_t = \sigma(W_{x^o}x_t + W_{h^o}h_{t-1} + b_o) $ \par 
-And the output will be $h_t$ for the next sequence
+\hfil $c_t = f_t \circ c_{t-1} + i_t \circ g_t $, \par 
 
-\hfil $ h_t = o_t \cdot \tanh(c_t) $ \par 
-As you can see, if the output gate provides $o_t$ with 0 value, then ht then is 0 (meaning nothing is sent). Meanwhile, if $o_t$ is 1, the model computes $h_t$ and sends it outside or simply says that it allows others to see the $h_t$ value.
+where $c_t$ is the current cell state and $c_{t-1}$ is the previous cell state. Clearly, the forget gate optionally deletes the old cell state when $f_t$ is zero. When $f_t$ is a one, the model can propagates $c_{t -1}$. When $i_t$ is a one, the input modulation gate $g_t$ provides the update, based on the current input and previous hidden state. If $i_t$ is close to zero, $g_t$ is overlooked.
+
+\paragraph{}
+\textbf{Read}: In sample RNNs, the model produces a hidden state $h_t$ on each time $t$. At  time $t+1$, a LSTM similarly takes the previous $h_t$. The term “read” for a LSTM means to allow a downstream elements to read $h_t$ or to block the $h_t$ value from being propagated. The output gate is calculated by
+
+\hfil $ o_t = \sigma(\mathbf{W_{x^o}}x_t + \mathbf{W_{h^o}}h_{t-1} + b_o) $, \par 
+
+where $\mathbf{W_{x^o}}$ is the linear weight vector of the input, $\mathbf{W_{h^o}}$ is the linear weight vector of the hidden state, $x_t$ is the input, $h_{t-1}$ is the previous hidden state, and $b_o$ is the output gate bias. The output $o_t$ is propagated to the next timestep in order to control read operation, i.e.,
+
+\hfil $ h_t = o_t \circ \tanh(c_t) $. \par 
+If the output gate $o_t$ is zero, $h_t$ is attenuated to zero meaning nothing is sent. On the other hand, if $o_t$ is one, the model propagates $h_t$ as an output and propagates.
 
 \begin{figure}[H]
   \centering
-  \caption[The repeating module in a LSTM contains four interacting layer.]{The repeating module in a LSTM contains four interacting layer. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{sirinart_tangruamsub_2017} \citeyear{sirinart_tangruamsub_2017}}}\label{fig:LSTM_2}
-  \includegraphics[scale = 0.2]{figures/LSTM_2.jpg}  
+  \caption[The repeating module in a LSTM contains four interacting layer.]{\emph{The repeating module in a LSTM contains four interacting layer. \\Reprinted from \citeauthor{olah_2015} \citeyear{olah_2015}.}}\label{fig:LSTM_2}
+  \includegraphics[scale = 0.14]{figures/LSTM_2.jpg}  
 
 \end{figure}
 
 \section{Transformer}
 \paragraph{}
-The Transformer was proposed in the paper Attention is All You Need by Google \cite{vaswani_shazeer_parmar_uszkoreit_jones_n_gomez_kaiser_polosukhin_2017}. This paper proposes a new architecture that replaces RNNs with attention called Transformer as shown in Figure \ref{fig:attention}. Transformer architecture has continued to beat benchmarks in many domains. Explicitly, it has revolutionized the Natural Language Processing (NLP) field particularly on the machine learning task. This model contains 2 significant parts as an encoder and decoder which can work as similar as an autoencoder. Thus, it can be used for anomaly detection purposes as well.
+The transformer was proposed in the paper ``Attention is All You Need'' by Google \cite{vaswani_shazeer_parmar_uszkoreit_jones_n_gomez_kaiser_polosukhin_2017}. This paper proposes a new architecture that replaces RNNs time-locked processing with an attention mechanism called the transformer, as shown in Figure \ref{fig:attention}. The transformer architecture has recently beat benchmarks in many domains. In particular, it has revolutionized the Natural Language Processing (NLP) field, particularly in the machine translation task. This model contains two significant parts, an encoder and a decoder, which work as similar as an autoencoder. In principle, transformers can be used for anomaly detection purposes as well \cite{mishra_verk_fornasier_piciarelli_foresti_2021}.
 
 \begin{figure}[H]
   \centering
-  \caption[The Transformer architecture.]{The Transformer architecture. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{vaswani_shazeer_parmar_uszkoreit_jones_n_gomez_kaiser_polosukhin_2017} \citeyear{vaswani_shazeer_parmar_uszkoreit_jones_n_gomez_kaiser_polosukhin_2017}}}\label{fig:attention}
+  \caption[The transformer architecture.]{\emph{The transformer architecture. \\Reprinted from \citeauthor{vaswani_shazeer_parmar_uszkoreit_jones_n_gomez_kaiser_polosukhin_2017} \citeyear{vaswani_shazeer_parmar_uszkoreit_jones_n_gomez_kaiser_polosukhin_2017}.}}\label{fig:attention}
   \includegraphics[scale = 0.4
   ]{figures/attention.jpg}  
 \end{figure}
 
 \paragraph{}
-Let’s compare RNNs and attention, RNNs include every information that they had known about a sequential data into the final hidden state of the network. Thus, the decision layer can access only the memory layer which is related to that time step. It means that at every time step, it focuses on different positions on the other RNN. On the other hand, an attention mechanism regards the input from several time steps and sets different weights to each input to know which input should be focused in order to make one prediction. In Figure \ref{fig:rnnvsattention}, this image is going to provide simple intuition of both methods.
+To compare how RNNs and attention deals with the time dimension of the input, RNNs include every information needed about sequential data into the final hidden state of the network. The decision layer can only access the memory accumulated at that timestep. At every timestep, the RNN focuses on a different positions in the input. On the other hand, an attention mechanism can focus on any of the input from several timesteps, and setting weights on each input indicating what should be focused on in order to make a prediction. Figure \ref{fig:rnnvsattention} provides the intuition behind both methods.
 
 \begin{figure}[H]
   \centering
-  \caption[Comparison RNNs and Attention.]{Comparison RNNs and Attention.\\\hspace{\textwidth}}\label{fig:rnnvsattention}
+  \caption[Comparison RNNs and Attention.]{\emph{Comparison RNNs and Attention.}}\label{fig:rnnvsattention}
   \includegraphics[scale = 0.4
   ]{figures/rnnvsattention.jpg}  
 \end{figure}
 \subsection{Attention}
 \paragraph{}
-As you can have a doubt what is the Attention. In psychology, attention is  a concentration of mind on a single object or thought, especially one preferentially selected from a complex, with a view to limiting or clarifying receptivity by narrowing the range of stimuli. Similarly, attention was specifically designed to focus on only the most important subsets of long sequences which are related to completeness of a given task \cite{alammar_2018,alammar_2019,klingenbrunn_2021}. It actually consists 3 main steps as following:
+According to \citeauthor{james_1890} \citeyear{james_1890}, in psychology, attention is a concentration of the mind on a single object or thought, one preferentially selected from among many stimuli using possibly complex process, with a view to limiting or clarifying receptivity by narrowing the range of stimuli. Similarly, attention in neural networks was specifically designed to focus on only the most important subsets of long sequences related to completing a given task \cite{alammar_2018,alammar_2019,klingenbrunn_2021}. The process consists of three main steps, as follows.
 \begin{enumerate}
-\item Create the Query, Key, and Value vectors for each path and each input token by multiplying by weight matrices as $W^Q$, $W^K$ and $W^V$ as shown in Figure \ref{fig:attention_2}.
-\item For each input token, use its query vector to get a score against all the other key vectors by multiplying the current Query vector with all the Key vectors as shown in Figure \ref{fig:attention_3}.
-\item Sum up the Value vectors after multiplying them by their associated scores. The more transparent means lower value as shown in Figure \ref{fig:attention_4}.
+\item Create the query (representing the current position vector in the input sequence), key (representing the relative importance of the inputs in the sequence), and value (representing the priority of each position) vectors, they are quite useful for calculating and thinking about attention, for each path and each input token by multiplying by weight matrices as $W^Q$, $W^K$ and $W^V$ as shown in Figure \ref{fig:attention_2}. 
+\item For each input token, use the query vector to get a score against all the other key vectors by multiplying the current query vector with all the key vectors as shown in Figure \ref{fig:attention_3}.
+\item Sum up the value vectors after multiplying them by their associated scores. More transparent blocks in Figure \ref{fig:attention_4} are those with lower values.
+
 \end{enumerate}
 
 \paragraph{}
-Therefore, If the model does the same operation for each input token, it is going to finish with a vector which represents the appropriate context of each token as shown in Figure \ref{fig:attention_5}. And these vectors are going to the next sub layer in the transformer block which must be fed into the forward neural network.
+If the model performs the same operation for each input token, the result is a vector representing the context of each token, as shown in Figure \ref{fig:attention_5}. These vectors are passed to the next sub layer in the transformer block.
+
 \begin{figure}[H]
   \centering
-  \caption[Create the query, key and value vector.]{Create the query, key and value vector. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{alammar_2018} \citeyear{alammar_2018}}}\label{fig:attention_2}
+  \caption[Creating the query, key and value vector in a self-attention module.]{\emph{Creating the query, key and value vector in a self-attention module. \\ 
+  Reprinted from \citeauthor{alammar_2018} \citeyear{alammar_2018}.}}\label{fig:attention_2}
   \includegraphics[scale = 0.3]{figures/attention_2.jpg}  
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \caption[Get score of how they match.]{Get score of how they match. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{alammar_2018} \citeyear{alammar_2018}}}\label{fig:attention_3}
+  \caption[Getting a score of how each key matches the query in a self-attention module.]{\emph{Getting a score of how each key matches the query in a self-attention module. \\ 
+  Reprinted from \citeauthor{alammar_2018} \citeyear{alammar_2018}.}}\label{fig:attention_3}
   \includegraphics[scale = 0.3]{figures/attention_3.jpg}  
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \caption[Sum up the value vectors.]{Sum up the value vectors. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{alammar_2018} \citeyear{alammar_2018}}}\label{fig:attention_4}
+  \caption[Summing up the value vectors in a self-attention module.]{\emph{Summing up the value vectors in a self-attention module. \\
+  Reprinted from \citeauthor{alammar_2018} \citeyear{alammar_2018}.}}\label{fig:attention_4}
   \includegraphics[scale = 0.3]{figures/attention_4.jpg}  
 \end{figure}
 \begin{figure}[H]
   \centering
-  \caption[The outcome after finishing the Attention process.]{The outcome after finishing the Attention process. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{alammar_2018} \citeyear{alammar_2018}}}\label{fig:attention_5}
+  \caption[The outcome of the self-attention process.]{\emph{The outcome of the self-ttention process. \\Reprinted from \citeauthor{alammar_2018} \citeyear{alammar_2018}.}}\label{fig:attention_5}
   \includegraphics[scale = 0.3]{figures/attention_5.jpg}  
 \end{figure}
 
 \paragraph{}
-In addition, it can be noticed that in the decoder, it contains Masked Self-Attention. It is very important that the difference between Self-Attention and Masked Self-Attention is quite clear when you look at Figure \ref{fig:attention_6}. A Self-Attention allows each position to attend to all positions from input but Masked Self-Attention only considers the previous position and including that position in order to preserve the auto-regressive property.
+Note that in the decoder, a transformer uses masked self-attention. The difference between self-attention and masked self-attention is shown Figure \ref{fig:attention_6}. A self-attention allows each position in the output to attend to all positions in the input but Masked Self-Attention only considers previous positions in order to preserve the auto-regressive property.
 
 \begin{figure}[H]
   \centering
-  \caption[The difference of Self-Attention and Masked Self-Attention.]{The difference of Self-Attention and Masked Self-Attention. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{alammar_2019} \citeyear{alammar_2019}}}\label{fig:attention_6}
+  \caption[Difference between self-attention and masked self-attention.]{\emph{Difference between self-attention and masked self-attention. \\ Reprinted from \citeauthor{alammar_2019} \citeyear{alammar_2019}.}}\label{fig:attention_6}
   \includegraphics[scale = 0.3]{figures/attention_6.jpg}  
 \end{figure}
 \subsection{Positional Encoding}
+
 \paragraph{}
-For sequence to sequence model, orders and position are important. Since the model does not have recurrence and convolution, we have to add some information to make use of the order in the sequence. You can see in Figure \ref{fig:attention_7}.
+In any sequence to sequence model in which the number of inputs or outputs is variable and order and position are important, if we are not using recurrence or convolution, we need some other principle to make use of the order an input sequence, as shown in Figure \ref{fig:attention_7}. The formulae for positional encoding are
+
+\hfil $PE(pos, 2i) = \sin(\frac{pos}{10000^{2i/d_{model}}})$, \par 
+\hfil $PE(pos, 2i + 1) = \cos(\frac{pos}{10000^{2i/d_{model}}})$, \par 
+
+where $pos$ is the index of a token $\in[0, L-1]$ in the input sequence, $d_{model}$ is the model depth, and $i$ is an along the model depth. The important characteristics of positional encoding are 
+
+\begin{enumerate}
+  \item Positional encoding is represent by a matrix with dimension (sequence length $\times$ model depth).
+  \item Each column of the PE matrix represents the continuous value which varies according to the $pos$ value.
+  \item Each row of the PE matrix represents the interpolated position of the discrete value.
+  \item The row vectors are alternating series of sines and cosines, with frequencies that decrease according to a geometric series.
+  \end{enumerate}
 
 \begin{figure}[H]
   \centering
-  \caption[The dimension of each positional encoding and embeddings.]{The dimension of each positional encoding and embeddings. \\\hspace{\textwidth} \emph{Reprinted from work of \citeauthor{alammar_2018} \citeyear{alammar_2018}}}\label{fig:attention_7}
-  \includegraphics[scale = 0.4]{figures/attention_7.jpg}  
+  \caption[Positional encoding of a sequence length of length 50 in a model with a model depth of 256.]{\emph{Positional encoding of a sequence length of length 50 in a model with a model depth of 256. \\ Reprinted from \citeauthor{tamura_2021} \citeyear{tamura_2021}.}}\label{fig:attention_7}
+  \includegraphics[scale = 0.15]{figures/positional_encoding.jpg}  
 \end{figure}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 \FloatBarrier

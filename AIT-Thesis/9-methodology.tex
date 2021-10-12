@@ -8,18 +8,36 @@
 \chapter{Methodology}
 \label{ch:methodology}
 \paragraph{}
-The main methodology of proposed study can be separated into four main processes as following and is shown in Figure \ref{fig:system_overview}:
+The methodology of the proposed study can be separated into four main processes, as shown in Figure \ref{fig:system_overview} and as follows.
 \begin{enumerate}
-\item Design and build filter, amplifier and embedded system for seismic sensor in order to  measure vibration
-\item Collect normally event such as human activities
-\item Build  anomaly detection models for detecting anomaly event as fall
-\item Deploy this system in the real environment
+\item Design and build a filter, amplifier, and embedded system integrating a seismic sensor in order to measure vibrations due to peoples' activities at home.
+\item Collect a dataset of normal events such as ordinary human activities in the home.
+\item Build anomaly detection models likely to detect fall as anomalies.
+\item Deploy the system in a real home environment and evaluate performance.
 \end{enumerate}
 
 \begin{figure}[H]
   \centering
-  \caption[The overview system architecture.]{\emph{The overview system architecture.}}\label{fig:system_overview}
-  \includegraphics[scale = 0.4]{figures/system_overview.jpg}  
+  \caption[Overview of the methodology.]{\emph{Overview of the methodology.}}\label{fig:system_overview}
+  \includegraphics[scale = 0.2]{figures/system_overview.jpg}  
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \caption[Data collection - hardware.]{\emph{Data collection - hardware.}}\label{fig:data_collection}
+  \includegraphics[scale = 0.13]{figures/meth_data_collection.jpg}  
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \caption[Training model process.]{\emph{Training model process.}}\label{fig:training}
+  \includegraphics[scale = 0.2]{figures/meth_training.jpg}  
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \caption[Realtime deployment system - data flow diagram.]{\emph{Realtime deployment system - data flow diagram.}}\label{fig:deploy_data_flow}
+  \includegraphics[scale = 0.13]{figures/meth_deploy.jpg}  
 \end{figure}
 
 
@@ -27,146 +45,72 @@ The main methodology of proposed study can be separated into four main processes
 
 \section{Data Collection}
 \paragraph{}
-To collect raw data, we need to build our own embedded system because in order to detect human fall, the system must have the ability to detect human activities and objective drop. And then, we have to build an algorithm for collecting the vibration signal as well.
+To collect raw data, we need to build a prototype embedded system. To detect human falls, we must simulate falls and other anomalous events along with ordinary activities. The embedded system must also be capable of collecting and recording the vibration signal over a long period of time.
 
 \subsection{Hardware}
 \paragraph{}
-	There are 4 significant components as shown in Figure \ref{fig:hardware}. Each component has their own proposed.
+There are four significant hardware components, as shown in Figure \ref{fig:data_collection}. Each component has a specific propose.
     
  \begin{figure}[h]
   \centering
-  \caption[The required hardware to receive raw data.]{\emph{The required hardware to receive raw data. \\}}\label{fig:hardware}
+  \caption[Hardware required to receive raw vibration signal data.]{\emph{Hardware required to receive raw vibration signal data. \\}}\label{fig:hardware}
   \includegraphics[scale = 0.2]{figures/hardware.jpg}  
 \end{figure}
 
 \paragraph{}
-Firstly, a seismic sensor or geophone in Figure \ref{fig:seismic}, A geophone is a device that converts ground vibration (velocity) into voltage. It has historically been passive analog devices and typically comprise a spring-mounted wire coil moving within the field of a case-mounted permanent magnet to generate an electrical signal. The reason that I decided to use this model (Geophone - SM-24) is because it has a small size similar to a coin and is easy to install just laying it on the ground. However, it cannot connect to the microcontroller directly because it can generate voltage up to $ 28.8 V / m/s$. Therefore, we have designed an embedded system to convert voltage into range $0 - 5$ Volts.
+The first main component is the seismic sensor or geophone shown in Figure \ref{fig:seismic}, A geophone is a device that converts ground vibration (velocity) into voltage. Geophones have historically been passive analog devices that typically comprise a spring-mounted wire coil moving within the field of a case-mounted permanent magnet to generate an electrical signal. I decided to use the geophone SM-24 because it has a small size, similar to a coin, and is easy to install by just setting it on the ground. However, the SM-24 cannot connect directly to a microcontroller because it generates voltage up to $28.8$ V (corresponding to $1$ m/s velocity of the coil). Therefore, we have designed an embedded system to convert the $0 - 28.8$ V range to the into range $0 - 5$ V.
 
 \begin{figure}[H]
   \centering
-  \caption[A geophone SM-24 and its inside elements.]{\emph{A geophone SM-24 and its inside elements. \\Reprinted from its brochure }}\label{fig:seismic}
-  \includegraphics[scale = 0.3]{figures/seismic.jpg}  
+  \caption[A geophone SM-24 and its interior elements.]{\emph{A geophone SM-24 and its interior elements. \\Reprinted from Sparkfun, (2017). }}\label{fig:seismic}
+  \includegraphics[scale = 0.25]{figures/seismic.jpg}  
 \end{figure}
 
 \paragraph{}
-Secondly, The analog circuit of filter \& amplifier , which is shown in Figure \ref{fig:analog_circuit}, has 4 significant component as a dc offset, a high-pass filter (HPF) followed by an amplifier with including low-pass filter (LPF). The dc offset is designed for setting the reference signal as $2.5 V$. The HPF is designed to filter any frequencies that are outside the frequency range of interest. It has an ideal cutoff frequency around $100 Hz$. The amplifier provides the high voltage gain around $200 V/V$ needed for preparing the data to be sampled at high resolution at the analog to digital converter (ADC). Lastly, the low-pass filter has cut-off frequency at $100 kHz$.
+The second main component is the analog circuit of the filter \& amplifier, which is shown in Figure \ref{fig:analog_circuit}, has four significant logical components, as a DC offset, a high-pass filter (HPF), an amplifier, and a low-pass filter (LPF). The DC offset is used for set the reference signal as 2.5 V. The HPF eliminates any frequencies below the frequency range of interest. It has an ideal cutoff frequency around 100 Hz. The amplifier provides a high voltage gain of around 200 to prepare for sampling at a high resolution at the analog to digital converter (ADC). Lastly, the low-pass filter has a cut-off frequency at 100 kHz, making the overall frequency range of interest 100 - 100 kHz. However, this is a first protitype, and the goal is 0 - 200 Hz.
 
 \begin{figure}[H]
   \centering
-  \caption[An analog circuit which was designed to be suitable with human activity]{\emph{An analog circuit which was designed to be suitable with human activity.}}\label{fig:analog_circuit}
-  \includegraphics[scale = 0.3]{figures/analogcircuit.jpg}  
+  \caption[Analog circuit measure vibrations caused by human activity.]{\emph{Analog circuit measure vibrations caused by human activity.}}\label{fig:analog_circuit}
+  \includegraphics[scale = 0.2]{figures/analogcircuit.jpg}  
 \end{figure}
 
 \paragraph{}
-Thirdly, analog to digital converter (ADC), the higher bit means that it can contain more information. In Figure \ref{fig:adc}, you can get more intuitive what is the difference between 10-bit and 16-bit ADC.  The red line show the signal by using original adc pin on the Arduino mega which has only 10 bit and the blue line represent the signal by using 16-bit ADC. After the raw analog signal is filtered and amplified, it needs to be sampled at a rate of 500 samples/second and quantized at a resolution of 16 bits/sample in order to prepare it for digital transmission. A 16-bit ADC is capable of distinguishing $65536$ ($2^{16}$) different voltage levels within a narrow voltage range from $0 - 5$ Volts. It means that each level represents approximately $76.3 uV$ which is enough to capture signals of seismic sensor.
+The third main component is analog to digital converter (ADC), Higher bit width means a filter that can represents the data stream more accurately. Figure \ref{fig:adc} provides the intuition behind the difference between a 10-bit and 16-bit ADC.  The red line shows a signal measured at 10 bits in the adc pin of the Arduino Mega, and the blue line shows the same original signal measured with a 16-bit ADC. After the raw analog signal is filtered and amplified, it needs to be sampled at a rate of 500 samples/second and quantized at a resolution of 16 bits/sample in order to prepare it for digital transmission. A 16-bit ADC is capable of distinguishing $65536$ ($2^{16}$) different voltage levels within a narrow voltage range from $0 - 5$ Volts. It means that each level represents approximately 76.3 uV, which is sufficient to capture accurate signals from the seismic sensor.
 
 \begin{figure}[H]
   \centering
-  \caption[This is different between 16-bit and 10-bit ADC.]{\emph{This is different between 16-bit and 10-bit ADC. }}\label{fig:adc}
+  \caption[Comparison 10-bit (red) and 16-bit (blue) ADC.]{\emph{Comparison 10-bit (red) and 16-bit (blue) ADC.}}\label{fig:adc}
   \includegraphics[scale = 0.3]{figures/ADC.jpg}  
 \end{figure}
 
 \paragraph{}
-Fourthly, in Figure \ref{fig:pi4}, the used micro-computer is an Raspberry Pi 4 model B, which is a small size, low price, and several useful functions, and can do machine learning. The digital signal is fed from ADC to ESP8266 via I2C which is a synchronous serial communication interface specification used for short-distance communication. And then these raw signals  are directly collected into mircro sd card.
+The fourth main component, shown in Figure \ref{fig:pi4}, is the single-board, a Raspberry Pi 4 model B, which is a small size, low price system with several useful functions, and sufficient power for machine learning inference. The digital signal is fed from ADC to Raspbery Pi via I2C which is a synchronous serial communication interface specification used for short-distance communication. And then these raw signals are saved to the file system os a mircro SD card.
 
 \begin{figure}[H]
   \centering
-  \caption[Microcomputer - Raspberry Pi 4.]{\emph{Microcomputer - Raspberry Pi 4.}}\label{fig:pi4}
-  \includegraphics[scale = 0.3]{figures/pi4.jpg}  
+  \caption[Raspberry Pi 4 model B.]{\emph{Raspberry Pi 4 model B. \\ Reprinted from Raspbery Pi officially}}\label{fig:pi4}
+  \includegraphics[scale = 0.14]{figures/pi4.jpg}  
 \end{figure}
 
-\subsection{Experimental Setup}
-\paragraph{}
-To collect the raw data, experiments are performed in the living room of my house in Bangkok, Thailand which was built from reinforced concrete structure and on top with tile as show in Figure \ref{fig:home}. Actually, my system has detectable range around 3 meters and this room also has dimension 3.5 $x$ 3.5 $meter^2$. The hardware should be  installed near the corner in order to be as suitable for the application as possible.
-
-\begin{figure}[H]
-  \centering
-  \caption[The living room where is used for experiment]{\emph{The living room where is used for experiment.}}\label{fig:home}
-  \includegraphics[scale = 0.2]{figures/home.jpg}  
-\end{figure}
-
-\subsection{Experimental Event}
-\paragraph{}
-There are several events which should occur during the daily event. However, the author would like to only collect often activities such as walking, sitting, standing and lying as shown in Table \ref{tab:number_action}. Sincerely, due to covid-19 situation, I cannot invite strange volunteers to come in my house in order to collect data. However, If the covid situation in Thailand is better, I will invite approximate 5 - 10 friends to join this experimental event. Therefore, I plan to collect these activity with 4 subjects who are family member as my father, my mother, my older brother and me, and the detail of them is shown in Table \ref{tab:participants}.
-
-\begin{table}[H]
-\begin{center}
-\caption[The detail of each activity and its number of action.]{\emph{The detail of each activity and its number of action.} \\ \hspace{\textwidth}}\label{tab:number_action}
-\begin{tabular}{ l r }
-  \textbf{Human Activity} & \textbf{Number of action}\\
-\hline
-Walking & 2,500 \\
-\hline
-Sitting & 400 \\
-\hline
-Standing & 400 \\
-\hline
-Lying & 400 \\
-\hline
-   \end{tabular}
-\end{center}
- \end{table}
- 
-\begin{table}[H]
-\begin{center}
-\caption[The detail of each participant and their details.
-]{\emph{The detail of each participant and their details.} 
-\\ \hspace{\textwidth}}\label{tab:participants}
-\begin{tabular}{c c c c}
-  \textbf{Subject} & \textbf{Sex} &  \textbf{Age} & \textbf{Weight $(kg)$}  \\
-\hline
-
-1 & M & 23  & 58 \\
-\hline
-
-2 & M & 25  & 70 \\
-\hline
-
-3 & M & 55  & 70 \\
-\hline
-
-4 & F & 58  & 75 \\
-\hline
-
-   \end{tabular}
-\end{center}
- \end{table}
- 
 \section{Anomaly Detection Models}
 \paragraph{}
-I choose two candidate models as autoencoder with LSTM architecture in Figure \ref{fig:LSTM_metho} and Transformer in Figure \ref{fig:transformer_metho} , which are quite distinguished in this field.
+I choose two candidate models as autoencoder with LSTM architecture as shown in Figure \ref{fig:LSTM_metho} and the Transformer shown in Figure \ref{fig:transformer_metho} , which are both state of the art models for distinguishing abnormal event in sequencial data.
 
 \begin{figure}[H]
   \centering
-  \caption[The autoencoder with LSTM architecture.]{\emph{The autoencoder with LSTM architecture}}\label{fig:LSTM_metho}
-  \includegraphics[scale = 0.2]{figures/LSTM_metho.jpg}  
+  \caption[The autoencoder with LSTM architecture (seq2seq structure).]{\emph{The autoencoder with LSTM architecture (SEQ2SEQ structure).}}\label{fig:LSTM_metho}
+  \includegraphics[scale = 0.3]{figures/LSTM_metho.jpg}  
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \caption[The Transformer architecture.]{\emph{The Transformer architecture. \\ Reprinted from work of \citeauthor{vaswani_shazeer_parmar_uszkoreit_jones_n_gomez_kaiser_polosukhin_2017} \citeyear{vaswani_shazeer_parmar_uszkoreit_jones_n_gomez_kaiser_polosukhin_2017}}}\label{fig:transformer_metho}
-  \includegraphics[scale = 0.3]{figures/transformer_metho2.jpg}  
+  \caption[The transformer architecture.]{\emph{The transformer architecture. \\}}\label{fig:transformer_metho}
+  \includegraphics[scale = 0.2]{figures/transformer_metho2.jpg}  
 \end{figure}
 
- 
-\subsection{Evaluation Plan}
+\section{Evaluation Plan}
 \paragraph{}
-To assess the performance of the model, The model will be tested with untrained activities such as jumping and dropping the ball in different locus around the installed system. The prefered accuracy should be greater than 75 percents of true positive and 100 percents of true negative. (Not sure may be the number need to be changed)
-
-\section{Deployment}
-\paragraph{}
-The desirable system should be plug \& play. Therefore, every component such as seismic sensor, embedded system and Raspberry Pi must be integrated into the small box, which require only power adapter as shown in Figure \ref{fig:application}. When anomaly activities are occuring, an alert messages is going to be sent via Line application to me. The dining room in my house will be the tested location of this study shown in \ref{fig:dining}.
-
-\begin{figure}[H]
-  \centering
-  \caption[The complete application.]{\emph{The complete system.}} \label{fig:application}
-  \includegraphics[scale = 0.5]{figures/application.png}  
-\end{figure}
-
-\begin{figure}[H]
-  \centering
-  \caption[The dining room in my home.]{\emph{The dining room in my home.}} \label{fig:dining}
-  \includegraphics[scale = 0.1]{figures/dining.jpg}  
-\end{figure}
+To assess the performance of the model, the model will be tested on untrained activities such as jumping and dropping the ball at different locus around the installed system. The prefered accuracy should be a 75\% hit rate for anomolous events and less than 1 fall positive per day. (Not sure may be the number need to be changed)
 
 \FloatBarrier

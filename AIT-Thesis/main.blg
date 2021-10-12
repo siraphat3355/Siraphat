@@ -25,45 +25,45 @@ Database file #1: references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in Alwan_2003
 Warning--No school in oukrich_2019
-You've used 65 entries,
+You've used 71 entries,
             6951 wiz_defined-function locations,
-            1644 strings with 24468 characters,
-and the built_in function-call counts, 120541 in all, are:
-= -- 14638
-> -- 1075
-< -- 5756
-+ -- 5684
-- -- 144
-* -- 7635
-:= -- 21714
-add.period$ -- 265
-call.type$ -- 65
-change.case$ -- 1112
+            1674 strings with 25850 characters,
+and the built_in function-call counts, 132540 in all, are:
+= -- 16105
+> -- 1182
+< -- 6363
++ -- 6298
+- -- 158
+* -- 8366
+:= -- 23917
+add.period$ -- 290
+call.type$ -- 71
+change.case$ -- 1215
 chr.to.int$ -- 0
-cite$ -- 132
-duplicate$ -- 3300
-empty$ -- 4946
-format.name$ -- 1835
-if$ -- 23074
+cite$ -- 144
+duplicate$ -- 3624
+empty$ -- 5412
+format.name$ -- 2017
+if$ -- 25347
 int.to.chr$ -- 0
-int.to.str$ -- 195
+int.to.str$ -- 213
 missing$ -- 0
-newline$ -- 1694
-num.names$ -- 520
-pop$ -- 3038
+newline$ -- 1844
+num.names$ -- 568
+pop$ -- 3465
 preamble$ -- 1
-purify$ -- 266
+purify$ -- 290
 quote$ -- 0
-skip$ -- 7131
+skip$ -- 7717
 stack$ -- 0
-substring$ -- 6142
-swap$ -- 1773
-text.length$ -- 159
+substring$ -- 6801
+swap$ -- 1918
+text.length$ -- 178
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 5520
+type$ -- 6064
 warning$ -- 2
-while$ -- 630
+while$ -- 690
 width$ -- 0
-write$ -- 2094
+write$ -- 2279
 (There were 2 warnings)

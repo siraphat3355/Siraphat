@@ -26,9 +26,9 @@ There has been great deal of research on fall detection. Researchers try to find
 \item Automatic Wearable Devices \cite{degen_jaeckel_rufer_wyss_2003, yang_hsu_2010, rihana_mondalak_2016}: This solution is popular because it is uncomplicated and provides high accuracy. Devices in this group are based on inertial measurement units (IMU)s, which contain an accelerometer and gyrometer. A significant disadvantage of this solution is that the user has to wear the device all the time, which can lead to discomfort, and if the device cannot be wore in the shower, the device will miss the period in which individuals have the highest probability of falling. Moreover, a wearable may even cause injury when people fall down.
 \item Cameras \cite{tsai_hsu_2019, ramirez_velastin_meza_fabregas_makris_farias_2021,taufeeque_koita_spicher_deserno_2021}: Many researchers have developed camera-based systems to detect falls, since cameras can track residents, and falls can be detected based on image processing algorithms trained to identify abnormal activity. However, the drawbacks of cameras are that residents may feel uncomfortable and concerned about privacy, even if the images are not leaked. Moreover, when a victim falls in a place out of view of the camera, e.g. an aed occluded by furniture, the method cannot alert caretakers. Also, cameras cannot be installed in the toilet or bathroom, again missing some of the highest risk periods of time.
 \item Vibration analysis
-\cite{alwan_rajendran_kell_mack_dalal_wolfe_felder_2006,liu_jiang_su_benzoni_maxwell_2019,clemente_li_valero_song_2020}: This approach has not been  explored as much as the others. Vibration has several limitations in terms of data collection:
+\cite{alwan_rajendran_kell_mack_dalal_wolfe_felder_2006,liu_jiang_su_benzoni_maxwell_2019,clemente_li_valero_song_2020}: This approach has not been explored as much as the others. Vibration has several limitations in terms of data collection:
 \begin{itemize}
-\item Vibration sensors: The general sensors popular in the commercial market have low sensitivity. When the floor is concrete, it is quite difficult to detect vibrations with a general sensor.  \citeauthor{madarshahian_caicedo_arocha_zambrana_2016}, \citeyear{madarshahian_caicedo_arocha_zambrana_2016} use a high-sensitivity piezoelectric sensors, but this sensor requires embedding in the ground, making it difficult to install.  In addition, when the area is large, more sensors are required, which increases cost and complexity of the system.
+\item Vibration sensors: The general sensors popular in the commercial market have low sensitivity. When the floor is concrete, it is quite difficult to detect vibrations with a general sensor. Traditional high sensitivity vibration sensor requires embedding in the ground, making it difficult to install. In addition, when the area is large, more sensors are required, which increases cost and complexity of the system.
 \item Sample fall data: White falls can be simulated to get data for IMU or camera sensors, vibration data from a fall have specific characteristics depending on the type of floor, the weight of the subject, and the distance of the sensor to the locus of the event. Realistically, real falls on concrete and other hard surfaces are too dangerous to simulated.
 \end{itemize}
 \end{enumerate}
@@ -43,12 +43,12 @@ Research on vibration data has thus far used supervised classification models in
 As falls occur infrequently and diversely, and there also are several types of falls such as forward falls, backward falls and lateral falls \cite{el-bendary_tan_c_pivot_lam_2013}, any attempt to exhaustively train a supervised classifier can lead to a lack of sufficient data for training. Although, falling events occurring during different activities such as walking, standing, sleeping, or sitting share some characteristics in common, they also have significant differences \cite{wang_ellul_azzopardi_2020}. It is difficult to anticipate all possible patterns in advance. Furthermore, as fall events rarely occur in daily life, if we train a model with an imbalanced dataset, it can result in bias.
 
 \paragraph{}
-Anomaly detector methods may be the key to addressing all of these issues. I will apply  anomaly detection methods to detect adverse event such as falls indirectly. The main advantage of anomaly detection beside addressing the diversity of fall is that anomaly detection will not only detect falls but also detect other abnormal activities such as fighting and any other activities the model is not trained on.
+Anomaly detection methods may be the key to addressing all of these issues. I will apply  anomaly detection methods to detect adverse event such as falls indirectly. The main advantage of anomaly detection beside addressing the diversity of fall is that anomaly detection will not only detect falls but also detect other abnormal activities such as fighting and any other activities the model is not trained on.
 
 
 \section{Research Questions}
 \paragraph{}
-The purpose of this paper is to develop an robust automated anomaly detection system capable of detecting falls and other anomalies by combining knowledge from signal processing, embedded systems, machine learning, and edge devices. The study aims to answer the following questions:
+The purpose of this paper is to develop a robust automated anomaly detection system capable of detecting falls and other anomalies by combining knowledge from signal processing, embedded systems, machine learning, and edge devices. The study aims to answer the following questions:
 \begin{enumerate}
 \item Can a seismic sensor and an embedded system detect human activity on the surface of a typical concrete floor in the home?
 \item What are the best methods for detecting anomaly events such as falls using seismic sensors?
@@ -75,3 +75,7 @@ The scope and limitations of this study are as follows :
 \item I assume the home has only a single elderly person.
 \item Accuracy may suffer if multiple people are present and active at the same time.
 \end{enumerate} 
+
+\section{Contributions}
+\paragraph{}
+Transformer model for anomaly detection in time series.

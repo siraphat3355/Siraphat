@@ -572,6 +572,61 @@ Gavin, H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Goodfellow%
+\ \protect \BOthers {.}}{%
+Goodfellow%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+goodfellow_pouget_abadie_mirza_xu_warde_farley_ozair_courville_bengio_2014}
+\APACinsertmetastar {%
+goodfellow_pouget_abadie_mirza_xu_warde_farley_ozair_courville_bengio_2014}%
+\begin{APACrefauthors}%
+Goodfellow, I\BPBI J.%
+, Pouget-Abadie, J.%
+, Mirza, M.%
+, Xu, B.%
+, Warde-Farley, D.%
+, Ozair, S.%
+\BDBL {}Bengio, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+\APACrefbtitle {Generative Adversarial Networks.} {Generative adversarial
+  networks.}
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/1406.2661} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+InnovationHub%
+}{%
+InnovationHub%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+ai_research_innovationhub_2020}
+\APACinsertmetastar {%
+ai_research_innovationhub_2020}%
+\begin{APACrefauthors}%
+InnovationHub, A\BPBI R\BPBI .%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+\APACrefbtitle {What Is GAN and Can We Use It for Our Anomaly Detection
+  problems?} {What is gan and can we use it for our anomaly detection
+  problems?}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.macnica.co.jp/business/ai_iot/columns/135130/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ismail~Fawaz%
 , Forestier%
 , Weber%
@@ -602,6 +657,31 @@ Ismail~Fawaz, H.%
 \APACjournalVolNumPages{Data Mining and Knowledge Discovery}{}{}{}.
 \newblock
 \begin{APACrefDOI} \doi{10.1007/s10618-019-00619-1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+James%
+}{%
+James%
+}{%
+{\protect \APACyear {1890}}%
+}]{%
+james_1890}
+\APACinsertmetastar {%
+james_1890}%
+\begin{APACrefauthors}%
+James, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1890}.
+\newblock
+\APACrefbtitle {The Principles of psychology, Vol I.} {The principles of
+  psychology, vol i.}
+\newblock
+\APACaddressPublisher{}{Henry Holt and Co}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/10538-000} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -783,33 +863,35 @@ Ljunggren, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Madarshahian%
-, Caicedo%
-\BCBL {}\ \BBA {} Arocha~Zambrana%
+Mishra%
+, Verk%
+, Fornasier%
+, Piciarelli%
+\BCBL {}\ \BBA {} Foresti%
 }{%
-Madarshahian%
+Mishra%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2016}}%
+{\protect \APACyear {2021}}%
 }]{%
-madarshahian_caicedo_arocha_zambrana_2016}
+mishra_verk_fornasier_piciarelli_foresti_2021}
 \APACinsertmetastar {%
-madarshahian_caicedo_arocha_zambrana_2016}%
+mishra_verk_fornasier_piciarelli_foresti_2021}%
 \begin{APACrefauthors}%
-Madarshahian, R.%
-, Caicedo, J\BPBI M.%
-\BCBL {}\ \BBA {} Arocha~Zambrana, D.%
+Mishra, P.%
+, Verk, R.%
+, Fornasier, D.%
+, Piciarelli, C.%
+\BCBL {}\ \BBA {} Foresti, G\BPBI L.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2016}{}{}.
+\APACrefYear{2021}.
 \newblock
-{\BBOQ}\APACrefatitle {Benchmark Problem for Human Activity Identification
-  Using Floor Vibrations} {Benchmark problem for human activity identification
-  using floor vibrations}.{\BBCQ}
+\APACrefbtitle {VT-ADL: a Vision Transformer Network for Image Anomaly
+  Detection and Localization} {Vt-adl: a vision transformer network for image
+  anomaly detection and localization}.
 \newblock
-\APACjournalVolNumPages{Expert Systems with Applications}{62}{}{263–272}.
-\newblock
-\begin{APACrefDOI} \doi{10.1016/j.eswa.2016.06.027} \end{APACrefDOI}
+\begin{APACrefURL} \url{https://arxiv.org/abs/2104.10036} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1236,6 +1318,41 @@ Rosebrock, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Schlegl%
+, Seeb{\"o}ck%
+, Waldstein%
+, Schmidt-Erfurth%
+\BCBL {}\ \BBA {} Langs%
+}{%
+Schlegl%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+schlegl2017unsupervised}
+\APACinsertmetastar {%
+schlegl2017unsupervised}%
+\begin{APACrefauthors}%
+Schlegl, T.%
+, Seeb{\"o}ck, P.%
+, Waldstein, S\BPBI M.%
+, Schmidt-Erfurth, U.%
+\BCBL {}\ \BBA {} Langs, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Unsupervised anomaly detection with generative
+  adversarial networks to guide marker discovery} {Unsupervised anomaly
+  detection with generative adversarial networks to guide marker
+  discovery}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International conference on information processing in
+  medical imaging} {International conference on information processing in
+  medical imaging}\ (\BPGS\ 146--157).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Schrader%
 \ \protect \BOthers {.}}{%
 Schrader%
@@ -1355,6 +1472,33 @@ Sultana, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Tamura%
+}{%
+Tamura%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+tamura_2021}
+\APACinsertmetastar {%
+tamura_2021}%
+\begin{APACrefauthors}%
+Tamura, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+\APACrefbtitle {Positional encoding, Residual connections, Padding masks:
+  Covering the Rest of Transformer Components – Data Science Blog.}
+  {Positional encoding, residual connections, padding masks: Covering the rest
+  of transformer components – data science blog.}
+\newblock
+\begin{APACrefURL}
+  \url{https://data-science-blog.com/blog/2021/04/22/positional-encoding-residual-connections-padding-masks-all-the-details-of-transformer-model/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Tangruamsub%
 }{%
 Tangruamsub%
@@ -1412,6 +1556,30 @@ Taufeeque, M.%
   Healthcare, Research, and Applications}{}{}{}.
 \newblock
 \begin{APACrefDOI} \doi{10.1117/12.2580700} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tensorflow%
+}{%
+Tensorflow%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+tensorflow_2021}
+\APACinsertmetastar {%
+tensorflow_2021}%
+\begin{APACrefauthors}%
+Tensorflow.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+\APACrefbtitle {Deep Convolutional Generative Adversarial Network | TensorFlow
+  Core.} {Deep convolutional generative adversarial network | tensorflow core.}
+\newblock
+\begin{APACrefURL} \url{https://www.tensorflow.org/tutorials/generative/dcgan}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
