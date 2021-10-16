@@ -1,47 +1,47 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Interest in “Fall Detection” over time from 2004 to present according to Google Trends.}}{6}{figure.caption.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Single degree of freedom system mass-spring model for floor vibration.}}{10}{figure.caption.4}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Euclidean maching versus DTW matching.}}{12}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Convolving on univariate input time series.}}{13}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Typical temporal convolutional neural network architecture.}}{13}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces An autocoder workflow.}}{14}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces The autoencoder architecture.}}{15}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Visualization of dimensionality reduction using autoencoders.}}{15}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces An autoencoder trained on ``clean" images can correct noisy input.}}{16}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces An autoencoder capable of detecting anomalous events in time series.}}{17}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Architecture of a variational autoencoder.}}{18}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Representation of GAN as a generator and a discriminator.}}{19}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Training of the generator and discriminator.}}{19}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Anomaly detection using AnoGAN.}}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Recurrent neural network architecture.}}{21}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces The concept of optimization in a feed-forward neural network.}}{22}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces The repeating module in a standard RNN contains a single layer.}}{22}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces LSTM structure.}}{23}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces The repeating module in a LSTM contains four interacting layer.}}{25}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces The transformer architecture.}}{26}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Comparison RNNs and Attention.}}{27}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Creating the query, key and value vector in a self-attention module.}}{28}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Getting a score of how each key matches the query in a self-attention module.}}{28}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Summing up the value vectors in a self-attention module.}}{29}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces The outcome of the self-attention process.}}{29}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Difference between self-attention and masked self-attention.}}{30}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Positional encoding of a sequence length of length 50 in a model with a model depth of 256.}}{31}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Interest in “Fall Detection” over time from 2004 to present according to Google Trends.}}{7}{figure.caption.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Single degree of freedom system mass-spring model for floor vibration.}}{11}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Euclidean maching versus DTW matching.}}{13}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Convolving on univariate input time series.}}{14}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Typical temporal convolutional neural network architecture.}}{14}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces An autocoder workflow.}}{15}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The autoencoder architecture.}}{16}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Visualization of dimensionality reduction using autoencoders.}}{16}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces An autoencoder trained on ``clean" images can correct noisy input.}}{17}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces An autoencoder capable of detecting anomalous events in time series.}}{18}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Architecture of a variational autoencoder.}}{19}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Representation of GAN as a generator and a discriminator.}}{20}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Training of the generator and discriminator.}}{20}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Anomaly detection using AnoGAN.}}{21}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Recurrent neural network architecture.}}{22}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces The concept of optimization in a feed-forward neural network.}}{23}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces The repeating module in a standard RNN contains a single layer.}}{23}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces LSTM structure.}}{24}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces The repeating module in a LSTM contains four interacting layer.}}{26}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces The transformer architecture.}}{27}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Comparison RNNs and Attention.}}{28}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Creating the query, key and value vector in a self-attention module.}}{29}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Getting a score of how each key matches the query in a self-attention module.}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Summing up the value vectors in a self-attention module.}}{30}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces The outcome of the self-attention process.}}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Difference between self-attention and masked self-attention.}}{31}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Positional encoding of a sequence length of length 50 in a model with a model depth of 256.}}{32}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview of the methodology.}}{32}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Data collection - hardware.}}{33}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Training model process.}}{33}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Realtime deployment system - data flow diagram.}}{33}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Hardware required to receive raw vibration signal data.}}{34}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces A geophone SM-24 and its interior elements.}}{34}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Analog circuit measure vibrations caused by human activity.}}{35}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison 10-bit (red) and 16-bit (blue) ADC.}}{36}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Raspberry Pi 4 model B.}}{36}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces The autoencoder with LSTM architecture (seq2seq structure).}}{37}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces The transformer architecture.}}{37}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview of the methodology.}}{33}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Data collection - hardware.}}{34}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Training model process.}}{34}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Realtime deployment system - data flow diagram.}}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Hardware required to receive raw vibration signal data.}}{35}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces A geophone SM-24 and its interior elements.}}{35}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Analog circuit measure vibrations caused by human activity.}}{36}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison 10-bit (red) and 16-bit (blue) ADC.}}{37}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Raspberry Pi 4 model B.}}{37}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces The autoencoder with LSTM architecture (seq2seq structure).}}{38}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces The transformer architecture.}}{38}{figure.caption.40}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Living room area used for preliminary experiment.}}{38}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces The complete application.}}{39}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces The dining room in my home.}}{40}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Living room area used for preliminary experiment.}}{39}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The complete application.}}{41}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The dining room in my home.}}{41}{figure.caption.45}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The schedule working plan of this study.}}{41}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The schedule working plan of this study.}}{42}{figure.caption.46}%

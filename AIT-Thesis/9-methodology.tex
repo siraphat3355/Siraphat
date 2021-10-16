@@ -19,7 +19,7 @@ The methodology of the proposed study can be separated into four main processes,
 \begin{figure}[H]
   \centering
   \caption[Overview of the methodology.]{\emph{Overview of the methodology.}}\label{fig:system_overview}
-  \includegraphics[scale = 0.2]{figures/system_overview.jpg}  
+  \includegraphics[scale = 0.15]{figures/system_overview_2.jpg}  
 \end{figure}
 
 \begin{figure}[H]
@@ -67,7 +67,7 @@ The first main component is the seismic sensor or geophone shown in Figure \ref{
 \end{figure}
 
 \paragraph{}
-The second main component is the analog circuit of the filter \& amplifier, which is shown in Figure \ref{fig:analog_circuit}, has four significant logical components, as a DC offset, a high-pass filter (HPF), an amplifier, and a low-pass filter (LPF). The DC offset is used for set the reference signal as 2.5 V. The HPF eliminates any frequencies below the frequency range of interest. It has an ideal cutoff frequency around 100 Hz. The amplifier provides a high voltage gain of around 200 to prepare for sampling at a high resolution at the analog to digital converter (ADC). Lastly, the low-pass filter has a cut-off frequency at 100 kHz, making the overall frequency range of interest 100 - 100 kHz. However, this is a first protitype, and the goal is 0 - 200 Hz.
+The second main component is the analog circuit of the filter \& amplifier, which is shown in Figure \ref{fig:analog_circuit}, has four significant logical components, as a DC offset, a high-pass filter (HPF), an amplifier, and a low-pass filter (LPF). The DC offset is used for set the reference signal as 2.5 V. The HPF eliminates any frequencies below the frequency range of interest. It has an ideal cutoff frequency around 100 Hz. The amplifier provides a high voltage gain of around 200 to prepare for sampling at a high resolution at the analog to digital converter (ADC). Lastly, the low-pass filter has a cut-off frequency at 100 kHz, making the overall frequency range of interest 100 - 100 kHz. However, this is a first prototype, and the goal is 0 - 200 Hz.
 
 \begin{figure}[H]
   \centering
@@ -111,6 +111,6 @@ I choose two candidate models as autoencoder with LSTM architecture as shown in 
 
 \section{Evaluation Plan}
 \paragraph{}
-To assess the performance of the model, the model will be tested on untrained activities such as jumping and dropping the ball at different locus around the installed system. The prefered accuracy should be a 75\% hit rate for anomolous events and less than 1 fall positive per day. (Not sure may be the number need to be changed)
+To assess the performance of the model, the model will be tested on untrained activities such as jumping and dropping the ball at different positions around the installed system. The preferred accuracy should be a 75\% hit rate for anomalous events and less than 1 fall positive per day.
 
 \FloatBarrier

@@ -13,17 +13,17 @@
 Globally, injuries after a fall is a significant public health problem. Each year, approximately 37 million falls requires medical attention, and approximately 684,000 individuals die from falls. Falls are the second leading cause of unexpected injury death, after road traffic injuries. According to the World Health Organization \cite{world_health_organization_2018}, the highest death rate from falls in all regions around the world was faced among adults who are over the age of 60 years. The frequency of falling down increases with age and weakness level. In the future, injuries caused by falls will affect more civilians as the population ages, and fall deaths are expected to double by 2030. According to \citeauthor{fuller_2013} \citeyear{fuller_2013}, The elderly, who represent 12 percent of the population, account for 75 percent of those who die from falls. 
  
  \paragraph{}
-In addition, the Ministry of Public Health in Thailand \cite{thaincd.com_2019} says that one-third or greater than 3 millions of Thailand’s people fall in their homes every year. Approximately 66\% of the cases involve slippery floors, stumblings and missing a step on the same ground level. They report an average of 140 calls to local ambulances per day, and on average, 2 people die each day. More than 55\% of falls occur inside the home environment \cite{pynoos_steinman_nguyen_2010}, most frequently in the bathroom, kitchen and dining room. Therefore, when victims fall, if nobody knows about the accident, and nobody takes care of the victim immediately, it can result in more serious injury, long term impairments, and even death.
+In addition, the Ministry of Public Health in Thailand \cite{thaincd.com_2019} says that one-third or greater than 3 millions of Thailand’s people fall in their homes every year. Approximately 66\% of the cases involve slippery floors, stumbling, or missing a step from the same ground level. They report an average of 140 calls to local ambulances per day, and on average, 2 people die each day. More than 55\% of falls occur inside the home environment \cite{pynoos_steinman_nguyen_2010}, most frequently in the bathroom, kitchen and dining room. Therefore, when victims fall, if nobody knows about the accident, and nobody takes care of the victim immediately, it can result in more serious injury, long term impairments, and even death.
 
 \paragraph{}
-From the statistics mentioned above, developing any technology able to help decrease or mitigate false will be useful. I am specifically interested in artificial intelligence approaches to detection of fall events that can also immediately alert caretakers or assistants.
+From the statistics mentioned above, developing any technology able to help decrease or mitigate falls will be useful. I am specifically interested in artificial intelligence approaches to detection of fall events that can also immediately alert caretakers or assistants.
 
 \section{Statement of the Problem}
 \paragraph{}
 There has been great deal of research on fall detection. Researchers try to find the best methods to detect and mitigate falls. Each approach has pros and cons, depending on the situation and the environment as following:
 \begin{enumerate}
 \item User-activated fall alert with a pendant: Although manually-activated fall alarms are simple and low cost, they are only successful when a user who has fallen activates the alarm button by himself or herself manually. This system is ineffective if the person is not wearing the pendant because he or she refuses to press the emergency button, forgets it, or cannot press it. Elders may hesitate to push an emergent button for several reasons such as concern about bothering others and privacy.
-\item Automatic Wearable Devices \cite{degen_jaeckel_rufer_wyss_2003, yang_hsu_2010, rihana_mondalak_2016}: This solution is popular because it is uncomplicated and provides high accuracy. Devices in this group are based on inertial measurement units (IMU)s, which contain an accelerometer and gyrometer. A significant disadvantage of this solution is that the user has to wear the device all the time, which can lead to discomfort, and if the device cannot be wore in the shower, the device will miss the period in which individuals have the highest probability of falling. Moreover, a wearable may even cause injury when people fall down.
+\item Automatic Wearable Devices \cite{degen_jaeckel_rufer_wyss_2003, yang_hsu_2010, rihana_mondalak_2016}: This solution is popular because it is uncomplicated and provides high accuracy. Devices in this group are based on inertial measurement units (IMUs), which contain an accelerometer and gyrometer. A significant disadvantage of this solution is that the user has to wear the device all the time, which can lead to discomfort, and if the device cannot be wore in the shower, the device will miss the period in which individuals have the highest probability of falling. Moreover, a wearable may even cause injury when people fall down.
 \item Cameras \cite{tsai_hsu_2019, ramirez_velastin_meza_fabregas_makris_farias_2021,taufeeque_koita_spicher_deserno_2021}: Many researchers have developed camera-based systems to detect falls, since cameras can track residents, and falls can be detected based on image processing algorithms trained to identify abnormal activity. However, the drawbacks of cameras are that residents may feel uncomfortable and concerned about privacy, even if the images are not leaked. Moreover, when a victim falls in a place out of view of the camera, e.g. an aed occluded by furniture, the method cannot alert caretakers. Also, cameras cannot be installed in the toilet or bathroom, again missing some of the highest risk periods of time.
 \item Vibration analysis
 \cite{alwan_rajendran_kell_mack_dalal_wolfe_felder_2006,liu_jiang_su_benzoni_maxwell_2019,clemente_li_valero_song_2020}: This approach has not been explored as much as the others. Vibration has several limitations in terms of data collection:
@@ -78,4 +78,10 @@ The scope and limitations of this study are as follows :
 
 \section{Contributions}
 \paragraph{}
-Transformer model for anomaly detection in time series.
+
+\begin{itemize}
+    \item New public open dataset about vibration from human activity.
+    \item Transformer model for anomaly detection in time series.
+\end{itemize}
+
+
