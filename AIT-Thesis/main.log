@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.15)  15 OCT 2021 16:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.10)  7 APR 2022 13:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/siraphatb/Documents/AIT-Thesis/main.tex
-(/Users/siraphatb/Documents/AIT-Thesis/main.tex
+**/Users/siraphat/Documents/AIT-Thesis_Final/main.tex
+(/Users/siraphat/Documents/AIT-Thesis_Final/main.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
@@ -439,7 +439,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count301
 \l__pdf_internal_box=\box59
-) (/Users/siraphatb/Documents/AIT-Thesis/main.aux (/Users/siraphatb/Documents/AIT-Thesis/1-title.aux) (/Users/siraphatb/Documents/AIT-Thesis/3-abstract.aux) (/Users/siraphatb/Documents/AIT-Thesis/4-tableOfContent.aux) (/Users/siraphatb/Documents/AIT-Thesis/5-listOfTable.aux) (/Users/siraphatb/Documents/AIT-Thesis/6-listOfFigure.aux) (/Users/siraphatb/Documents/AIT-Thesis/7-introduction.aux) (/Users/siraphatb/Documents/AIT-Thesis/8-literatureReview.aux) (/Users/siraphatb/Documents/AIT-Thesis/9-methodology.aux) (/Users/siraphatb/Documents/AIT-Thesis/10-results.aux) (/Users/siraphatb/Documents/AIT-Thesis/11-conclusion.aux))
+) (/Users/siraphat/Documents/AIT-Thesis_Final/main.aux (/Users/siraphat/Documents/AIT-Thesis_Final/1-title.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/2_0-declaration.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/2-acknowledgment.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/3-abstract.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/4-tableOfContent.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/5-listOfTable.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/6-listOfFigure.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/7-introduction.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/8-literatureReview.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/9-methodology.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/10-results.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/11-conclusion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
@@ -473,7 +473,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 114.
 LaTeX Info: Redefining \pageref on input line 114.
 LaTeX Info: Redefining \nameref on input line 114.
- (/Users/siraphatb/Documents/AIT-Thesis/main.out) (/Users/siraphatb/Documents/AIT-Thesis/main.out)
+ (/Users/siraphat/Documents/AIT-Thesis_Final/main.out) (/Users/siraphat/Documents/AIT-Thesis_Final/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -563,7 +563,7 @@ LaTeX Info: Redefining \BHBI on input line 130.
 )
 \openout2 = `1-title.aux'.
 
- (/Users/siraphatb/Documents/AIT-Thesis/1-title.tex
+ (/Users/siraphat/Documents/AIT-Thesis_Final/1-title.tex
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 25.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -590,23 +590,37 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+\openout2 = `2_0-declaration.aux'.
+
+ (/Users/siraphat/Documents/AIT-Thesis_Final/2_0-declaration.tex) [2
+
+
+
+]
+\openout2 = `2-acknowledgment.aux'.
+
+ (/Users/siraphat/Documents/AIT-Thesis_Final/2-acknowledgment.tex) [3
+
+
+
+]
 \openout2 = `3-abstract.aux'.
 
- (/Users/siraphatb/Documents/AIT-Thesis/3-abstract.tex) [2
+ (/Users/siraphat/Documents/AIT-Thesis_Final/3-abstract.tex) [4
 
 
 
 ]
 \openout2 = `4-tableOfContent.aux'.
 
- (/Users/siraphatb/Documents/AIT-Thesis/4-tableOfContent.tex (/Users/siraphatb/Documents/AIT-Thesis/main.toc
+ (/Users/siraphat/Documents/AIT-Thesis_Final/4-tableOfContent.tex (/Users/siraphat/Documents/AIT-Thesis_Final/main.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [3
+ [5
 
 
 
@@ -614,21 +628,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-) [4]
+) [6]
 \openout2 = `5-listOfTable.aux'.
 
- (/Users/siraphatb/Documents/AIT-Thesis/5-listOfTable.tex (/Users/siraphatb/Documents/AIT-Thesis/main.lot)
+ (/Users/siraphat/Documents/AIT-Thesis_Final/5-listOfTable.tex (/Users/siraphat/Documents/AIT-Thesis_Final/main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
-) [5
+) [7
 
 
 
 ]
 \openout2 = `6-listOfFigure.aux'.
 
- (/Users/siraphatb/Documents/AIT-Thesis/6-listOfFigure.tex (/Users/siraphatb/Documents/AIT-Thesis/main.lof
+ (/Users/siraphat/Documents/AIT-Thesis_Final/6-listOfFigure.tex (/Users/siraphat/Documents/AIT-Thesis_Final/main.lof
 Overfull \hbox (0.61171pt too wide) detected at line 12
 \OT1/ptm/m/n/12 Figure 2.10 
  []
@@ -718,58 +732,178 @@ Overfull \hbox (0.61171pt too wide) detected at line 29
 \OT1/ptm/m/n/12 Figure 2.27 
  []
 
-[6
+
+Overfull \hbox (0.61171pt too wide) detected at line 30
+\OT1/ptm/m/n/12 Figure 2.28 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 31
+\OT1/ptm/m/n/12 Figure 2.29 
+ []
+
+[8
 
 
 
 ]
-Overfull \hbox (0.61171pt too wide) detected at line 40
+Overfull \hbox (0.61171pt too wide) detected at line 42
 \OT1/ptm/m/n/12 Figure 3.10 
  []
 
 
-Overfull \hbox (0.61171pt too wide) detected at line 41
+Overfull \hbox (0.61171pt too wide) detected at line 43
 \OT1/ptm/m/n/12 Figure 3.11 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 54
+\OT1/ptm/m/n/12 Figure 4.10 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 55
+\OT1/ptm/m/n/12 Figure 4.11 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 56
+\OT1/ptm/m/n/12 Figure 4.12 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 57
+\OT1/ptm/m/n/12 Figure 4.13 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 58
+\OT1/ptm/m/n/12 Figure 4.14 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 59
+\OT1/ptm/m/n/12 Figure 4.15 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 60
+\OT1/ptm/m/n/12 Figure 4.16 
+ []
+
+
+Overfull \hbox (6.64854pt too wide) in paragraph at lines 60--60
+ [][] [][]\OT1/ptm/m/n/12 LSTM au-toen-coder re-con-struc-tion er-ror dis-tri-bu-tions for nor-mal and anoma- 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 61
+\OT1/ptm/m/n/12 Figure 4.17 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 62
+\OT1/ptm/m/n/12 Figure 4.18 
+ []
+
+
+Overfull \hbox (14.64055pt too wide) in paragraph at lines 62--62
+ [][] [][]\OT1/ptm/m/n/12 1DCNN au-toen-coder re-con-struc-tion er-ror dis-tri-bu-tions for nor-mal and anoma- 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 63
+\OT1/ptm/m/n/12 Figure 4.19 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 64
+\OT1/ptm/m/n/12 Figure 4.20 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 65
+\OT1/ptm/m/n/12 Figure 4.21 
+ []
+
+[9]
+Overfull \hbox (0.61171pt too wide) detected at line 66
+\OT1/ptm/m/n/12 Figure 4.22 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 67
+\OT1/ptm/m/n/12 Figure 4.23 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 68
+\OT1/ptm/m/n/12 Figure 4.24 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 69
+\OT1/ptm/m/n/12 Figure 4.25 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 70
+\OT1/ptm/m/n/12 Figure 4.26 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 71
+\OT1/ptm/m/n/12 Figure 4.27 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 72
+\OT1/ptm/m/n/12 Figure 4.28 
+ []
+
+
+Overfull \hbox (0.61171pt too wide) detected at line 73
+\OT1/ptm/m/n/12 Figure 4.29 
  []
 
 )
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-) [7]
+) [10]
 \openout2 = `7-introduction.aux'.
 
- (/Users/siraphatb/Documents/AIT-Thesis/7-introduction.tex
+ (/Users/siraphat/Documents/AIT-Thesis_Final/7-introduction.tex
 Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 \item A
-            utomatic Wearable Devices \cite{degen_jaeckel_rufer_wyss_2003, y... [1
+l.24 
+      [1
 
 
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 31.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 32.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [2] [3]
-Overfull \hbox (1.01875pt too wide) in paragraph at lines 67--68
+Overfull \hbox (1.01875pt too wide) in paragraph at lines 71--73
 []\OT1/ptm/m/n/12 Evaluate the de-ployed model in terms of its ac-cu-racy in iden-ti-fy-ing un-usual events. 
  []
 
-[4]) [5]
+) [4]
 \openout2 = `8-literatureReview.aux'.
 
- (/Users/siraphatb/Documents/AIT-Thesis/8-literatureReview.tex
+ (/Users/siraphat/Documents/AIT-Thesis_Final/8-literatureReview.tex
 Chapter 2.
-<figures/fall_trend.png, id=449, 714.67pt x 360.34625pt>
-File: figures/fall_trend.png Graphic file (type png)
-<use figures/fall_trend.png>
-Package pdftex.def Info: figures/fall_trend.png  used on input line 32.
+<figures/fall_trend.jpg, id=617, 1429.34pt x 720.6925pt>
+File: figures/fall_trend.jpg Graphic file (type jpg)
+<use figures/fall_trend.jpg>
+Package pdftex.def Info: figures/fall_trend.jpg  used on input line 32.
 (pdftex.def)             Requested size: 439.87962pt x 221.79582pt.
-[6
+[5
 
 
 
@@ -805,217 +939,233 @@ Underfull \hbox (badness 4072) in paragraph at lines 72--72
  []
 
 
-Overfull \hbox (24.8021pt too wide) in paragraph at lines 43--76
+Overfull \hbox (24.8021pt too wide) in paragraph at lines 43--75
  [] 
  []
 
-[7 </Users/siraphatb/Documents/AIT-Thesis/figures/fall_trend.png>]
-Overfull \hbox (26.00465pt too wide) in paragraph at lines 89--109
+[6 </Users/siraphat/Documents/AIT-Thesis_Final/figures/fall_trend.jpg>]
+Overfull \hbox (26.00465pt too wide) in paragraph at lines 88--107
  [] 
  []
 
-[8] [9]
-<figures/single_degree.jpg, id=531, 2559.5625pt x 1905.1175pt>
+[7] [8]
+<figures/single_degree.jpg, id=696, 2559.5625pt x 1905.1175pt>
 File: figures/single_degree.jpg Graphic file (type jpg)
 <use figures/single_degree.jpg>
-Package pdftex.def Info: figures/single_degree.jpg  used on input line 128.
+Package pdftex.def Info: figures/single_degree.jpg  used on input line 126.
 (pdftex.def)             Requested size: 332.7548pt x 247.67397pt.
- [10] [11 </Users/siraphatb/Documents/AIT-Thesis/figures/single_degree.jpg>]
-<figures/DTW.jpg, id=554, 824.07875pt x 293.095pt>
+ [9 </Users/siraphat/Documents/AIT-Thesis_Final/figures/single_degree.jpg>] [10]
+<figures/DTW.jpg, id=723, 824.07875pt x 293.095pt>
 File: figures/DTW.jpg Graphic file (type jpg)
 <use figures/DTW.jpg>
-Package pdftex.def Info: figures/DTW.jpg  used on input line 165.
+Package pdftex.def Info: figures/DTW.jpg  used on input line 163.
 (pdftex.def)             Requested size: 412.03836pt x 146.54713pt.
- [12]
-<figures/CNN.jpg, id=571, 1397.22pt x 508.90125pt>
+ [11 </Users/siraphat/Documents/AIT-Thesis_Final/figures/DTW.jpg>]
+<figures/CNN.jpg, id=737, 1397.22pt x 508.90125pt>
 File: figures/CNN.jpg Graphic file (type jpg)
 <use figures/CNN.jpg>
-Package pdftex.def Info: figures/CNN.jpg  used on input line 182.
+Package pdftex.def Info: figures/CNN.jpg  used on input line 180.
 (pdftex.def)             Requested size: 419.16924pt x 152.67155pt.
- [13 </Users/siraphatb/Documents/AIT-Thesis/figures/DTW.jpg>]
-<figures/CNN_ts.jpg, id=580, 1210.5225pt x 386.44376pt>
+<figures/CNN_ts.jpg, id=741, 1210.5225pt x 386.44376pt>
 File: figures/CNN_ts.jpg Graphic file (type jpg)
 <use figures/CNN_ts.jpg>
-Package pdftex.def Info: figures/CNN_ts.jpg  used on input line 192.
+Package pdftex.def Info: figures/CNN_ts.jpg  used on input line 190.
 (pdftex.def)             Requested size: 363.15955pt x 115.93402pt.
- [14 </Users/siraphatb/Documents/AIT-Thesis/figures/CNN.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/CNN_ts.jpg>]
-<figures/ae.jpg, id=590, 905.3825pt x 285.065pt>
+ [12 </Users/siraphat/Documents/AIT-Thesis_Final/figures/CNN.jpg>]
+<figures/ae.jpg, id=751, 905.3825pt x 285.065pt>
 File: figures/ae.jpg Graphic file (type jpg)
 <use figures/ae.jpg>
-Package pdftex.def Info: figures/ae.jpg  used on input line 208.
+Package pdftex.def Info: figures/ae.jpg  used on input line 206.
 (pdftex.def)             Requested size: 452.69014pt x 142.53215pt.
 
-Overfull \hbox (12.81052pt too wide) in paragraph at lines 208--209
+Overfull \hbox (12.81052pt too wide) in paragraph at lines 206--207
  [][] 
  []
 
-<figures/ae_architecture.jpg, id=596, 696.6025pt x 451.6875pt>
+[13 </Users/siraphat/Documents/AIT-Thesis_Final/figures/CNN_ts.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/ae.jpg>]
+<figures/ae_architecture.jpg, id=766, 696.6025pt x 451.6875pt>
 File: figures/ae_architecture.jpg Graphic file (type jpg)
 <use figures/ae_architecture.jpg>
-Package pdftex.def Info: figures/ae_architecture.jpg  used on input line 223.
+Package pdftex.def Info: figures/ae_architecture.jpg  used on input line 221.
 (pdftex.def)             Requested size: 348.3004pt x 225.84319pt.
-[15 </Users/siraphatb/Documents/AIT-Thesis/figures/ae.jpg>]
-<figures/ae_f_reduction.jpg, id=609, 2042.63126pt x 777.90625pt>
+<figures/ae_f_reduction.jpg, id=771, 2042.63126pt x 777.90625pt>
 File: figures/ae_f_reduction.jpg Graphic file (type jpg)
 <use figures/ae_f_reduction.jpg>
-Package pdftex.def Info: figures/ae_f_reduction.jpg  used on input line 234.
+Package pdftex.def Info: figures/ae_f_reduction.jpg  used on input line 232.
 (pdftex.def)             Requested size: 408.51901pt x 155.57849pt.
- [16 </Users/siraphatb/Documents/AIT-Thesis/figures/ae_architecture.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/ae_f_reduction.jpg>]
-<figures/ae_2.jpg, id=624, 774.895pt x 614.295pt>
+ [14 </Users/siraphat/Documents/AIT-Thesis_Final/figures/ae_architecture.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/ae_f_reduction.jpg>]
+<figures/ae_2.jpg, id=786, 774.895pt x 614.295pt>
 File: figures/ae_2.jpg Graphic file (type jpg)
 <use figures/ae_2.jpg>
-Package pdftex.def Info: figures/ae_2.jpg  used on input line 245.
+Package pdftex.def Info: figures/ae_2.jpg  used on input line 243.
 (pdftex.def)             Requested size: 309.95251pt x 245.71364pt.
-<figures/ae_detection.jpg, id=629, 1511.6475pt x 874.26625pt>
+ [15 </Users/siraphat/Documents/AIT-Thesis_Final/figures/ae_2.jpg>]
+<figures/ae_detection.jpg, id=800, 1511.6475pt x 874.26625pt>
 File: figures/ae_detection.jpg Graphic file (type jpg)
 <use figures/ae_detection.jpg>
-Package pdftex.def Info: figures/ae_detection.jpg  used on input line 259.
+Package pdftex.def Info: figures/ae_detection.jpg  used on input line 257.
 (pdftex.def)             Requested size: 302.32414pt x 174.85014pt.
- [17 </Users/siraphatb/Documents/AIT-Thesis/figures/ae_2.jpg>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 267.
- [18 </Users/siraphatb/Documents/AIT-Thesis/figures/ae_detection.jpg>]
-<figures/VAE.jpg, id=652, 2379.89125pt x 1105.12875pt>
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 265.
+ [16 </Users/siraphat/Documents/AIT-Thesis_Final/figures/ae_detection.jpg>]
+<figures/VAE.jpg, id=815, 2379.89125pt x 1105.12875pt>
 File: figures/VAE.jpg Graphic file (type jpg)
 <use figures/VAE.jpg>
-Package pdftex.def Info: figures/VAE.jpg  used on input line 291.
+Package pdftex.def Info: figures/VAE.jpg  used on input line 289.
 (pdftex.def)             Requested size: 356.96829pt x 165.76216pt.
-<figures/GANs.jpg, id=661, 1557.82pt x 855.195pt>
+<figures/GANs.jpg, id=824, 1557.82pt x 855.195pt>
 File: figures/GANs.jpg Graphic file (type jpg)
 <use figures/GANs.jpg>
-Package pdftex.def Info: figures/GANs.jpg  used on input line 305.
+Package pdftex.def Info: figures/GANs.jpg  used on input line 303.
 (pdftex.def)             Requested size: 467.34961pt x 256.56049pt.
 
-Overfull \hbox (27.46999pt too wide) in paragraph at lines 305--306
+Overfull \hbox (27.46999pt too wide) in paragraph at lines 303--304
  [][] 
  []
 
-[19 </Users/siraphatb/Documents/AIT-Thesis/figures/VAE.jpg>]
-<figures/GAN_2.jpg, id=671, 726.715pt x 468.75125pt>
+[17 </Users/siraphat/Documents/AIT-Thesis_Final/figures/VAE.jpg>]
+<figures/GAN_2.jpg, id=835, 726.715pt x 468.75125pt>
 File: figures/GAN_2.jpg Graphic file (type jpg)
 <use figures/GAN_2.jpg>
-Package pdftex.def Info: figures/GAN_2.jpg  used on input line 312.
+Package pdftex.def Info: figures/GAN_2.jpg  used on input line 310.
 (pdftex.def)             Requested size: 363.3566pt x 234.37505pt.
- [20 </Users/siraphatb/Documents/AIT-Thesis/figures/GANs.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/GAN_2.jpg>]
-<figures/GAN_anomaly.jpg, id=684, 1322.9425pt x 264.99pt>
+ [18 </Users/siraphat/Documents/AIT-Thesis_Final/figures/GANs.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/GAN_2.jpg>]
+<figures/GAN_anomaly.jpg, id=848, 1322.9425pt x 264.99pt>
 File: figures/GAN_anomaly.jpg Graphic file (type jpg)
 <use figures/GAN_anomaly.jpg>
-Package pdftex.def Info: figures/GAN_anomaly.jpg  used on input line 323.
+Package pdftex.def Info: figures/GAN_anomaly.jpg  used on input line 321.
 (pdftex.def)             Requested size: 463.03682pt x 92.74788pt.
 
-Overfull \hbox (23.1572pt too wide) in paragraph at lines 323--324
+Overfull \hbox (23.1572pt too wide) in paragraph at lines 321--322
  [][] 
  []
 
-<figures/RNN.jpg, id=689, 2060.69875pt x 544.0325pt>
+<figures/RNN.jpg, id=853, 2060.69875pt x 544.0325pt>
 File: figures/RNN.jpg Graphic file (type jpg)
 <use figures/RNN.jpg>
-Package pdftex.def Info: figures/RNN.jpg  used on input line 337.
+Package pdftex.def Info: figures/RNN.jpg  used on input line 335.
 (pdftex.def)             Requested size: 412.13245pt x 108.80457pt.
-[21 </Users/siraphatb/Documents/AIT-Thesis/figures/GAN_anomaly.jpg>]
-<figures/bpp.jpg, id=702, 705.63625pt x 515.9275pt>
+[19 </Users/siraphat/Documents/AIT-Thesis_Final/figures/GAN_anomaly.jpg>]
+<figures/bpp.jpg, id=866, 705.63625pt x 515.9275pt>
 File: figures/bpp.jpg Graphic file (type jpg)
 <use figures/bpp.jpg>
-Package pdftex.def Info: figures/bpp.jpg  used on input line 349.
+Package pdftex.def Info: figures/bpp.jpg  used on input line 347.
 (pdftex.def)             Requested size: 282.2495pt x 206.36734pt.
- [22 </Users/siraphatb/Documents/AIT-Thesis/figures/RNN.jpg>]
-<figures/RNN_2.jpg, id=711, 2059.695pt x 771.88374pt>
+ [20 </Users/siraphat/Documents/AIT-Thesis_Final/figures/RNN.jpg>]
+<figures/RNN_2.jpg, id=875, 2059.695pt x 771.88374pt>
 File: figures/RNN_2.jpg Graphic file (type jpg)
 <use figures/RNN_2.jpg>
-Package pdftex.def Info: figures/RNN_2.jpg  used on input line 355.
+Package pdftex.def Info: figures/RNN_2.jpg  used on input line 353.
 (pdftex.def)             Requested size: 411.9317pt x 154.37401pt.
-<figures/LSTM.jpg, id=719, 1141.26375pt x 938.50626pt>
+<figures/LSTM.jpg, id=883, 1141.26375pt x 938.50626pt>
 File: figures/LSTM.jpg Graphic file (type jpg)
 <use figures/LSTM.jpg>
-Package pdftex.def Info: figures/LSTM.jpg  used on input line 365.
+Package pdftex.def Info: figures/LSTM.jpg  used on input line 363.
 (pdftex.def)             Requested size: 342.38176pt x 281.55405pt.
- [23 </Users/siraphatb/Documents/AIT-Thesis/figures/bpp.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/RNN_2.jpg>] [24 </Users/siraphatb/Documents/AIT-Thesis/figures/LSTM.jpg>] [25]
-<figures/LSTM_2.jpg, id=739, 2942.995pt x 1577.895pt>
+ [21 </Users/siraphat/Documents/AIT-Thesis_Final/figures/bpp.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/RNN_2.jpg>] [22 </Users/siraphat/Documents/AIT-Thesis_Final/figures/LSTM.jpg>] [23]
+<figures/LSTM_2.jpg, id=903, 2942.995pt x 1577.895pt>
 File: figures/LSTM_2.jpg Graphic file (type jpg)
 <use figures/LSTM_2.jpg>
-Package pdftex.def Info: figures/LSTM_2.jpg  used on input line 415.
+Package pdftex.def Info: figures/LSTM_2.jpg  used on input line 413.
 (pdftex.def)             Requested size: 412.0165pt x 220.9038pt.
-
-Overfull \hbox (6.50673pt too wide) in paragraph at lines 421--422
-[] \OT1/ptm/m/n/12 The trans-former was pro-posed in the pa-per ``At-ten-tion is All You Need'' by Google [][]Vaswani
- []
-
-<figures/attention.jpg, id=747, 588.1975pt x 794.97pt>
+<figures/attention.jpg, id=911, 588.1975pt x 794.97pt>
 File: figures/attention.jpg Graphic file (type jpg)
 <use figures/attention.jpg>
-Package pdftex.def Info: figures/attention.jpg  used on input line 427.
+Package pdftex.def Info: figures/attention.jpg  used on input line 425.
 (pdftex.def)             Requested size: 235.27483pt x 317.98236pt.
-[26 </Users/siraphatb/Documents/AIT-Thesis/figures/LSTM_2.jpg>]
-<figures/rnnvsattention.jpg, id=756, 1064.97874pt x 314.17375pt>
+ [24 </Users/siraphat/Documents/AIT-Thesis_Final/figures/LSTM_2.jpg>]
+<figures/rnnvsattention.jpg, id=920, 1064.97874pt x 314.17375pt>
 File: figures/rnnvsattention.jpg Graphic file (type jpg)
 <use figures/rnnvsattention.jpg>
-Package pdftex.def Info: figures/rnnvsattention.jpg  used on input line 437.
+Package pdftex.def Info: figures/rnnvsattention.jpg  used on input line 435.
 (pdftex.def)             Requested size: 425.98395pt x 125.66727pt.
- [27 </Users/siraphatb/Documents/AIT-Thesis/figures/attention.jpg>]
-<figures/attention_2.jpg, id=774, 1188.44pt x 666.49pt>
+ [25 </Users/siraphat/Documents/AIT-Thesis_Final/figures/attention.jpg>]
+<figures/attention_2.jpg, id=938, 1188.44pt x 666.49pt>
 File: figures/attention_2.jpg Graphic file (type jpg)
 <use figures/attention_2.jpg>
-Package pdftex.def Info: figures/attention_2.jpg  used on input line 456.
+Package pdftex.def Info: figures/attention_2.jpg  used on input line 454.
 (pdftex.def)             Requested size: 356.53476pt x 199.94853pt.
- [28 </Users/siraphatb/Documents/AIT-Thesis/figures/rnnvsattention.jpg>]
-<figures/attention_3.jpg, id=788, 1177.39874pt x 667.49374pt>
+ [26 </Users/siraphat/Documents/AIT-Thesis_Final/figures/rnnvsattention.jpg>]
+<figures/attention_3.jpg, id=952, 1177.39874pt x 667.49374pt>
 File: figures/attention_3.jpg Graphic file (type jpg)
 <use figures/attention_3.jpg>
-Package pdftex.def Info: figures/attention_3.jpg  used on input line 463.
+Package pdftex.def Info: figures/attention_3.jpg  used on input line 461.
 (pdftex.def)             Requested size: 353.22235pt x 200.24966pt.
-<figures/attention_4.jpg, id=791, 1189.44376pt x 656.4525pt>
+<figures/attention_4.jpg, id=955, 1189.44376pt x 656.4525pt>
 File: figures/attention_4.jpg Graphic file (type jpg)
 <use figures/attention_4.jpg>
-Package pdftex.def Info: figures/attention_4.jpg  used on input line 470.
+Package pdftex.def Info: figures/attention_4.jpg  used on input line 468.
 (pdftex.def)             Requested size: 356.83588pt x 196.93727pt.
-<figures/attention_5.jpg, id=794, 1185.42876pt x 666.49pt>
+<figures/attention_5.jpg, id=958, 1185.42876pt x 666.49pt>
 File: figures/attention_5.jpg Graphic file (type jpg)
 <use figures/attention_5.jpg>
-Package pdftex.def Info: figures/attention_5.jpg  used on input line 475.
+Package pdftex.def Info: figures/attention_5.jpg  used on input line 473.
 (pdftex.def)             Requested size: 355.63136pt x 199.94853pt.
- [29 </Users/siraphatb/Documents/AIT-Thesis/figures/attention_2.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/attention_3.jpg>]
-<figures/attention_6.jpg, id=802, 1343.0175pt x 446.66875pt>
+ [27 </Users/siraphat/Documents/AIT-Thesis_Final/figures/attention_2.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/attention_3.jpg>]
+<figures/attention_6.jpg, id=967, 1343.0175pt x 446.66875pt>
 File: figures/attention_6.jpg Graphic file (type jpg)
 <use figures/attention_6.jpg>
-Package pdftex.def Info: figures/attention_6.jpg  used on input line 484.
+Package pdftex.def Info: figures/attention_6.jpg  used on input line 482.
 (pdftex.def)             Requested size: 402.90836pt x 134.00165pt.
- [30 </Users/siraphatb/Documents/AIT-Thesis/figures/attention_4.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/attention_5.jpg>]
-<figures/positional_encoding.jpg, id=811, 2637.855pt x 1218.5525pt>
+ [28 </Users/siraphat/Documents/AIT-Thesis_Final/figures/attention_4.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/attention_5.jpg>]
+<figures/positional_encoding.jpg, id=975, 2637.855pt x 1218.5525pt>
 File: figures/positional_encoding.jpg Graphic file (type jpg)
 <use figures/positional_encoding.jpg>
-Package pdftex.def Info: figures/positional_encoding.jpg  used on input line 506.
+Package pdftex.def Info: figures/positional_encoding.jpg  used on input line 504.
 (pdftex.def)             Requested size: 395.66118pt x 182.77498pt.
- [31 </Users/siraphatb/Documents/AIT-Thesis/figures/attention_6.jpg>]) [32 </Users/siraphatb/Documents/AIT-Thesis/figures/positional_encoding.jpg>]
+ [29 </Users/siraphat/Documents/AIT-Thesis_Final/figures/attention_6.jpg>]
+<figures/notch.jpg, id=985, 2077.7625pt x 1593.955pt>
+File: figures/notch.jpg Graphic file (type jpg)
+<use figures/notch.jpg>
+Package pdftex.def Info: figures/notch.jpg  used on input line 514.
+(pdftex.def)             Requested size: 415.54514pt x 318.78535pt.
+ [30 </Users/siraphat/Documents/AIT-Thesis_Final/figures/positional_encoding.jpg>]
+<figures/pca.jpg, id=998, 3551.2675pt x 1411.2725pt>
+File: figures/pca.jpg Graphic file (type jpg)
+<use figures/pca.jpg>
+Package pdftex.def Info: figures/pca.jpg  used on input line 523.
+(pdftex.def)             Requested size: 461.68098pt x 183.47186pt.
+
+Overfull \hbox (21.80136pt too wide) in paragraph at lines 523--524
+ [][] 
+ []
+
+[31 </Users/siraphat/Documents/AIT-Thesis_Final/figures/notch.jpg>]) [32 </Users/siraphat/Documents/AIT-Thesis_Final/figures/pca.jpg>]
 \openout2 = `9-methodology.aux'.
 
- (/Users/siraphatb/Documents/AIT-Thesis/9-methodology.tex
+ (/Users/siraphat/Documents/AIT-Thesis_Final/9-methodology.tex
 Chapter 3.
-<figures/system_overview_2.jpg, id=826, 2774.365pt x 1473.505pt>
+
+Overfull \hbox (1.01875pt too wide) in paragraph at lines 17--19
+[]\OT1/ptm/m/n/12 Evaluate the de-ployed model in terms of its ac-cu-racy in iden-ti-fy-ing un-usual events. 
+ []
+
+<figures/system_overview_2.jpg, id=1011, 809.0225pt x 432.61626pt>
 File: figures/system_overview_2.jpg Graphic file (type jpg)
 <use figures/system_overview_2.jpg>
-Package pdftex.def Info: figures/system_overview_2.jpg  used on input line 22.
-(pdftex.def)             Requested size: 416.1368pt x 221.0162pt.
-<figures/meth_data_collection.jpg, id=827, 3216.015pt x 1065.9825pt>
+Package pdftex.def Info: figures/system_overview_2.jpg  used on input line 24.
+(pdftex.def)             Requested size: 404.51027pt x 216.3076pt.
+<figures/meth_data_collection.jpg, id=1012, 3216.015pt x 1065.9825pt>
 File: figures/meth_data_collection.jpg Graphic file (type jpg)
 <use figures/meth_data_collection.jpg>
-Package pdftex.def Info: figures/meth_data_collection.jpg  used on input line 28.
+Package pdftex.def Info: figures/meth_data_collection.jpg  used on input line 30.
 (pdftex.def)             Requested size: 418.09663pt x 138.58258pt.
 [33
 
 
 
 
- </Users/siraphatb/Documents/AIT-Thesis/figures/system_overview_2.jpg>]
-<figures/meth_training.jpg, id=837, 1339.0025pt x 405.515pt>
+ </Users/siraphat/Documents/AIT-Thesis_Final/figures/system_overview_2.jpg>]
+<figures/meth_training.jpg, id=1023, 1339.0025pt x 405.515pt>
 File: figures/meth_training.jpg Graphic file (type jpg)
 <use figures/meth_training.jpg>
-Package pdftex.def Info: figures/meth_training.jpg  used on input line 34.
+Package pdftex.def Info: figures/meth_training.jpg  used on input line 36.
 (pdftex.def)             Requested size: 267.79576pt x 81.10155pt.
-<figures/meth_deploy.jpg, id=838, 3300.33pt x 684.5575pt>
+<figures/meth_deploy.jpg, id=1024, 3300.33pt x 684.5575pt>
 File: figures/meth_deploy.jpg Graphic file (type jpg)
 <use figures/meth_deploy.jpg>
-Package pdftex.def Info: figures/meth_deploy.jpg  used on input line 40.
+Package pdftex.def Info: figures/meth_deploy.jpg  used on input line 42.
 (pdftex.def)             Requested size: 429.05797pt x 88.99559pt.
-<figures/hardware.jpg, id=840, 2096.83376pt x 591.20876pt>
+<figures/hardware.jpg, id=1026, 2096.83376pt x 591.20876pt>
 File: figures/hardware.jpg Graphic file (type jpg)
 <use figures/hardware.jpg>
 Package pdftex.def Info: figures/hardware.jpg  used on input line 57.
@@ -1024,30 +1174,30 @@ Package pdftex.def Info: figures/hardware.jpg  used on input line 57.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34 </Users/siraphatb/Documents/AIT-Thesis/figures/meth_data_collection.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/meth_training.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/meth_deploy.jpg>]
-<figures/seismic.jpg, id=846, 911.405pt x 537.00626pt>
+[34 </Users/siraphat/Documents/AIT-Thesis_Final/figures/meth_data_collection.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/meth_training.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/meth_deploy.jpg>]
+<figures/seismic.jpg, id=1032, 911.405pt x 537.00626pt>
 File: figures/seismic.jpg Graphic file (type jpg)
 <use figures/seismic.jpg>
 Package pdftex.def Info: figures/seismic.jpg  used on input line 66.
-(pdftex.def)             Requested size: 227.8507pt x 134.25124pt.
- [35 </Users/siraphatb/Documents/AIT-Thesis/figures/hardware.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/seismic.jpg>]
-<figures/analogcircuit.jpg, id=852, 1513.655pt x 1222.5675pt>
+(pdftex.def)             Requested size: 273.4236pt x 161.10312pt.
+ [35 </Users/siraphat/Documents/AIT-Thesis_Final/figures/hardware.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/seismic.jpg>]
+<figures/analogcircuit.jpg, id=1038, 1513.655pt x 1222.5675pt>
 File: figures/analogcircuit.jpg Graphic file (type jpg)
 <use figures/analogcircuit.jpg>
 Package pdftex.def Info: figures/analogcircuit.jpg  used on input line 75.
 (pdftex.def)             Requested size: 302.72563pt x 244.50917pt.
-<figures/ADC.jpg, id=854, 1008.76875pt x 479.7925pt>
+<figures/ADC.jpg, id=1040, 1008.76875pt x 479.7925pt>
 File: figures/ADC.jpg Graphic file (type jpg)
 <use figures/ADC.jpg>
 Package pdftex.def Info: figures/ADC.jpg  used on input line 84.
 (pdftex.def)             Requested size: 302.63297pt x 143.93884pt.
- [36 </Users/siraphatb/Documents/AIT-Thesis/figures/analogcircuit.jpg>]
-<figures/pi4.jpg, id=861, 1903.11pt x 1138.2525pt>
+ [36 </Users/siraphat/Documents/AIT-Thesis_Final/figures/analogcircuit.jpg>]
+<figures/pi4.jpg, id=1046, 1903.11pt x 1138.2525pt>
 File: figures/pi4.jpg Graphic file (type jpg)
 <use figures/pi4.jpg>
 Package pdftex.def Info: figures/pi4.jpg  used on input line 93.
 (pdftex.def)             Requested size: 266.43358pt x 159.35426pt.
-<figures/LSTM_metho.jpg, id=864, 1497.595pt x 510.90875pt>
+<figures/LSTM_metho.jpg, id=1049, 1497.595pt x 510.90875pt>
 File: figures/LSTM_metho.jpg Graphic file (type jpg)
 <use figures/LSTM_metho.jpg>
 Package pdftex.def Info: figures/LSTM_metho.jpg  used on input line 103.
@@ -1057,64 +1207,310 @@ Overfull \hbox (9.40234pt too wide) in paragraph at lines 103--104
  [][] 
  []
 
-[37 </Users/siraphatb/Documents/AIT-Thesis/figures/ADC.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/pi4.jpg>]
-<figures/transformer_metho2.jpg, id=869, 1214.5375pt x 1369.115pt>
-File: figures/transformer_metho2.jpg Graphic file (type jpg)
-<use figures/transformer_metho2.jpg>
-Package pdftex.def Info: figures/transformer_metho2.jpg  used on input line 109.
-(pdftex.def)             Requested size: 242.9032pt x 273.81815pt.
-) [38 </Users/siraphatb/Documents/AIT-Thesis/figures/LSTM_metho.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/transformer_metho2.jpg>]
+[37 </Users/siraphat/Documents/AIT-Thesis_Final/figures/ADC.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/pi4.jpg>]
+<figures/transformer_metho.jpg, id=1054, 1559.8275pt x 1766.6pt>
+File: figures/transformer_metho.jpg Graphic file (type jpg)
+<use figures/transformer_metho.jpg>
+Package pdftex.def Info: figures/transformer_metho.jpg  used on input line 109.
+(pdftex.def)             Requested size: 343.16312pt x 388.6532pt.
+ [38 </Users/siraphat/Documents/AIT-Thesis_Final/figures/LSTM_metho.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/transformer_metho.jpg>]) [39]
 \openout2 = `10-results.aux'.
 
- (/Users/siraphatb/Documents/AIT-Thesis/10-results.tex
+ (/Users/siraphat/Documents/AIT-Thesis_Final/10-results.tex
 Chapter 4.
-<figures/home.jpg, id=875, 1890.06125pt x 1543.7675pt>
-File: figures/home.jpg Graphic file (type jpg)
-<use figures/home.jpg>
-Package pdftex.def Info: figures/home.jpg  used on input line 19.
-(pdftex.def)             Requested size: 283.49695pt x 231.55513pt.
-[39
+<figures/seismic_graph.jpg, id=1066, 571.13374pt x 381.425pt>
+File: figures/seismic_graph.jpg Graphic file (type jpg)
+<use figures/seismic_graph.jpg>
+Package pdftex.def Info: figures/seismic_graph.jpg  used on input line 18.
+(pdftex.def)             Requested size: 399.7909pt x 266.99567pt.
+<figures/seismic_res_low.jpg, id=1067, 2442.12375pt x 2035.605pt>
+File: figures/seismic_res_low.jpg Graphic file (type jpg)
+<use figures/seismic_res_low.jpg>
+Package pdftex.def Info: figures/seismic_res_low.jpg  used on input line 24.
+(pdftex.def)             Requested size: 317.48723pt x 264.63794pt.
+[40
 
 
 
 
- </Users/siraphatb/Documents/AIT-Thesis/figures/home.jpg>]
-<figures/application.jpg, id=884, 3089.5425pt x 1616.0375pt>
-File: figures/application.jpg Graphic file (type jpg)
-<use figures/application.jpg>
-Package pdftex.def Info: figures/application.jpg  used on input line 76.
-(pdftex.def)             Requested size: 432.533pt x 226.2437pt.
- [40]
-<figures/dining.jpg, id=889, 4047.12pt x 3035.34pt>
-File: figures/dining.jpg Graphic file (type jpg)
-<use figures/dining.jpg>
-Package pdftex.def Info: figures/dining.jpg  used on input line 82.
-(pdftex.def)             Requested size: 283.32735pt x 212.49551pt.
-) [41 </Users/siraphatb/Documents/AIT-Thesis/figures/application.jpg> </Users/siraphatb/Documents/AIT-Thesis/figures/dining.jpg>]
-\openout2 = `11-conclusion.aux'.
+ </Users/siraphat/Documents/AIT-Thesis_Final/figures/seismic_graph.jpg>]
+<figures/analog_circuit_1.jpg, id=1075, 361.35pt x 441.65pt>
+File: figures/analog_circuit_1.jpg Graphic file (type jpg)
+<use figures/analog_circuit_1.jpg>
+Package pdftex.def Info: figures/analog_circuit_1.jpg  used on input line 37.
+(pdftex.def)             Requested size: 252.94327pt x 309.15288pt.
+ [41 </Users/siraphat/Documents/AIT-Thesis_Final/figures/seismic_res_low.jpg>]
+<figures/analog_circuit_2.jpg, id=1080, 3344.495pt x 1373.13pt>
+File: figures/analog_circuit_2.jpg Graphic file (type jpg)
+<use figures/analog_circuit_2.jpg>
+Package pdftex.def Info: figures/analog_circuit_2.jpg  used on input line 43.
+(pdftex.def)             Requested size: 501.65262pt x 205.96062pt.
 
- (/Users/siraphatb/Documents/AIT-Thesis/11-conclusion.tex
-Chapter 5.
-<figures/timetable.jpg, id=895, 4091.285pt x 2488.29625pt>
-File: figures/timetable.jpg Graphic file (type jpg)
-<use figures/timetable.jpg>
-Package pdftex.def Info: figures/timetable.jpg  used on input line 16.
-(pdftex.def)             Requested size: 450.04276pt x 273.71344pt.
-
-Overfull \hbox (10.16313pt too wide) in paragraph at lines 16--17
+Overfull \hbox (61.773pt too wide) in paragraph at lines 43--44
  [][] 
  []
 
-) [42
-
-
-
-
- </Users/siraphatb/Documents/AIT-Thesis/figures/timetable.jpg>] (/Users/siraphatb/Documents/AIT-Thesis/main.bbl
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 54.
+<figures/physical_analog_circuit.jpg, id=1081, 1496.59125pt x 1740.5025pt>
+File: figures/physical_analog_circuit.jpg Graphic file (type jpg)
+<use figures/physical_analog_circuit.jpg>
+Package pdftex.def Info: figures/physical_analog_circuit.jpg  used on input line 49.
+(pdftex.def)             Requested size: 224.479pt x 261.0641pt.
+[42 </Users/siraphat/Documents/AIT-Thesis_Final/figures/analog_circuit_1.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/analog_circuit_2.jpg>]
+<figures/home.jpg, id=1087, 2079.77pt x 1622.06pt>
+File: figures/home.jpg Graphic file (type jpg)
+<use figures/home.jpg>
+Package pdftex.def Info: figures/home.jpg  used on input line 61.
+(pdftex.def)             Requested size: 415.94664pt x 324.40625pt.
+ [43 </Users/siraphat/Documents/AIT-Thesis_Final/figures/physical_analog_circuit.jpg>] [44 </Users/siraphat/Documents/AIT-Thesis_Final/figures/home.jpg>]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 117.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
+<figures/data_architecture.jpg, id=1100, 2198.2125pt x 1917.1625pt>
+File: figures/data_architecture.jpg Graphic file (type jpg)
+<use figures/data_architecture.jpg>
+Package pdftex.def Info: figures/data_architecture.jpg  used on input line 122.
+(pdftex.def)             Requested size: 329.71765pt x 287.56197pt.
+ [45]
+<figures/work-flow.jpg, id=1110, 3278.2475pt x 1296.845pt>
+File: figures/work-flow.jpg Graphic file (type jpg)
+<use figures/work-flow.jpg>
+Package pdftex.def Info: figures/work-flow.jpg  used on input line 132.
+(pdftex.def)             Requested size: 426.18713pt x 168.59576pt.
+ [46 </Users/siraphat/Documents/AIT-Thesis_Final/figures/data_architecture.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/work-flow.jpg>]
+<figures/fft_raw_data.jpg, id=1118, 1858.945pt x 1905.1175pt>
+File: figures/fft_raw_data.jpg Graphic file (type jpg)
+<use figures/fft_raw_data.jpg>
+Package pdftex.def Info: figures/fft_raw_data.jpg  used on input line 142.
+(pdftex.def)             Requested size: 408.96916pt x 419.12715pt.
+ [47]
+<figures/notch_filter.jpg, id=1123, 1810.765pt x 969.6225pt>
+File: figures/notch_filter.jpg Graphic file (type jpg)
+<use figures/notch_filter.jpg>
+Package pdftex.def Info: figures/notch_filter.jpg  used on input line 148.
+(pdftex.def)             Requested size: 398.36954pt x 213.31761pt.
+ [48 </Users/siraphat/Documents/AIT-Thesis_Final/figures/fft_raw_data.jpg>]
+<figures/cleaned_data.jpg, id=1128, 3274.2325pt x 2037.6125pt>
+File: figures/cleaned_data.jpg Graphic file (type jpg)
+<use figures/cleaned_data.jpg>
+Package pdftex.def Info: figures/cleaned_data.jpg  used on input line 154.
+(pdftex.def)             Requested size: 491.1137pt x 305.6287pt.
+
+Overfull \hbox (51.23407pt too wide) in paragraph at lines 154--155
+ [][] 
+ []
+
+[49 </Users/siraphat/Documents/AIT-Thesis_Final/figures/notch_filter.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/cleaned_data.jpg>]
+<figures/autoencoder_lstm.jpg, id=1137, 2248.4pt x 1746.525pt>
+File: figures/autoencoder_lstm.jpg Graphic file (type jpg)
+<use figures/autoencoder_lstm.jpg>
+Package pdftex.def Info: figures/autoencoder_lstm.jpg  used on input line 162.
+(pdftex.def)             Requested size: 494.64954pt x 384.2367pt.
+
+Overfull \hbox (54.76991pt too wide) in paragraph at lines 162--163
+ [][] 
+ []
+
+<figures/autoencoder_cnn.jpg, id=1138, 3157.7975pt x 1495.5875pt>
+File: figures/autoencoder_cnn.jpg Graphic file (type jpg)
+<use figures/autoencoder_cnn.jpg>
+Package pdftex.def Info: figures/autoencoder_cnn.jpg  used on input line 168.
+(pdftex.def)             Requested size: 473.6492pt x 224.32845pt.
+
+Overfull \hbox (33.76958pt too wide) in paragraph at lines 168--169
+ [][] 
+ []
+
+[50 </Users/siraphat/Documents/AIT-Thesis_Final/figures/autoencoder_lstm.jpg>]
+<figures/autoencoder_cnnlstm.jpg, id=1143, 3768.0775pt x 1668.2325pt>
+File: figures/autoencoder_cnnlstm.jpg Graphic file (type jpg)
+<use figures/autoencoder_cnnlstm.jpg>
+Package pdftex.def Info: figures/autoencoder_cnnlstm.jpg  used on input line 174.
+(pdftex.def)             Requested size: 489.86728pt x 216.87784pt.
+
+Overfull \hbox (49.98766pt too wide) in paragraph at lines 174--175
+ [][] 
+ []
+
+<figures/transformer_job.jpg, id=1144, 3236.09pt x 1850.915pt>
+File: figures/transformer_job.jpg Graphic file (type jpg)
+<use figures/transformer_job.jpg>
+Package pdftex.def Info: figures/transformer_job.jpg  used on input line 180.
+(pdftex.def)             Requested size: 485.39256pt x 277.62527pt.
+
+Overfull \hbox (45.51294pt too wide) in paragraph at lines 180--181
+ [][] 
+ []
+
+[51 </Users/siraphat/Documents/AIT-Thesis_Final/figures/autoencoder_cnn.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/autoencoder_cnnlstm.jpg>]
+<figures/autoencoder_outcome.jpg, id=1153, 2686.035pt x 1419.3025pt>
+File: figures/autoencoder_outcome.jpg Graphic file (type jpg)
+<use figures/autoencoder_outcome.jpg>
+Package pdftex.def Info: figures/autoencoder_outcome.jpg  used on input line 189.
+(pdftex.def)             Requested size: 483.46545pt x 255.46342pt.
+
+Overfull \hbox (43.58583pt too wide) in paragraph at lines 189--190
+ [][] 
+ []
+
+[52 </Users/siraphat/Documents/AIT-Thesis_Final/figures/transformer_job.jpg>]
+<figures/autoencoder_reconstructed_data.jpg, id=1158, 1804.7425pt x 1387.1825pt>
+File: figures/autoencoder_reconstructed_data.jpg Graphic file (type jpg)
+<use figures/autoencoder_reconstructed_data.jpg>
+Package pdftex.def Info: figures/autoencoder_reconstructed_data.jpg  used on input line 195.
+(pdftex.def)             Requested size: 360.94211pt x 277.43158pt.
+ [53 </Users/siraphat/Documents/AIT-Thesis_Final/figures/autoencoder_outcome.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/autoencoder_reconstructed_data.jpg>]
+Overfull \hbox (61.26094pt too wide) in paragraph at lines 204--215
+ [] 
+ []
+
+
+Overfull \hbox (67.26094pt too wide) in paragraph at lines 221--232
+ [] 
+ []
+
+<figures/autoencoder_cnn_outcome.jpg, id=1167, 2732.2075pt x 1417.295pt>
+File: figures/autoencoder_cnn_outcome.jpg Graphic file (type jpg)
+<use figures/autoencoder_cnn_outcome.jpg>
+Package pdftex.def Info: figures/autoencoder_cnn_outcome.jpg  used on input line 238.
+(pdftex.def)             Requested size: 491.77614pt x 255.1021pt.
+
+Overfull \hbox (51.89651pt too wide) in paragraph at lines 238--239
+ [][] 
+ []
+
+[54]
+<figures/autoencoder_cnn_reconstructed_data.jpg, id=1172, 1804.7425pt x 1405.25pt>
+File: figures/autoencoder_cnn_reconstructed_data.jpg Graphic file (type jpg)
+<use figures/autoencoder_cnn_reconstructed_data.jpg>
+Package pdftex.def Info: figures/autoencoder_cnn_reconstructed_data.jpg  used on input line 244.
+(pdftex.def)             Requested size: 397.04459pt x 309.15596pt.
+ [55 </Users/siraphat/Documents/AIT-Thesis_Final/figures/autoencoder_cnn_outcome.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/autoencoder_cnn_reconstructed_data.jpg>]
+Overfull \hbox (1.62129pt too wide) in paragraph at lines 254--266
+ [] 
+ []
+
+<figures/autoencoder_cnnlstm_outcome.jpg, id=1180, 2742.245pt x 1421.31pt>
+File: figures/autoencoder_cnnlstm_outcome.jpg Graphic file (type jpg)
+<use figures/autoencoder_cnnlstm_outcome.jpg>
+Package pdftex.def Info: figures/autoencoder_cnnlstm_outcome.jpg  used on input line 272.
+(pdftex.def)             Requested size: 493.58281pt x 255.82477pt.
+
+Overfull \hbox (53.70319pt too wide) in paragraph at lines 272--273
+ [][] 
+ []
+
+<figures/autoencoder_cnnlstm_reconstructed_data.jpg, id=1181, 1802.735pt x 1405.25pt>
+File: figures/autoencoder_cnnlstm_reconstructed_data.jpg Graphic file (type jpg)
+<use figures/autoencoder_cnnlstm_reconstructed_data.jpg>
+Package pdftex.def Info: figures/autoencoder_cnnlstm_reconstructed_data.jpg  used on input line 278.
+(pdftex.def)             Requested size: 396.60292pt x 309.15596pt.
+[56 </Users/siraphat/Documents/AIT-Thesis_Final/figures/autoencoder_cnnlstm_outcome.jpg>] [57 </Users/siraphat/Documents/AIT-Thesis_Final/figures/autoencoder_cnnlstm_reconstructed_data.jpg>]
+Overfull \hbox (44.44847pt too wide) in paragraph at lines 288--300
+ [] 
+ []
+
+
+Overfull \hbox (28.60852pt too wide) in paragraph at lines 307--319
+ [] 
+ []
+
+
+Overfull \hbox (38.77281pt too wide) in paragraph at lines 326--338
+ [] 
+ []
+
+<figures/transformer_outcome.jpg, id=1196, 2762.32pt x 1395.2125pt>
+File: figures/transformer_outcome.jpg Graphic file (type jpg)
+<use figures/transformer_outcome.jpg>
+Package pdftex.def Info: figures/transformer_outcome.jpg  used on input line 344.
+(pdftex.def)             Requested size: 441.98024pt x 223.23856pt.
+
+Overfull \hbox (2.10062pt too wide) in paragraph at lines 344--345
+ [][] 
+ []
+
+[58]
+<figures/transformer_reconstructed_data.jpg, id=1201, 1802.735pt x 1401.235pt>
+File: figures/transformer_reconstructed_data.jpg Graphic file (type jpg)
+<use figures/transformer_reconstructed_data.jpg>
+Package pdftex.def Info: figures/transformer_reconstructed_data.jpg  used on input line 350.
+(pdftex.def)             Requested size: 396.60292pt x 308.27266pt.
+ [59 </Users/siraphat/Documents/AIT-Thesis_Final/figures/transformer_outcome.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/transformer_reconstructed_data.jpg>]
+<figures/pca-f1.jpg, id=1208, 3362.5625pt x 1662.21pt>
+File: figures/pca-f1.jpg Graphic file (type jpg)
+<use figures/pca-f1.jpg>
+Package pdftex.def Info: figures/pca-f1.jpg  used on input line 359.
+(pdftex.def)             Requested size: 437.14848pt x 216.09488pt.
+<figures/pca_outcome.jpg, id=1209, 3619.5225pt x 1969.3575pt>
+File: figures/pca_outcome.jpg Graphic file (type jpg)
+<use figures/pca_outcome.jpg>
+Package pdftex.def Info: figures/pca_outcome.jpg  used on input line 365.
+(pdftex.def)             Requested size: 470.55444pt x 256.02547pt.
+
+Overfull \hbox (30.67482pt too wide) in paragraph at lines 365--366
+ [][] 
+ []
+
+[60 </Users/siraphat/Documents/AIT-Thesis_Final/figures/pca-f1.jpg>]
+Overfull \hbox (60.66061pt too wide) in paragraph at lines 374--387
+ [] 
+ []
+
+[61 </Users/siraphat/Documents/AIT-Thesis_Final/figures/pca_outcome.jpg>]
+<figures/application.jpg, id=1222, 3507.1025pt x 1511.6475pt>
+File: figures/application.jpg Graphic file (type jpg)
+<use figures/application.jpg>
+Package pdftex.def Info: figures/application.jpg  used on input line 396.
+(pdftex.def)             Requested size: 490.99101pt x 211.62921pt.
+
+Overfull \hbox (51.11139pt too wide) in paragraph at lines 396--397
+ [][] 
+ []
+
+<figures/software_architecture.jpg, id=1223, 629.35126pt x 532.99126pt>
+File: figures/software_architecture.jpg Graphic file (type jpg)
+<use figures/software_architecture.jpg>
+Package pdftex.def Info: figures/software_architecture.jpg  used on input line 402.
+(pdftex.def)             Requested size: 440.54288pt x 373.09134pt.
+
+Overfull \hbox (0.66325pt too wide) in paragraph at lines 402--403
+ [][] 
+ []
+
+[62 </Users/siraphat/Documents/AIT-Thesis_Final/figures/application.jpg>]
+<figures/timelinedeployment.jpg, id=1231, 3850.385pt x 1830.84pt>
+File: figures/timelinedeployment.jpg Graphic file (type jpg)
+<use figures/timelinedeployment.jpg>
+Package pdftex.def Info: figures/timelinedeployment.jpg  used on input line 410.
+(pdftex.def)             Requested size: 500.56763pt x 238.01755pt.
+
+Overfull \hbox (60.688pt too wide) in paragraph at lines 410--411
+ [][] 
+ []
+
+[63 </Users/siraphat/Documents/AIT-Thesis_Final/figures/software_architecture.jpg>]
+<figures/summarydeployment.jpg, id=1237, 3924.6625pt x 2168.1pt>
+File: figures/summarydeployment.jpg Graphic file (type jpg)
+<use figures/summarydeployment.jpg>
+Package pdftex.def Info: figures/summarydeployment.jpg  used on input line 416.
+(pdftex.def)             Requested size: 510.22404pt x 281.8629pt.
+
+Overfull \hbox (70.34442pt too wide) in paragraph at lines 416--417
+ [][] 
+ []
+
+) [64 </Users/siraphat/Documents/AIT-Thesis_Final/figures/timelinedeployment.jpg> </Users/siraphat/Documents/AIT-Thesis_Final/figures/summarydeployment.jpg>]
+\openout2 = `11-conclusion.aux'.
+
+ (/Users/siraphat/Documents/AIT-Thesis_Final/11-conclusion.tex
+Chapter 5.
+[65
+
+
+
+
+]) [66] (/Users/siraphat/Documents/AIT-Thesis_Final/main.bbl
 Underfull \hbox (badness 2096) in paragraph at lines 44--57
 \OT1/ptm/m/n/12 trieved from []$\OT1/pcr/m/n/12 https :// towardsdatascience [] .com / hands [] -on [] -anomaly []
  []
@@ -1139,7 +1535,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 387--401
 \OT1/pcr/m/n/12 an [] -overview [] -of [] -time [] -series [] -forecasting [] -models [] -part [] -1 []
  []
 
-[43
+[67
 
 
 
@@ -1148,88 +1544,93 @@ Underfull \hbox (badness 1960) in paragraph at lines 761--774
 []\OT1/ptm/m/n/12 Klingenbrunn, N.  (2021).  \OT1/ptm/m/it/12 Trans-former im-ple-men-ta-tion for time-series fore-cast-
  []
 
-[44]
-Underfull \hbox (badness 4859) in paragraph at lines 1109--1122
+[68]
+Underfull \hbox (badness 2856) in paragraph at lines 1031--1045
+\OT1/ptm/m/it/12 [book].  \OT1/ptm/m/n/12 Re-trieved from []$\OT1/pcr/m/n/12 https :// www [] .oreilly [] .com / library / view /
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 1135--1148
 []\OT1/ptm/m/n/12 Rajan, S.  (2021).  \OT1/ptm/m/it/12 Di-men-sion-al-ity re-duc-tion us-ing au-toen-coders in python.
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 1109--1122
+Underfull \hbox (badness 2846) in paragraph at lines 1135--1148
 \OT1/ptm/m/n/12 Re-trieved from []$\OT1/pcr/m/n/12 https :// www [] .analyticsvidhya [] .com / blog / 2021 / 06 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1197--1212
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1238
 []$\OT1/pcr/m/n/12 https :// ieeexplore [] .ieee [] .org / abstract / document / 7745414 /$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1224--1237
+Underfull \hbox (badness 10000) in paragraph at lines 1250--1263
 []$\OT1/pcr/m/n/12 https :// towardsdatascience [] .com / understanding [] -variational []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1305--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1331--1345
 \OT1/pcr/m/n/12 24 / denoising [] -autoencoders [] -with [] -keras [] -tensorflow [] -and [] -deep []
  []
 
-[45]
-Underfull \hbox (badness 2503) in paragraph at lines 1430--1441
+[69]
+Underfull \hbox (badness 2503) in paragraph at lines 1456--1467
 []\OT1/ptm/m/n/12 SteelConstruction.  (2016).  \OT1/ptm/m/it/12 Floor vi-bra-tions.  \OT1/ptm/m/n/12 Re-trieved from []$\OT1/pcr/m/n/12 https :// www []
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 1485--1500
+Underfull \hbox (badness 1762) in paragraph at lines 1511--1526
 []\OT1/ptm/m/n/12 Tamura, Y.  (2021).  \OT1/ptm/m/it/12 Po-si-tional en-cod-ing, resid-ual con-nec-tions, padding masks:
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 1485--1500
+Underfull \hbox (badness 3907) in paragraph at lines 1511--1526
 \OT1/ptm/m/it/12 Cov-er-ing the rest of trans-former com-po-nents { data sci-ence blog.  \OT1/ptm/m/n/12 Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1485--1500
+Underfull \hbox (badness 10000) in paragraph at lines 1511--1526
 \OT1/ptm/m/n/12 trieved from []$\OT1/pcr/m/n/12 https :// data [] -science [] -blog [] .com / blog / 2021 / 04 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1485--1500
+Underfull \hbox (badness 10000) in paragraph at lines 1511--1526
 \OT1/pcr/m/n/12 22 / positional [] -encoding [] -residual [] -connections [] -padding [] -masks []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1512--1527
+Underfull \hbox (badness 10000) in paragraph at lines 1538--1553
 []$\OT1/pcr/m/n/12 https :// medium [] .com / @sinart [] .t / long [] -short [] -term [] -memory [] -lstm []
  []
 
-[46]
-Underfull \hbox (badness 1286) in paragraph at lines 1903--1915
+[70]
+Underfull \hbox (badness 1286) in paragraph at lines 1952--1964
 []\OT1/ptm/m/n/12 Weng, L.  (2018).  \OT1/ptm/m/it/12 From au-toen-coder to beta-vae.  \OT1/ptm/m/n/12 Re-trieved from []$\OT1/pcr/m/n/12 https ://
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1903--1915
+Underfull \hbox (badness 10000) in paragraph at lines 1952--1964
 \OT1/pcr/m/n/12 lilianweng [] .github [] .io / lil [] -log / 2018 / 08 / 12 / from [] -autoencoder []
  []
 
-) [47] (/Users/siraphatb/Documents/AIT-Thesis/main.aux (/Users/siraphatb/Documents/AIT-Thesis/1-title.aux) (/Users/siraphatb/Documents/AIT-Thesis/3-abstract.aux) (/Users/siraphatb/Documents/AIT-Thesis/4-tableOfContent.aux) (/Users/siraphatb/Documents/AIT-Thesis/5-listOfTable.aux) (/Users/siraphatb/Documents/AIT-Thesis/6-listOfFigure.aux) (/Users/siraphatb/Documents/AIT-Thesis/7-introduction.aux) (/Users/siraphatb/Documents/AIT-Thesis/8-literatureReview.aux) (/Users/siraphatb/Documents/AIT-Thesis/9-methodology.aux) (/Users/siraphatb/Documents/AIT-Thesis/10-results.aux) (/Users/siraphatb/Documents/AIT-Thesis/11-conclusion.aux))
+) [71] (/Users/siraphat/Documents/AIT-Thesis_Final/main.aux (/Users/siraphat/Documents/AIT-Thesis_Final/1-title.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/2_0-declaration.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/2-acknowledgment.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/3-abstract.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/4-tableOfContent.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/5-listOfTable.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/6-listOfFigure.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/7-introduction.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/8-literatureReview.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/9-methodology.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/10-results.aux) (/Users/siraphat/Documents/AIT-Thesis_Final/11-conclusion.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 645BE873C5FA6891FF7DF802809F91FE;6433.
+(rerunfilecheck)             Checksum: 85FE8278E498602EE83FC20F3AA83E1B;9696.
  ) 
 Here is how much of TeX's memory you used:
- 13678 strings out of 478994
- 214088 string characters out of 5858184
- 540511 words of memory out of 5000000
- 30543 multiletter control sequences out of 15000+600000
+ 13991 strings out of 478994
+ 222637 string characters out of 5858184
+ 545796 words of memory out of 5000000
+ 30737 multiletter control sequences out of 15000+600000
  452805 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,10n,74p,1353b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,10n,74p,1681b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/siraphatb/Documents/AIT-Thesis/main.pdf (54 pages, 23653061 bytes).
+Output written on /Users/siraphat/Documents/AIT-Thesis_Final/main.pdf (81 pages, 8131894 bytes).
 PDF statistics:
- 1093 PDF objects out of 1200 (max. 8388607)
- 973 compressed objects within 10 object streams
- 237 named destinations out of 1000 (max. 500000)
- 539 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1460 PDF objects out of 1728 (max. 8388607)
+ 1284 compressed objects within 13 object streams
+ 316 named destinations out of 1000 (max. 500000)
+ 810 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1018,6 +1018,32 @@ Oukrich, N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Patel%
+}{%
+Patel%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+patel_2019}
+\APACinsertmetastar {%
+patel_2019}%
+\begin{APACrefauthors}%
+Patel, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {4. Anomaly Detection - Hands-On Unsupervised Learning Using
+  Python [Book].} {4. anomaly detection - hands-on unsupervised learning using
+  python [book].}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.oreilly.com/library/view/hands-on-unsupervised-learning/9781492035633/ch04.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 pavithrasv%
 }{%
 pavithrasv%
@@ -1722,6 +1748,29 @@ University, J\BPBI H.%
 \begin{APACrefURL}
   \url{http://www.cis.jhu.edu/~cshen/html/PublishSwissRoll.html}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vanderplas%
+}{%
+Vanderplas%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+vanderplas_2017}
+\APACinsertmetastar {%
+vanderplas_2017}%
+\begin{APACrefauthors}%
+Vanderplas, J\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2017}.
+\newblock
+\APACrefbtitle {Python Data Science Handbook : Essential Tools for Working with
+  Data} {Python data science handbook : Essential tools for working with data}.
+\newblock
+\APACaddressPublisher{}{O’reilly, Cop}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

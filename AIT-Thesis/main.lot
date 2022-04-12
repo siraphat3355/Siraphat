@@ -1,9 +1,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of literature review for fall detection from floor vibration.}}{8}{table.caption.2}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Summary of literature review on human activity.}}{9}{table.caption.3}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of literature review for fall detection from floor vibration.}}{7}{table.caption.2}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Summary of literature review on human activity.}}{8}{table.caption.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces The detail of each activity and its number of action.}}{40}{table.caption.42}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Details on each participant. }}{40}{table.caption.43}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Frequence of each ordinary activity.}}{44}{table.caption.49}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Participant characteristics.}}{45}{table.caption.50}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces First trial: adjust number of output feature of convolutional layers.}}{54}{table.caption.62}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Second trial: adjust kernel size of in convolutional layers.}}{54}{table.caption.63}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Adjusting number of output feature in LSTM layer.}}{56}{table.caption.66}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Adjusting number of modules in encoder and decoder.}}{58}{table.caption.69}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Adjusting structure of feedforward network.}}{58}{table.caption.70}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Adjusting number of Transformer heads.}}{58}{table.caption.71}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Model summary.}}{61}{table.caption.76}%
 \addvspace {10\p@ }

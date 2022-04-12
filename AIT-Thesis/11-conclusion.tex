@@ -1,20 +1,23 @@
 % set 0 inch indentation
-\setlength{\parindent}{0in} 
+\setlength{\parindent}{0in}
 % set paragraph space = 1 space
 \setlength{\parskip}{1em}
 % set line space 1.5
 \setlength{\baselineskip}{1.6em}
 
-\chapter{WORK PLAN}
+\chapter{Conclusion and Recommendations}
 \label{ch:conclusion}
-\paragraph{}
-Figure \ref{fig:timetable} illustrates the working plan of this study in the year of August 2021 to March 2022.
+In this chapter, I conclude the study and make recomendations for further study.
+\section{Conclusion}
 
-\begin{figure}[H]
-  \centering
-  \caption[The schedule working plan of this study.]{\emph{The schedule working plan of this study.}}\label{fig:timetable}
-  \includegraphics[scale = 0.11]{figures/timetable.jpg}
-  \end{figure}
+Nowadays, falls are a major problem around the world. There are several ways to detect falls. One that is effective without making people uncomfortable is to analyze vibrational signals. Traditionally, people use classification models to identify fall events, but classification requires examples of every kind of fall. Also, most work does not deploy in real environments. In this study, we have built a standalone anomaly detection system using vibrational signals arising due to human activities in order to detect falls as anomalies.
+
+We started by building an analog circuit compatible with the seismic sensor and human activities on concrete floor. We collected normal activity data to train the anomaly detection model and including abnormal activities for testing. We applied several anomaly detection models as LSTM autoencoders, CNN autoencoders, CNN + LSTM autoencoders, transformers and principal components analysis (PCA) in order to detect anomaly events. Lastly, we deployed the model in a real home environment to ensure that it is possible to detect anomaly event using only vibrations.
+
+The outcome was that the system can detect anomalous events up to 90$\%$ accuracy and can detect falls as anomalous events. Furthermore, the system has no effect on privacy. This system is extremely sensitive, since seismic sensors are designed for detecting earthquakes up to 10,000 kilometers away. Thus, the limitation of the system is that when it is deployed in environment with other vibration sources, such as an old refrigerator, it may generate false alarms.
+
+\section{Recommendations}
+Although the system presented here work on concrete floors, there are many other type of floor such as wood and rubber tile, which responded differently vibrations. Therefore, the simple analog circuit should be replaced by programable analog circuit to deal with various types of floors. The benefit of a programmable analog circuit is that its gain can be adjusted, and cut-off frequency and bandwidth of the filters can be modified, resulting in more flexibility for several types of floors. Another important consideration is the edge device. The Raspberry Pi 4 cannot run complex deep learning models in real time. Accordingly, we might need to change to a more powerful device with a GPU for efficient deep learning inference.
 
 \FloatBarrier
 

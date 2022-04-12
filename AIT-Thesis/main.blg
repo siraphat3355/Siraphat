@@ -2,6 +2,8 @@ This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: 1-title.aux
+A level-1 auxiliary file: 2_0-declaration.aux
+A level-1 auxiliary file: 2-acknowledgment.aux
 A level-1 auxiliary file: 3-abstract.aux
 A level-1 auxiliary file: 4-tableOfContent.aux
 A level-1 auxiliary file: 5-listOfTable.aux
@@ -25,45 +27,45 @@ Database file #1: references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in Alwan_2003
 Warning--No school in oukrich_2019
-You've used 71 entries,
+You've used 73 entries,
             6951 wiz_defined-function locations,
-            1674 strings with 25850 characters,
-and the built_in function-call counts, 132540 in all, are:
-= -- 16105
-> -- 1182
-< -- 6363
-+ -- 6298
-- -- 158
-* -- 8366
-:= -- 23917
-add.period$ -- 290
-call.type$ -- 71
-change.case$ -- 1215
+            1685 strings with 26207 characters,
+and the built_in function-call counts, 135975 in all, are:
+= -- 16536
+> -- 1202
+< -- 6550
++ -- 6467
+- -- 162
+* -- 8568
+:= -- 24579
+add.period$ -- 298
+call.type$ -- 73
+change.case$ -- 1249
 chr.to.int$ -- 0
-cite$ -- 144
-duplicate$ -- 3624
-empty$ -- 5412
-format.name$ -- 2017
-if$ -- 25347
+cite$ -- 148
+duplicate$ -- 3697
+empty$ -- 5550
+format.name$ -- 2045
+if$ -- 26011
 int.to.chr$ -- 0
-int.to.str$ -- 213
+int.to.str$ -- 219
 missing$ -- 0
-newline$ -- 1844
-num.names$ -- 568
-pop$ -- 3465
+newline$ -- 1888
+num.names$ -- 584
+pop$ -- 3582
 preamble$ -- 1
-purify$ -- 290
+purify$ -- 298
 quote$ -- 0
-skip$ -- 7717
+skip$ -- 7900
 stack$ -- 0
-substring$ -- 6801
-swap$ -- 1918
-text.length$ -- 178
+substring$ -- 6982
+swap$ -- 1950
+text.length$ -- 182
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 6064
+type$ -- 6224
 warning$ -- 2
-while$ -- 690
+while$ -- 700
 width$ -- 0
-write$ -- 2279
+write$ -- 2327
 (There were 2 warnings)
