@@ -12,5 +12,5 @@
  
  *If all of you have some doubts in my code. Please do not hesitate to contact me. Maybe we can exchange the knowledge and make friend.<br />
   
-  Best,<br />
+  Best <br />
   Siraphat B.
